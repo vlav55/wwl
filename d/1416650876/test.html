@@ -1,0 +1,33 @@
+<div class='t015'>
+<div class='t-container t-align_center'>
+<div class='t-col t-col_6 t-prefix_3'>
+<h1 class='t015__title t-title t-title_lg'>Ваши данные</h1>
+<form method='POST' action='https://for16.ru/d/$ctrl_dir/thanks.php'>
+<div style='padding: 10px 0 10px 0'><input type='text' name='client_name' value='' style='width:100%;padding:10px;' placeholder='Ваше имя'></div>
+<div style='padding: 10px 0 10px 0'><input type='text' name='client_phone' value='' style='width:100%;padding:10px;' placeholder='Ваш телефон'></div>
+<!--раскомментировать, если хотите в форме использовать емэйл -->
+<!--<div style='padding: 10px 0 10px 0'><input type='text' name='client_email' value='' style='width:100%;padding:10px;' placeholder='Эл.почта'></div> -->
+<!--раскомментировать, если хотите в форме использовать комментарий -->
+<!--<div style='padding: 10px 0 10px 0'><textarea class='form-control' rows='3' id='comment' name='regComm'></textarea></div> -->
+<div class='tn-form__submit' style='padding: 10px 0 10px 0'><button type='submit' class='t-submit' style='color:white; background-color:black; margin-left: auto; margin-right: auto; padding: 0px 15px; display: block; width: 160px; font-weight: 600; height: 60px;' name='client_data_go' value='yes'>Отправить</button></div>
+<input type='hidden' name='land_num' value='$land_num'>
+
+<script>
+let params = new URLSearchParams(window.location.search);
+let bc=params.get('bc'); //код партнера, который был передан в url (?bc=12345)
+document.writeln(\"<input type='hidden' name='bc' value='\"+bc+\"'>\");
+let utm_campaign=params.get('utm_campaign');
+document.writeln(\"<input type='hidden' name='utm_campaign' value='\"+utm_campaign+\"'>\");
+let utm_content=params.get('utm_content');
+document.writeln(\"<input type='hidden' name='utm_content' value='\"+utm_content+\"'>\");
+let utm_medium=params.get('utm_medium');
+document.writeln(\"<input type='hidden' name='utm_medium' value='\"+utm_medium+\"'>\");
+let utm_source=params.get('utm_source');
+document.writeln(\"<input type='hidden' name='utm_source' value='\"+utm_source+\"'>\");
+let utm_term=params.get('utm_term');
+document.writeln(\"<input type='hidden' name='utm_term' value='\"+utm_term+\"'>\");
+</script>
+</form>
+</div>
+</div>
+</div>

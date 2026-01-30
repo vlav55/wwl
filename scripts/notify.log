@@ -1,0 +1,118 @@
+(4) uid=-1002 access=1 user_id=1 mentor=52 
+(4) uid=-1002 access=2 user_id=3 mentor=52 
+(4) uid=-7591 access=1 user_id=1 mentor=54 
+(4) uid=-7591 access=2 user_id=3 mentor=54 
+(4) uid=-7591 access=1 user_id=1 mentor=54 
+(4) uid=-7591 access=2 user_id=3 mentor=54 
+(4) uid=-7591 access=1 user_id=1 mentor=54 
+(4) uid=-7591 access=2 user_id=3 mentor=54 
+(4) uid=-7591 access=1 user_id=1 mentor=54 
+(4) uid=-7591 access=2 user_id=3 mentor=54 
+(4) uid=-7591 access=1 user_id=1 mentor=54 
+(4) uid=-7591 access=2 user_id=3 mentor=54 
+(4) uid=-7591 access=1 user_id=1 mentor=54 
+(4) uid=-7591 access=2 user_id=3 mentor=54 
+(4) uid=-1002 access=1 user_id=1 mentor=52 
+(4) uid=-1002 access=2 user_id=3 mentor=52 
+vkt 05.07.2023 23:56:36  (4) uid=-1002 access=1 user_id=1 mentor=52 
+vkt 05.07.2023 23:56:36  (4) uid=-1002 access=2 user_id=3 mentor=52 
+vkt 05.07.2023 23:56:37  (2) uid=-1002 access=5 user_id=52 mentor=52 
+vkt 06.07.2023 15:21:57  (4) uid=-7617 access=1 user_id=1 mentor=1 
+vkt 06.07.2023 15:21:57  (4) uid=-7617 access=2 user_id=3 mentor=1 
+vkt 06.07.2023 16:02:59  (4) uid=-7610 access=1 user_id=1 mentor=57 
+vkt 06.07.2023 16:02:59  (4) uid=-7610 access=2 user_id=3 mentor=57 
+vkt 06.07.2023 16:12:02  (4) uid=-7610 access=1 user_id=1 mentor=57 
+vkt 06.07.2023 16:12:03  (4) uid=-7610 access=2 user_id=3 mentor=57 
+vkt 06.07.2023 16:32:28  (4) uid=-7610 access=1 user_id=1 mentor=57 
+vkt 06.07.2023 16:32:28  (4) uid=-7610 access=2 user_id=3 mentor=57 
+vkt 06.07.2023 16:35:00  (4) uid=-7610 access=1 user_id=1 mentor=57 
+vkt 06.07.2023 16:35:00  (4) uid=-7610 access=2 user_id=3 mentor=57 
+vkt 06.07.2023 16:37:17  (4) uid=-7610 access=1 user_id=1 mentor=57 
+vkt 06.07.2023 16:37:17  (4) uid=-7610 access=2 user_id=3 mentor=57 
+vkt 06.07.2023 17:09:43  (4) uid=-7610 access=1 user_id=1 mentor=57 
+vkt 06.07.2023 17:09:43  (4) uid=-7610 access=2 user_id=3 mentor=57 
+vkt 06.07.2023 20:38:20  (4) uid=-7618 access=1 user_id=1 mentor=74 
+vkt 06.07.2023 20:38:20  (4) uid=-7618 access=2 user_id=3 mentor=74 
+vkt 07.07.2023 13:10:07  (4) uid=-1001 access=1 user_id=1 mentor=1 
+vkt 07.07.2023 13:10:07  (4) uid=-1001 access=2 user_id=3 mentor=1 
+vkt 07.07.2023 14:26:38  (4) uid=-1002 access=1 user_id=1 mentor=52 
+vkt 07.07.2023 14:26:38  (4) uid=-1002 access=2 user_id=3 mentor=52 
+vkt 07.07.2023 14:26:38  (2) uid=-1002 access=5 user_id=52 mentor=52 
+vkt 07.07.2023 14:35:04  (4) uid=-7619 access=1 user_id=1 mentor=52 
+vkt 07.07.2023 14:35:05  (4) uid=-7619 access=2 user_id=3 mentor=52 
+vkt 07.07.2023 14:35:05  (2) uid=-7619 access=5 user_id=52 mentor=52 
+vkt 07.07.2023 14:36:31  (4) uid=-7620 access=1 user_id=1 mentor=52 
+vkt 07.07.2023 14:36:31  (4) uid=-7620 access=2 user_id=3 mentor=52 
+vkt 07.07.2023 14:36:32  (2) uid=-7620 access=5 user_id=52 mentor=52 
+vkt 07.07.2023 15:04:23  (4) uid=-7549 access=1 user_id=1 mentor=1 
+vkt 07.07.2023 15:04:23  (4) uid=-7549 access=2 user_id=3 mentor=1 
+vkt 07.07.2023 15:15:37  (4) uid=-1002 access=1 user_id=1 mentor=52 
+vkt 07.07.2023 15:15:37  (4) uid=-1002 access=2 user_id=3 mentor=52 
+vkt 07.07.2023 15:15:38  (2) uid=-1002 access=5 user_id=52 mentor=52 
+vkt 07.07.2023 15:15:44  (4) uid=-1002 access=1 user_id=1 mentor=52 
+vkt 07.07.2023 15:15:44  (4) uid=-1002 access=2 user_id=3 mentor=52 
+vkt 07.07.2023 15:15:45  (2) uid=-1002 access=5 user_id=52 mentor=52 
+vkt 07.07.2023 15:16:00  (4) uid=-1002 access=1 user_id=1 mentor=52 
+vkt 07.07.2023 15:16:00  (4) uid=-1002 access=2 user_id=3 mentor=52 
+vkt 07.07.2023 15:16:01  (2) uid=-1002 access=5 user_id=52 mentor=52 
+vkt 07.07.2023 15:16:10  (4) uid=-1002 access=1 user_id=1 mentor=52 
+vkt 07.07.2023 15:16:11  (4) uid=-1002 access=2 user_id=3 mentor=52 
+vkt 07.07.2023 15:16:11  (2) uid=-1002 access=5 user_id=52 mentor=52 
+vkt 07.07.2023 15:19:30  (4) uid=-7597 access=1 user_id=1 mentor=57 
+vkt 07.07.2023 15:19:30  (4) uid=-7597 access=2 user_id=3 mentor=57 
+vkt 07.07.2023 15:49:51  (4) uid=-7573 access=1 user_id=1 mentor=0 
+vkt 07.07.2023 15:49:52  (4) uid=-7573 access=2 user_id=3 mentor=0 
+vkt 07.07.2023 16:22:47  (4) uid=-7417 access=1 user_id=1 mentor=21 
+vkt 07.07.2023 16:22:47  (4) uid=-7417 access=2 user_id=3 mentor=21 
+vkt1_25 07.07.2023 17:41:26  (4) uid=-1001 access=3 user_id=3 mentor=4 
+vkt1_25 07.07.2023 17:42:56  (4) uid=-1001 access=3 user_id=3 mentor=4 
+vkt1_25 07.07.2023 17:43:21  (4) uid=-1001 access=3 user_id=3 mentor=4 
+vkt1_29 07.07.2023 18:26:38  (4) uid=-1002 access=1 user_id=2 mentor=5 
+vkt1_29 07.07.2023 18:26:38  (4) uid=-1002 access=3 user_id=3 mentor=5 
+vkt1_29 07.07.2023 18:26:39  (2) uid=-1002 access=5 user_id=5 mentor=5 
+vkt1_29 08.07.2023 00:15:06  (4) uid=-1001 access=1 user_id=2 mentor=0 
+vkt1_29 08.07.2023 00:15:06  (4) uid=-1001 access=3 user_id=3 mentor=0 
+vkt1_29 08.07.2023 00:20:54  (4) uid=-1001 access=1 user_id=2 mentor=0 
+vkt1_29 08.07.2023 00:20:54  (4) uid=-1001 access=3 user_id=3 mentor=0 
+vkt 09.07.2023 19:09:25  (4) uid=-7561 access=1 user_id=1 mentor=3 
+vkt 09.07.2023 19:09:25  (4) uid=-7561 access=2 user_id=3 mentor=3 
+vkt1_29 10.07.2023 09:32:48  (4) uid=-1036 access=1 user_id=2 mentor=4 
+vkt1_29 10.07.2023 09:32:48  (4) uid=-1036 access=3 user_id=3 mentor=4 
+vkt1_29 10.07.2023 09:32:48  (2) uid=-1036 access=5 user_id=4 mentor=4 
+vkt 10.07.2023 11:39:24  (4) uid=-7621 access=1 user_id=1 mentor=74 
+vkt 10.07.2023 11:39:24  (4) uid=-7621 access=2 user_id=3 mentor=74 
+vkt 10.07.2023 12:07:07  (4) uid=-7597 access=1 user_id=1 mentor=57 
+vkt 10.07.2023 12:07:07  (4) uid=-7597 access=2 user_id=3 mentor=57 
+vkt 10.07.2023 12:58:23  (4) uid=-7597 access=1 user_id=1 mentor=57 
+vkt 10.07.2023 12:58:24  (4) uid=-7597 access=2 user_id=3 mentor=57 
+vkt 10.07.2023 13:00:37  (4) uid=-7597 access=1 user_id=1 mentor=57 
+vkt 10.07.2023 13:00:37  (4) uid=-7597 access=2 user_id=3 mentor=57 
+vkt 10.07.2023 13:00:52  (4) uid=-7597 access=1 user_id=1 mentor=57 
+vkt 10.07.2023 13:00:53  (4) uid=-7597 access=2 user_id=3 mentor=57 
+vkt 10.07.2023 13:01:11  (4) uid=-7597 access=1 user_id=1 mentor=57 
+vkt 10.07.2023 13:01:12  (4) uid=-7597 access=2 user_id=3 mentor=57 
+vkt 10.07.2023 13:01:21  (4) uid=-7597 access=1 user_id=1 mentor=57 
+vkt 10.07.2023 13:01:21  (4) uid=-7597 access=2 user_id=3 mentor=57 
+vkt 10.07.2023 13:05:03  (4) uid=-7597 access=1 user_id=1 mentor=57 
+vkt 10.07.2023 13:05:04  (4) uid=-7597 access=2 user_id=3 mentor=57 
+vkt 10.07.2023 13:17:57  (4) uid=-7622 access=1 user_id=1 mentor=74 
+vkt 10.07.2023 13:17:58  (4) uid=-7622 access=2 user_id=3 mentor=74 
+vkt1_34 10.07.2023 13:31:41  (4) uid=-1020 access=1 user_id=2 mentor=0 
+vkt1_34 10.07.2023 13:31:41  (4) uid=-1020 access=3 user_id=3 mentor=0 
+vkt 10.07.2023 13:51:18  (4) uid=-7623 access=1 user_id=1 mentor=0 
+vkt 10.07.2023 13:51:18  (4) uid=-7623 access=2 user_id=3 mentor=0 
+vkt 10.07.2023 13:54:05  (4) uid=-7623 access=1 user_id=1 mentor=0 
+vkt 10.07.2023 13:54:05  (4) uid=-7623 access=2 user_id=3 mentor=0 
+vkt 10.07.2023 14:46:18  (4) uid=-7597 access=1 user_id=1 mentor=57 
+vkt 10.07.2023 14:46:18  (4) uid=-7597 access=2 user_id=3 mentor=57 
+vkt1_41 10.07.2023 15:23:06  (4) uid=-1001 access=1 user_id=2 mentor=0 
+vkt 10.07.2023 16:02:43  (4) uid=-7591 access=1 user_id=1 mentor=54 
+vkt 10.07.2023 16:02:43  (4) uid=-7591 access=2 user_id=3 mentor=54 
+vkt1_14 10.07.2023 17:09:18  (4) uid=-1028 access=1 user_id=2 mentor=0 
+vkt1_14 10.07.2023 17:09:18  (4) uid=-1028 access=3 user_id=3 mentor=0 
+vkt 10.07.2023 17:17:19  (4) uid=-7591 access=1 user_id=1 mentor=54 
+vkt 10.07.2023 17:17:20  (4) uid=-7591 access=2 user_id=3 mentor=54 
+vkt1_14 10.07.2023 21:53:38  (4) uid=-1029 access=1 user_id=2 mentor=12 
+vkt1_14 10.07.2023 21:53:38  (4) uid=-1029 access=3 user_id=3 mentor=12 
+vkt1_14 10.07.2023 21:53:38  (2) uid=-1029 access=5 user_id=12 mentor=12 
+vkt 10.07.2023 23:16:09  (4) uid=-1002 access=1 user_id=1 mentor=52 

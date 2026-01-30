@@ -1,0 +1,11 @@
+--2014-10-30 13:05:37--  https://ssl.hqsms.com/api/sms.do?username=vlav
+Распознаётся «wget-log»... 62.181.2.56
+Устанавливается соединение с ssl.hqsms.com|62.181.2.56|:443... соединение установлено.
+Запрос HTTP послан, ожидается ответ... 200 OK
+Длина: нет информации [text/plain]
+Saving to: «sms.do?username=vlav»
+
+     0K                                                         418K=0s
+
+2014-10-30 13:52:58 (418 KB/s) - «sms.do?username=vlav» saved [9]
+

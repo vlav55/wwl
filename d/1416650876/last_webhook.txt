@@ -1,0 +1,33 @@
+Array
+(
+    [date] => 2023-08-14T17:33:06+03:00
+    [order_id] => 14946301
+    [order_num] => 05-23
+    [domain] => winwinland.payform.ru
+    [sum] => 2900.00
+    [currency] => rub
+    [customer_phone] => +79312099413
+    [customer_email] => max@delafisha.ru
+    [customer_extra] => 30
+    [payment_type] => SberPay
+    [commission] => 3.5
+    [commission_sum] => 101.50
+    [attempt] => 2
+    [vk_user_id] => -7665
+    [vk_user_name] => Максим Никитинский 
+    [products] => Array
+        (
+            [0] => Array
+                (
+                    [name] => Абонентская плата за подключение к платформе WINWINLAND, 30 дней
+                    [price] => 2900.00
+                    [quantity] => 1
+                    [sum] => 2900.00
+                )
+
+        )
+
+    [payment_status] => success
+    [payment_status_description] => Успешная оплата
+    [payment_init] => manual
+)

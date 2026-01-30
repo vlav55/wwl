@@ -1,0 +1,15 @@
+Array
+(
+    [type] => subscribe
+    [secret] => fe0780424057a1389a053efd0d74f0c1b435fb9c929325
+    [object] => Array
+        (
+            [vk_group_id] => 212991289
+            [date] => 2024-05-03 12:32:49
+            [unixtime] => 1714728769
+            [vk_user_id] => 55583948
+            [source] => message_allow
+            [first] => 1
+        )
+
+)

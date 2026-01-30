@@ -1,0 +1,172 @@
+<!DOCTYPE html> 
+<html>
+<head>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 11pt;
+            line-height: 1.5;
+        }
+        .main {
+            width: 100%;
+            overflow: hidden; /* Prevent overflow */
+        }
+        img {
+            max-width: 100%; /* Make images responsive */
+            height: auto; 
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%; 
+        }
+        .borderless {
+            border: none; /* No border for this class */
+        }
+        td, th {
+            padding: 5px; /* Reduce padding for tables */
+            vertical-align: top;
+        }
+        .header-text {
+            text-align: justify;
+            padding: 10px 0; /* Adjust padding if needed */
+        }
+        .total, .footer-text {
+            padding: 5px;
+            font-weight: bold;
+        }
+        /* Specific styles for bordered tables */
+        .bordered td, .bordered th {
+            border: 1px solid black; /* Set solid borders for tables with this class */
+        }
+        .sign {
+            background: url('https://for16.ru/d/1000/MA/templates/sign.png') no-repeat 150px 20px;
+            padding: 0; 
+            width: 100%; 
+        }
+        .stamp {
+            background: url('https://for16.ru/d/1000/MA/templates/stamp.png') no-repeat 320px 0px; 
+            padding: 0; 
+            width: 100%; 
+            height: 250px; 
+        }
+		.no-bottom-border td {
+			border-top: none !important;
+			border-bottom: none !important;
+		}
+    </style>
+</head>
+<body>
+
+<div class="main">
+    <table class="borderless"> <!-- No border for the first table -->
+        <tr>
+            <td style="width: 68%;" class="header-text">
+                Внимание! Оплата данного счета означает согласие с условиями договора публичной оферты на сайте winwinland.ru.
+                Счет действителен в течение 5(пяти) банковских дней. Уведомление об оплате обязательно.
+            </td>
+            <td style="width: 32%; text-align: center;">
+                <img src="https://winwinland.ru/img/logo/logo-200.png" style="width: 140px;">
+            </td>
+        </tr>
+    </table>
+
+    <table class="bordered"> <!-- Apply bordered class to ensure borders are present -->
+        <tr>
+            <td colspan="2" rowspan="2" style="min-height: 13mm;">
+                <div>ФИЛИАЛ "САНКТ-ПЕТЕРБУРГСКИЙ" АО "АЛЬФА-БАНК"</div>
+                <div style="font-size: 10pt;">Банк получателя</div>
+            </td>
+            <td>БИК</td>
+            <td rowspan="2">044030786 <br><br>30101810600000000786</td>
+        </tr>
+        <tr>
+            <td>Сч. №{{num}}</td>
+        </tr>
+        <tr>
+            <td>ИНН 7811786250</td>
+            <td>КПП 781101001</td>
+            <td rowspan="2">р/сч</td>
+            <td rowspan="2">40702810732280004359</td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <div>ООО "ВИНВИНЛЭНД"<br></div>
+                <div style="font-size: 10pt;">Получатель</div>
+            </td>
+        </tr>
+    </table>
+
+    <div style="font-weight: bold; font-size: 18pt; padding: 10px 0; margin-top:50px;">
+        Счет № {{num}} от {{date}}
+    </div>
+
+    <table class="borderless"> <!-- Another bordered table -->
+        <tr>
+            <td style="width: 30mm;">Поставщик:</td>
+            <td>
+                <div style="font-weight: bold;">ООО "ВИНВИНЛЭНД" , ИНН 7811786250</div>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 30mm;">Покупатель:</td>
+            <td>
+                <div style="font-weight: bold;">{{company}} , ИНН {{inn}}</div>
+            </td>
+        </tr>
+    </table>
+
+    <table class="bordered" style='border-bottom: 1px solid black;'> <!-- Another bordered table -->
+        <thead>
+            <tr>
+                <th>№</th>
+                <th>Товары (работы, услуги)</th>
+                <th>Кол-во</th>
+                <th>Ед.</th>
+                <th>Цена</th>
+                <th>Сумма</th>
+            </tr>
+        </thead>
+        <tbody>
+            {{tr_products}}
+        </tbody>
+    </table>
+
+    <table class="borderless" style='margin-left:350px;'> <!-- Yet another bordered table -->
+        <tr>
+            <td></td>
+            <td style="text-align: right;">Итого:</td>
+            <td style="text-align: center;">{{amount}}</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td style="text-align: right;">Итого НДС:</td>
+            <td style="text-align: center;">Без НДС</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td style="text-align: right;">Всего к оплате:</td>
+            <td style="text-align: center;">{{amount}}</td>
+        </tr>
+    </table>
+
+    <div>
+        Всего наименований {{qnt_amount}} на сумму {{amount}} рублей.<br />
+        {{amount_words}}
+    </div>
+	<p>{{comm}}</p>
+    <div class="sign">
+        <div class="stamp">
+			<br><br><br><br>
+            <div>Руководитель ______________________ </div>
+            <!-- Additional content -->
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

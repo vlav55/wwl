@@ -1,0 +1,682 @@
+Array
+(
+    [fields_values] => Array
+        (
+        )
+
+    [order_lines] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 701549491
+                    [order_id] => 127504014
+                    [sale_price] => 129599
+                    [full_sale_price] => 129599
+                    [total_price] => 129599
+                    [full_total_price] => 129599
+                    [discounts_amount] => 0
+                    [quantity] => 1
+                    [reserved_quantity] => 1
+                    [weight] => 
+                    [dimensions] => 
+                    [variant_id] => 789886907
+                    [product_id] => 473322062
+                    [sku] => iphone15pro
+                    [barcode] => 
+                    [title] => 6.1" Смартфон Apple iPhone 15 Pro 256 ГБ серый
+                    [unit] => pce
+                    [comment] => 
+                    [updated_at] => 2025-01-15T13:14:09.000+03:00
+                    [created_at] => 2025-01-15T09:21:21.000+03:00
+                    [bundle_id] => 
+                    [vat] => -1
+                    [fiscal_product_type] => 1
+                    [requires_marking] => 
+                    [marking_codes] => 
+                    [accessory_lines] => Array
+                        (
+                        )
+
+                    [external_variant_id] => 
+                )
+
+        )
+
+    [order_changes] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1682788316
+                    [created_at] => 2025-01-16T09:42:48.129+03:00
+                    [action] => fulfillment_status_changed
+                    [value_was] => dispatched
+                    [value_is] => delivered
+                    [full_description] => Статус заказа изменен с 'Отгружен' на 'Доставлен' пользователем Vladimir Avshtolis
+                    [user_name] => Vladimir Avshtolis
+                )
+
+            [1] => Array
+                (
+                    [id] => 1682788315
+                    [created_at] => 2025-01-16T09:42:48.120+03:00
+                    [action] => custom_status_changed
+                    [value_was] => Отгружен
+                    [value_is] => Доставлен
+                    [full_description] => Статус заказа изменен с 'Отгружен' на 'Доставлен' пользователем Vladimir Avshtolis
+                    [user_name] => Vladimir Avshtolis
+                )
+
+            [2] => Array
+                (
+                    [id] => 1682731679
+                    [created_at] => 2025-01-16T08:49:42.252+03:00
+                    [action] => fulfillment_status_changed
+                    [value_was] => delivered
+                    [value_is] => dispatched
+                    [full_description] => Статус заказа изменен с 'Доставлен' на 'Отгружен' пользователем Vladimir Avshtolis
+                    [user_name] => Vladimir Avshtolis
+                )
+
+            [3] => Array
+                (
+                    [id] => 1682731678
+                    [created_at] => 2025-01-16T08:49:42.214+03:00
+                    [action] => custom_status_changed
+                    [value_was] => Доставлен
+                    [value_is] => Отгружен
+                    [full_description] => Статус заказа изменен с 'Доставлен' на 'Отгружен' пользователем Vladimir Avshtolis
+                    [user_name] => Vladimir Avshtolis
+                )
+
+            [4] => Array
+                (
+                    [id] => 1682729368
+                    [created_at] => 2025-01-16T08:46:48.961+03:00
+                    [action] => fulfillment_status_changed
+                    [value_was] => accepted
+                    [value_is] => delivered
+                    [full_description] => Статус заказа изменен с 'В обработке' на 'Доставлен' пользователем Vladimir Avshtolis
+                    [user_name] => Vladimir Avshtolis
+                )
+
+            [5] => Array
+                (
+                    [id] => 1682729367
+                    [created_at] => 2025-01-16T08:46:48.953+03:00
+                    [action] => custom_status_changed
+                    [value_was] => В обработке
+                    [value_is] => Доставлен
+                    [full_description] => Статус заказа изменен с 'В обработке' на 'Доставлен' пользователем Vladimir Avshtolis
+                    [user_name] => Vladimir Avshtolis
+                )
+
+            [6] => Array
+                (
+                    [id] => 1681957640
+                    [created_at] => 2025-01-15T13:15:44.916+03:00
+                    [action] => fulfillment_status_changed
+                    [value_was] => delivered
+                    [value_is] => accepted
+                    [full_description] => Статус заказа изменен с 'Доставлен' на 'В обработке' пользователем Vladimir Avshtolis
+                    [user_name] => Vladimir Avshtolis
+                )
+
+            [7] => Array
+                (
+                    [id] => 1681957639
+                    [created_at] => 2025-01-15T13:15:44.906+03:00
+                    [action] => custom_status_changed
+                    [value_was] => Доставлен
+                    [value_is] => В обработке
+                    [full_description] => Статус заказа изменен с 'Доставлен' на 'В обработке' пользователем Vladimir Avshtolis
+                    [user_name] => Vladimir Avshtolis
+                )
+
+            [8] => Array
+                (
+                    [id] => 1681956994
+                    [created_at] => 2025-01-15T13:14:32.827+03:00
+                    [action] => financial_status_changed
+                    [value_was] => pending
+                    [value_is] => paid
+                    [full_description] => Статус оплаты изменен с 'Не оплачен' на 'Оплачен' пользователем Vladimir Avshtolis
+                    [user_name] => Vladimir Avshtolis
+                )
+
+            [9] => Array
+                (
+                    [id] => 1681956671
+                    [created_at] => 2025-01-15T13:14:09.793+03:00
+                    [action] => fulfillment_status_changed
+                    [value_was] => declined
+                    [value_is] => delivered
+                    [full_description] => Статус заказа изменен с 'Отменен' на 'Доставлен' пользователем Vladimir Avshtolis
+                    [user_name] => Vladimir Avshtolis
+                )
+
+            [10] => Array
+                (
+                    [id] => 1681956669
+                    [created_at] => 2025-01-15T13:14:09.784+03:00
+                    [action] => custom_status_changed
+                    [value_was] => Отменен
+                    [value_is] => Доставлен
+                    [full_description] => Статус заказа изменен с 'Отменен' на 'Доставлен' пользователем Vladimir Avshtolis
+                    [user_name] => Vladimir Avshtolis
+                )
+
+            [11] => Array
+                (
+                    [id] => 1681940186
+                    [created_at] => 2025-01-15T13:01:21.180+03:00
+                    [action] => fulfillment_status_changed
+                    [value_was] => returned
+                    [value_is] => declined
+                    [full_description] => Статус заказа изменен с 'Возврат' на 'Отменен' пользователем Vladimir Avshtolis
+                    [user_name] => Vladimir Avshtolis
+                )
+
+            [12] => Array
+                (
+                    [id] => 1681940184
+                    [created_at] => 2025-01-15T13:01:21.161+03:00
+                    [action] => custom_status_changed
+                    [value_was] => Возврат
+                    [value_is] => Отменен
+                    [full_description] => Статус заказа изменен с 'Возврат' на 'Отменен' пользователем Vladimir Avshtolis
+                    [user_name] => Vladimir Avshtolis
+                )
+
+            [13] => Array
+                (
+                    [id] => 1681937760
+                    [created_at] => 2025-01-15T12:58:28.119+03:00
+                    [action] => fulfillment_status_changed
+                    [value_was] => delivered
+                    [value_is] => returned
+                    [full_description] => Статус заказа изменен с 'Доставлен' на 'Возврат' пользователем Vladimir Avshtolis
+                    [user_name] => Vladimir Avshtolis
+                )
+
+            [14] => Array
+                (
+                    [id] => 1681937756
+                    [created_at] => 2025-01-15T12:58:28.098+03:00
+                    [action] => custom_status_changed
+                    [value_was] => Доставлен
+                    [value_is] => Возврат
+                    [full_description] => Статус заказа изменен с 'Доставлен' на 'Возврат' пользователем Vladimir Avshtolis
+                    [user_name] => Vladimir Avshtolis
+                )
+
+            [15] => Array
+                (
+                    [id] => 1681930950
+                    [created_at] => 2025-01-15T12:54:46.087+03:00
+                    [action] => fulfillment_status_changed
+                    [value_was] => new
+                    [value_is] => delivered
+                    [full_description] => Статус заказа изменен с 'Новый' на 'Доставлен' пользователем Vladimir Avshtolis
+                    [user_name] => Vladimir Avshtolis
+                )
+
+            [16] => Array
+                (
+                    [id] => 1681930949
+                    [created_at] => 2025-01-15T12:54:46.079+03:00
+                    [action] => custom_status_changed
+                    [value_was] => Новый
+                    [value_is] => Доставлен
+                    [full_description] => Статус заказа изменен с 'Новый' на 'Доставлен' пользователем Vladimir Avshtolis
+                    [user_name] => Vladimir Avshtolis
+                )
+
+            [17] => Array
+                (
+                    [id] => 1681930577
+                    [created_at] => 2025-01-15T12:54:17.447+03:00
+                    [action] => financial_status_changed
+                    [value_was] => paid
+                    [value_is] => pending
+                    [full_description] => Статус оплаты изменен с 'Оплачен' на 'Не оплачен' пользователем Vladimir Avshtolis
+                    [user_name] => Vladimir Avshtolis
+                )
+
+            [18] => Array
+                (
+                    [id] => 1681705589
+                    [created_at] => 2025-01-15T09:45:02.884+03:00
+                    [action] => financial_status_changed
+                    [value_was] => pending
+                    [value_is] => paid
+                    [full_description] => Статус оплаты изменен с 'Не оплачен' на 'Оплачен' пользователем Vladimir Avshtolis
+                    [user_name] => Vladimir Avshtolis
+                )
+
+            [19] => Array
+                (
+                    [id] => 1681687748
+                    [created_at] => 2025-01-15T09:23:45.822+03:00
+                    [action] => financial_status_changed
+                    [value_was] => paid
+                    [value_is] => pending
+                    [full_description] => Статус оплаты изменен с 'Оплачен' на 'Не оплачен' пользователем Vladimir Avshtolis
+                    [user_name] => Vladimir Avshtolis
+                )
+
+            [20] => Array
+                (
+                    [id] => 1681684628
+                    [created_at] => 2025-01-15T09:21:43.167+03:00
+                    [action] => financial_status_changed
+                    [value_was] => pending
+                    [value_is] => paid
+                    [full_description] => Статус оплаты изменен с 'Не оплачен' на 'Оплачен' пользователем Vladimir Avshtolis
+                    [user_name] => Vladimir Avshtolis
+                )
+
+            [21] => Array
+                (
+                    [id] => 1681684280
+                    [created_at] => 2025-01-15T09:21:21.274+03:00
+                    [action] => order_created
+                    [value_was] => 
+                    [value_is] => 
+                    [full_description] => Заказ создан пользователем Vladimir Avshtolis
+                    [user_name] => Vladimir Avshtolis
+                )
+
+        )
+
+    [discount] => 
+    [shipping_address] => Array
+        (
+            [id] => 136310477
+            [fields_values] => Array
+                (
+                )
+
+            [name] => Федя
+            [surname] => 
+            [middlename] => 
+            [phone] => 8(911)111-11-11
+            [formatted_phone] => 8(911)111-11-11
+            [full_name] => Федя
+            [full_locality_name] => г Санкт-Петербург
+            [full_delivery_address] => г Санкт-Петербург
+            [address_for_gis] => г Санкт-Петербург
+            [location_valid] => 1
+            [recipient_fields] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 36882829
+                            [destiny] => 6
+                            [position] => 1
+                            [office_title] => Имя
+                            [for_buyer] => 1
+                            [obligatory] => 1
+                            [active] => 1
+                            [system_name] => contact_name
+                            [created_at] => 2025-01-12T01:38:48.609+03:00
+                            [updated_at] => 2025-01-12T01:38:48.609+03:00
+                            [show_in_result] => 1
+                            [show_in_checkout] => 1
+                            [is_indexed] => 
+                            [hide_in_backoffice] => 
+                            [handle] => 
+                            [title] => Ваше имя
+                            [example] => 
+                            [type] => Field::ObligatoryTextField
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 36882832
+                            [destiny] => 6
+                            [position] => 2
+                            [office_title] => Телефон
+                            [for_buyer] => 1
+                            [obligatory] => 1
+                            [active] => 1
+                            [system_name] => phone
+                            [created_at] => 2025-01-12T01:38:48.638+03:00
+                            [updated_at] => 2025-01-12T01:38:48.638+03:00
+                            [show_in_result] => 1
+                            [show_in_checkout] => 1
+                            [is_indexed] => 
+                            [hide_in_backoffice] => 
+                            [handle] => 
+                            [title] => 
+                            [example] => 
+                            [type] => Field::Phone
+                        )
+
+                )
+
+            [backoffice_fields] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 36882830
+                            [destiny] => 1
+                            [position] => 2
+                            [office_title] => Населенный пункт
+                            [for_buyer] => 1
+                            [obligatory] => 1
+                            [active] => 1
+                            [system_name] => full_locality_name
+                            [created_at] => 2025-01-12T01:38:48.620+03:00
+                            [updated_at] => 2025-01-12T01:38:48.620+03:00
+                            [show_in_result] => 1
+                            [show_in_checkout] => 1
+                            [is_indexed] => 
+                            [hide_in_backoffice] => 
+                            [handle] => 
+                            [title] => 
+                            [example] => 
+                            [type] => Field::Locality
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 36882834
+                            [destiny] => 1
+                            [position] => 4
+                            [office_title] => Почтовый индекс
+                            [for_buyer] => 1
+                            [obligatory] => 
+                            [active] => 1
+                            [system_name] => zip
+                            [created_at] => 2025-01-12T01:38:48.661+03:00
+                            [updated_at] => 2025-01-12T01:38:48.661+03:00
+                            [show_in_result] => 1
+                            [show_in_checkout] => 1
+                            [is_indexed] => 
+                            [hide_in_backoffice] => 
+                            [handle] => 
+                            [title] => 
+                            [example] => 
+                            [type] => Field::SystemTextField
+                        )
+
+                    [2] => Array
+                        (
+                            [id] => 36882843
+                            [destiny] => 1
+                            [position] => 7
+                            [office_title] => Улица
+                            [for_buyer] => 1
+                            [obligatory] => 
+                            [active] => 1
+                            [system_name] => street
+                            [created_at] => 2025-01-12T01:38:48.758+03:00
+                            [updated_at] => 2025-01-12T01:38:48.758+03:00
+                            [show_in_result] => 1
+                            [show_in_checkout] => 1
+                            [is_indexed] => 
+                            [hide_in_backoffice] => 
+                            [handle] => 
+                            [title] => 
+                            [example] => 
+                            [type] => Field::SystemTextField
+                        )
+
+                    [3] => Array
+                        (
+                            [id] => 36882845
+                            [destiny] => 1
+                            [position] => 8
+                            [office_title] => Дом
+                            [for_buyer] => 1
+                            [obligatory] => 
+                            [active] => 1
+                            [system_name] => house
+                            [created_at] => 2025-01-12T01:38:48.783+03:00
+                            [updated_at] => 2025-01-12T01:38:48.783+03:00
+                            [show_in_result] => 1
+                            [show_in_checkout] => 1
+                            [is_indexed] => 
+                            [hide_in_backoffice] => 
+                            [handle] => 
+                            [title] => 
+                            [example] => 
+                            [type] => Field::SystemTextField
+                        )
+
+                    [4] => Array
+                        (
+                            [id] => 36882847
+                            [destiny] => 1
+                            [position] => 9
+                            [office_title] => Квартира
+                            [for_buyer] => 1
+                            [obligatory] => 
+                            [active] => 1
+                            [system_name] => flat
+                            [created_at] => 2025-01-12T01:38:48.802+03:00
+                            [updated_at] => 2025-01-12T01:38:48.802+03:00
+                            [show_in_result] => 1
+                            [show_in_checkout] => 1
+                            [is_indexed] => 
+                            [hide_in_backoffice] => 
+                            [handle] => 
+                            [title] => 
+                            [example] => 
+                            [type] => Field::SystemTextField
+                        )
+
+                )
+
+            [no_delivery] => 
+            [kladr_autodetected_address] => 190000, Россия, г Санкт-Петербург
+            [country_options] => Array
+                (
+                    [0] => Array
+                        (
+                            [code] => RU
+                            [title] => Россия
+                            [selected] => 
+                        )
+
+                )
+
+            [address] => 
+            [country] => 
+            [state] => г Санкт-Петербург
+            [city] => Санкт-Петербург
+            [zip] => 
+            [street] => 
+            [house] => 
+            [flat] => 
+            [entrance] => 
+            [doorphone] => 
+            [floor] => 
+            [kladr_json] => Array
+                (
+                    [code] => 7800000000000
+                    [country] => RU
+                    [state] => Санкт-Петербург
+                    [state_type] => г
+                    [area] => 
+                    [area_type] => 
+                    [city] => Санкт-Петербург
+                    [city_type] => г
+                    [settlement] => 
+                    [settlement_type] => 
+                    [street] => 
+                    [street_type] => 
+                    [latitude] => 59.940674508274995
+                    [longitude] => 30.09286149999999
+                    [zip] => 190000
+                    [result] => г Санкт-Петербург
+                    [last_level] => Санкт-Петербург
+                    [last_level_type] => г
+                    [region_zip] => 190000
+                    [is_kladr] => 1
+                )
+
+            [location] => Array
+                (
+                    [kladr_code] => 7800000000000
+                    [zip] => 
+                    [kladr_zip] => 190000
+                    [region_zip] => 190000
+                    [country] => RU
+                    [state] => Санкт-Петербург
+                    [state_type] => г
+                    [area] => 
+                    [area_type] => 
+                    [city] => Санкт-Петербург
+                    [city_type] => г
+                    [settlement] => 
+                    [settlement_type] => 
+                    [address] => 
+                    [street] => 
+                    [street_type] => 
+                    [house] => 
+                    [flat] => 
+                    [is_kladr] => 1
+                    [latitude] => 59.940674508274995
+                    [longitude] => 30.09286149999999
+                    [autodetected] => 
+                )
+
+        )
+
+    [client] => Array
+        (
+            [id] => 85752056
+            [email] => 
+            [name] => Федя
+            [phone] => 89111111111
+            [created_at] => 2025-01-15T09:21:21.000+03:00
+            [updated_at] => 2025-01-15T13:14:32.000+03:00
+            [comment] => 
+            [registered] => 
+            [subscribe] => 1
+            [client_group_id] => 
+            [surname] => 
+            [middlename] => 
+            [bonus_points] => 0
+            [type] => Client::Individual
+            [correspondent_account] => 
+            [settlement_account] => 
+            [consent_to_personal_data] => 1
+            [o_auth_provider] => 
+            [messenger_subscription] => 1
+            [contact_name] => Федя
+            [progressive_discount] => 
+            [group_discount] => 
+            [ip_addr] => 2.56.204.5
+            [fields_values] => Array
+                (
+                )
+
+        )
+
+    [discounts] => Array
+        (
+        )
+
+    [total_price] => 129599
+    [items_price] => 129599
+    [id] => 127504014
+    [key] => c0971935845898df9ff8347ca6a96c03
+    [number] => 1006
+    [comment] => 
+    [archived] => 
+    [delivery_title] => Самовывоз
+    [delivery_description] => Самовывоз (На пункте выдачи)
+    [delivery_price] => 0
+    [full_delivery_price] => 0
+    [payment_description] => <p><span>Оплата наличными или банковской картой при получении заказа</span></p>
+    [payment_title] => Наличными или картой при получении
+    [first_referer] => 
+    [first_current_location] => /close_editor?path=%2Fproduct%2F61-smartfon-apple-iphone-15-pro-256-gb-seryy
+    [first_query] => 
+    [first_source_domain] => 
+    [first_source] => Прямой трафик
+    [referer] => 
+    [current_location] => /close_editor?path=%2Fproduct%2F61-smartfon-apple-iphone-15-pro-256-gb-seryy
+    [query] => 
+    [source_domain] => 
+    [source] => Прямой трафик
+    [fulfillment_status] => delivered
+    [custom_status] => Array
+        (
+            [permalink] => delivered
+            [title] => Доставлен
+        )
+
+    [delivered_at] => 2025-01-16T09:42:47.000+03:00
+    [accepted_at] => 2025-01-15T12:54:45.000+03:00
+    [created_at] => 2025-01-15T09:21:21.000+03:00
+    [updated_at] => 2025-01-16T09:42:47.000+03:00
+    [financial_status] => paid
+    [delivery_date] => 
+    [delivery_from_hour] => 
+    [delivery_from_minutes] => 
+    [delivery_to_hour] => 
+    [delivery_to_minutes] => 
+    [delivery_time] => 
+    [paid_at] => 2025-01-15T13:14:32.000+03:00
+    [delivery_variant_id] => 8379757
+    [payment_gateway_id] => 6265552
+    [margin] => 0.0
+    [margin_amount] => 0.0
+    [client_transaction_id] => 
+    [currency_code] => RUR
+    [cookies] => Array
+        (
+        )
+
+    [account_id] => 5798588
+    [manager_comment] => 
+    [locale] => ru
+    [delivery_info] => Array
+        (
+            [delivery_variant_id] => 8379757
+            [tariff_id] => 
+            [title] => 
+            [description] => 
+            [price] => 0
+            [shipping_company] => 
+            [shipping_company_handle] => 
+            [delivery_interval] => Array
+                (
+                    [min_days] => 
+                    [max_days] => 
+                    [description] => 
+                )
+
+            [errors] => Array
+                (
+                )
+
+            [warnings] => Array
+                (
+                )
+
+            [outlet] => Array
+                (
+                    [id] => 
+                    [external_id] => 
+                    [latitude] => 
+                    [longitude] => 
+                    [title] => 
+                    [description] => 
+                    [address] => 
+                    [payment_method] => Array
+                        (
+                        )
+
+                    [source_id] => 
+                )
+
+            [not_available] => 
+        )
+
+    [responsible_user_id] => 
+    [total_profit] => 129599.0
+)

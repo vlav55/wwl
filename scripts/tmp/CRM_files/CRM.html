@@ -1,0 +1,920 @@
+<!DOCTYPE html>
+<!-- saved from url=(0041)https://for16.ru/d/1000/msg.php?uid=-7727 -->
+<html lang="ru"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		
+		
+		<title>CRM</title>
+		<link href="https://for16.ru/images/favicon.png" rel="icon">
+		<style type="text/css">
+			div {border-collapse:collapse;border-width:0px;border-style:solid;border-color:#555; margin:5px 0; padding:3px;}
+			div.tbl_agent {border-width:1px;}
+			span.agent_vacant {border-collapse:collapse;border-width:1px;border-style:solid;border-color:#555; padding:1px; margin:1px; color:green;}
+			span.agent_busy {border-collapse:collapse;border-width:1px;border-style:solid;border-color:#555; padding:1px; margin:1px;  color:red;}
+			span.num_visited_shop_0 { background-color:#555; width:10px; color:white; padding:2px;}
+			span.num_visited_shop_0 a {color:white;}
+			span.num_visited_shop_1 { background-color:#555; width:10px; color:yellow; padding:2px;}
+			span.num_visited_shop_1 a {color:yellow;}
+			.disp_form TD {padding:3px;}
+			.color-box {width: 20px; height: 20px; cursor: pointer;}
+			#color-dropdown {position: absolute; display: grid; grid-template-columns: repeat(8, 1fr); gap: 1px;}
+			#existing-tags div {color: #fff;}
+			.tag-option {align-items: center; white-space: nowrap; background-color: #000; color: #fff; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); display: inline-flex; padding: 0.25rem 0.5rem; border-radius: 10px; margin: 0.25rem;}
+			.dropdown-menu {width: auto; min-width: 10rem; max-width: 20rem; display: flex; flex-wrap: wrap; padding: 5px; border: 1px solid #ced4da; border-radius: .25rem;}
+		</style>
+
+		<script src="./CRM_files/calendar_ru.js" type="text/javascript"></script></head><body><table id="fc" style="position:absolute;border-collapse:collapse;background:#FFFFFF;border:1px solid #777;display:none;-moz-user-select:none;-khtml-user-select:none;user-select:none;" cellpadding="2"><tbody><tr style="font:bold 13px Arial" onselectstart="return false"><td style="cursor:pointer;font-size:15px" onclick="upmonth(-1)">«</td><td colspan="5" id="mns" align="center">Сентрябрь&nbsp;<span style="cursor:pointer" onclick="upmonth(-12)">&lt;</span>2023<span style="cursor:pointer" onclick="upmonth(12)">&gt;</span></td><td align="right" style="cursor:pointer;font-size:15px" onclick="upmonth(1)">»</td></tr><tr style="background:#777;font:12px Arial;color:#FFFFFF"><td align="center">П</td><td align="center">В</td><td align="center">С</td><td align="center">Ч</td><td align="center">П</td><td align="center">С</td><td align="center">В</td></tr><tr><td id="cv1" style="width: 18px; height: 18px; background: rgb(255, 255, 255); font: 10px Arial; color: rgb(51, 51, 51); text-align: center; text-decoration: none; border: 1px solid rgb(119, 119, 119); cursor: default;">&nbsp;</td><td id="cv2" style="width: 18px; height: 18px; background: rgb(255, 255, 255); font: 10px Arial; color: rgb(51, 51, 51); text-align: center; text-decoration: none; border: 1px solid rgb(119, 119, 119); cursor: default;">&nbsp;</td><td id="cv3" style="width: 18px; height: 18px; background: rgb(255, 255, 255); font: 10px Arial; color: rgb(51, 51, 51); text-align: center; text-decoration: none; border: 1px solid rgb(119, 119, 119); cursor: default;">&nbsp;</td><td id="cv4" style="width: 18px; height: 18px; background: rgb(255, 255, 255); font: 10px Arial; color: rgb(51, 51, 51); text-align: center; text-decoration: none; border: 1px solid rgb(119, 119, 119); cursor: default;">&nbsp;</td><td id="cv5" style="width: 18px; height: 18px; background: rgb(255, 255, 255); font: 10px Arial; color: rgb(51, 51, 51); text-align: center; text-decoration: none; border: 1px solid rgb(119, 119, 119); cursor: pointer;">1</td><td id="cv6" style="width: 18px; height: 18px; background: rgb(255, 255, 255); font: 10px Arial; color: rgb(51, 51, 51); text-align: center; text-decoration: none; border: 1px solid rgb(119, 119, 119); cursor: pointer;">2</td><td id="cv7" style="width: 18px; height: 18px; background: rgb(255, 255, 255); font: 10px Arial; color: rgb(51, 51, 51); text-align: center; text-decoration: none; border: 1px solid rgb(119, 119, 119); cursor: pointer;">3</td></tr><tr><td id="cv8" style="width: 18px; height: 18px; background: rgb(255, 255, 255); font: 10px Arial; color: rgb(51, 51, 51); text-align: center; text-decoration: none; border: 1px solid rgb(119, 119, 119); cursor: pointer;">4</td><td id="cv9" style="width: 18px; height: 18px; background: rgb(255, 255, 255); font: 10px Arial; color: rgb(51, 51, 51); text-align: center; text-decoration: none; border: 1px solid rgb(119, 119, 119); cursor: pointer;">5</td><td id="cv10" style="width: 18px; height: 18px; background: rgb(255, 255, 255); font: 10px Arial; color: rgb(51, 51, 51); text-align: center; text-decoration: none; border: 1px solid rgb(119, 119, 119); cursor: pointer;">6</td><td id="cv11" style="width: 18px; height: 18px; background: rgb(255, 255, 255); font: 10px Arial; color: rgb(51, 51, 51); text-align: center; text-decoration: none; border: 1px solid rgb(119, 119, 119); cursor: pointer;">7</td><td id="cv12" style="width: 18px; height: 18px; background: rgb(255, 255, 255); font: 10px Arial; color: rgb(51, 51, 51); text-align: center; text-decoration: none; border: 1px solid rgb(119, 119, 119); cursor: pointer;">8</td><td id="cv13" style="width: 18px; height: 18px; background: rgb(255, 255, 255); font: 10px Arial; color: rgb(51, 51, 51); text-align: center; text-decoration: none; border: 1px solid rgb(119, 119, 119); cursor: pointer;">9</td><td id="cv14" style="width: 18px; height: 18px; background: rgb(255, 255, 255); font: 10px Arial; color: rgb(51, 51, 51); text-align: center; text-decoration: none; border: 1px solid rgb(119, 119, 119); cursor: pointer;">10</td></tr><tr><td id="cv15" style="width: 18px; height: 18px; background: rgb(255, 255, 255); font: 10px Arial; color: rgb(51, 51, 51); text-align: center; text-decoration: none; border: 1px solid rgb(119, 119, 119); cursor: pointer;">11</td><td id="cv16" style="width: 18px; height: 18px; background: rgb(255, 255, 255); font: 10px Arial; color: rgb(255, 0, 0); text-align: center; text-decoration: none; border: 1px solid rgb(119, 119, 119); cursor: pointer;">12</td><td id="cv17" style="width: 18px; height: 18px; background: rgb(255, 255, 255); font: 10px Arial; color: rgb(51, 51, 51); text-align: center; text-decoration: none; border: 1px solid rgb(119, 119, 119); cursor: pointer;">13</td><td id="cv18" style="width: 18px; height: 18px; background: rgb(255, 255, 255); font: 10px Arial; color: rgb(51, 51, 51); text-align: center; text-decoration: none; border: 1px solid rgb(119, 119, 119); cursor: pointer;">14</td><td id="cv19" style="width: 18px; height: 18px; background: rgb(255, 255, 255); font: 10px Arial; color: rgb(51, 51, 51); text-align: center; text-decoration: none; border: 1px solid rgb(119, 119, 119); cursor: pointer;">15</td><td id="cv20" style="width: 18px; height: 18px; background: rgb(255, 255, 255); font: 10px Arial; color: rgb(51, 51, 51); text-align: center; text-decoration: none; border: 1px solid rgb(119, 119, 119); cursor: pointer;">16</td><td id="cv21" style="width: 18px; height: 18px; background: rgb(255, 255, 255); font: 10px Arial; color: rgb(51, 51, 51); text-align: center; text-decoration: none; border: 1px solid rgb(119, 119, 119); cursor: pointer;">17</td></tr><tr><td id="cv22" style="width: 18px; height: 18px; background: rgb(255, 255, 255); font: 10px Arial; color: rgb(51, 51, 51); text-align: center; text-decoration: none; border: 1px solid rgb(119, 119, 119); cursor: pointer;">18</td><td id="cv23" style="width: 18px; height: 18px; background: rgb(255, 255, 255); font: 10px Arial; color: rgb(51, 51, 51); text-align: center; text-decoration: none; border: 1px solid rgb(119, 119, 119); cursor: pointer;">19</td><td id="cv24" style="width: 18px; height: 18px; background: rgb(255, 255, 255); font: 10px Arial; color: rgb(51, 51, 51); text-align: center; text-decoration: none; border: 1px solid rgb(119, 119, 119); cursor: pointer;">20</td><td id="cv25" style="width: 18px; height: 18px; background: rgb(255, 255, 255); font: 10px Arial; color: rgb(51, 51, 51); text-align: center; text-decoration: none; border: 1px solid rgb(119, 119, 119); cursor: pointer;">21</td><td id="cv26" style="width: 18px; height: 18px; background: rgb(255, 255, 255); font: 10px Arial; color: rgb(51, 51, 51); text-align: center; text-decoration: none; border: 1px solid rgb(119, 119, 119); cursor: pointer;">22</td><td id="cv27" style="width: 18px; height: 18px; background: rgb(255, 255, 255); font: 10px Arial; color: rgb(51, 51, 51); text-align: center; text-decoration: none; border: 1px solid rgb(119, 119, 119); cursor: pointer;">23</td><td id="cv28" style="width: 18px; height: 18px; background: rgb(255, 255, 255); font: 10px Arial; color: rgb(51, 51, 51); text-align: center; text-decoration: none; border: 1px solid rgb(119, 119, 119); cursor: pointer;">24</td></tr><tr><td id="cv29" style="width: 18px; height: 18px; background: rgb(255, 255, 255); font: 10px Arial; color: rgb(51, 51, 51); text-align: center; text-decoration: none; border: 1px solid rgb(119, 119, 119); cursor: pointer;">25</td><td id="cv30" style="width: 18px; height: 18px; background: rgb(255, 255, 255); font: 10px Arial; color: rgb(51, 51, 51); text-align: center; text-decoration: none; border: 1px solid rgb(119, 119, 119); cursor: pointer;">26</td><td id="cv31" style="width: 18px; height: 18px; background: rgb(255, 255, 255); font: 10px Arial; color: rgb(51, 51, 51); text-align: center; text-decoration: none; border: 1px solid rgb(119, 119, 119); cursor: pointer;">27</td><td id="cv32" style="width: 18px; height: 18px; background: rgb(255, 255, 255); font: 10px Arial; color: rgb(51, 51, 51); text-align: center; text-decoration: none; border: 1px solid rgb(119, 119, 119); cursor: pointer;">28</td><td id="cv33" style="width: 18px; height: 18px; background: rgb(255, 255, 255); font: 10px Arial; color: rgb(51, 51, 51); text-align: center; text-decoration: none; border: 1px solid rgb(119, 119, 119); cursor: pointer;">29</td><td id="cv34" style="width: 18px; height: 18px; background: rgb(255, 255, 255); font: 10px Arial; color: rgb(51, 51, 51); text-align: center; text-decoration: none; border: 1px solid rgb(119, 119, 119); cursor: pointer;">30</td><td id="cv35" style="width: 18px; height: 18px; background: rgb(255, 255, 255); font: 10px Arial; color: rgb(51, 51, 51); text-align: center; text-decoration: none; border: 1px solid rgb(119, 119, 119); cursor: default;">&nbsp;</td></tr><tr><td id="cv36" style="width: 18px; height: 18px; background: rgb(255, 255, 255); font: 10px Arial; color: rgb(51, 51, 51); text-align: center; text-decoration: none; border: 1px solid rgb(119, 119, 119); cursor: default;">&nbsp;</td><td id="cv37" style="width: 18px; height: 18px; background: rgb(255, 255, 255); font: 10px Arial; color: rgb(51, 51, 51); text-align: center; text-decoration: none; border: 1px solid rgb(119, 119, 119); cursor: default;">&nbsp;</td><td id="cv38" style="width: 18px; height: 18px; background: rgb(255, 255, 255); font: 10px Arial; color: rgb(51, 51, 51); text-align: center; text-decoration: none; border: 1px solid rgb(119, 119, 119); cursor: default;">&nbsp;</td><td id="cv39" style="width: 18px; height: 18px; background: rgb(255, 255, 255); font: 10px Arial; color: rgb(51, 51, 51); text-align: center; text-decoration: none; border: 1px solid rgb(119, 119, 119); cursor: default;">&nbsp;</td><td id="cv40" style="width: 18px; height: 18px; background: rgb(255, 255, 255); font: 10px Arial; color: rgb(51, 51, 51); text-align: center; text-decoration: none; border: 1px solid rgb(119, 119, 119); cursor: default;">&nbsp;</td><td id="cv41" style="width: 18px; height: 18px; background: rgb(255, 255, 255); font: 10px Arial; color: rgb(51, 51, 51); text-align: center; text-decoration: none; border: 1px solid rgb(119, 119, 119); cursor: default;">&nbsp;</td><td id="cv42" style="width: 18px; height: 18px; background: rgb(255, 255, 255); font: 10px Arial; color: rgb(51, 51, 51); text-align: center; text-decoration: none; border: 1px solid rgb(119, 119, 119); cursor: default;">&nbsp;</td></tr><tr><td colspan="7" align="center" style="cursor:pointer;font:13px Arial;background:#AAA" onclick="today()">Сегодня: 12.09.2023</td></tr></tbody></table>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link href="./CRM_files/bootstrap.min.css" rel="stylesheet">
+<link href="./CRM_files/bootstrap-timepicker.min.css" rel="stylesheet">
+<script src="./CRM_files/jquery-3.6.0.min.js"></script>
+<script src="./CRM_files/popper.min.js"></script>
+<script src="./CRM_files/bootstrap.min.js"></script>
+<script src="./CRM_files/bootstrap-timepicker.min.js"></script>
+<link rel="stylesheet" href="./CRM_files/font-awesome.min.css">
+<!--
+		<link rel="stylesheet" href="/css/bootstrap-3.3.7/css/bootstrap.min.css">
+		<script src="/css/bootstrap-3.3.7/js/jquery.min.js"></script>
+		<script src="/css/bootstrap-3.3.7/js/bootstrap.min.js"></script>		
+-->
+
+		<!-- DatePicker -->
+		<link href="./CRM_files/bootstrap-datepicker.standalone.min.css" rel="stylesheet">
+		<script src="./CRM_files/bootstrap-datepicker.min.js"></script>
+		<style type="text/css">
+			.datepicker td, .datepicker th {
+				width: 2.5em;
+				height: 1.5em;
+			}
+			.datepicker.dropdown-menu {
+				font-size:14px;
+			}
+	   </style>
+
+
+		<link rel="StyleSheet" href="./CRM_files/vkt_db.css" type="text/css">
+		
+				<script>
+		function ins_text(text,obj,cr="\n") {
+			obj.focus();
+			obj.value=""+obj.value.substr(0,obj.selectionStart)+text+""+obj.value.substr(obj.selectionStart,obj.value.length-obj.selectionStart)+cr;
+			obj.focus();
+			pos=obj.value.length; //obj.selectionStart;
+			obj.setSelectionRange(pos,pos);
+		}
+		function block(id) {
+			//alert(id);
+			if (document.getElementById(id).style.display == "none") {
+				document.getElementById(id).style.display = "block";
+			} else {
+				document.getElementById(id).style.display = "none";
+			}
+		}
+		function setAllCheckboxes(divId, sourceCheckbox) {
+			divElement = document.getElementById(divId);
+			inputElements = divElement.getElementsByTagName('input');
+			for (i = 0; i < inputElements.length; i++) {
+				if (inputElements[i].type != 'checkbox')
+				continue;
+				inputElements[i].checked = sourceCheckbox.checked;
+			}
+		}
+		function wopen(url) {
+			w1=window.open(url, "w1", "left=200,top=100,width=800,height=900");
+		}
+		function wopen_s(url) {
+			w1=window.open(url, "w1", "left=300,top=200,width=600,height=600");
+		}
+		function wopen_1(url) {
+			w1=window.open(url, "w2", "left=300,top=120,width=800,height=800");
+		}
+		</script>
+		
+		
+		
+		<div class="container-fluid">
+		<div><a href="https://for16.ru/d/1000/cp.php?view=yes&amp;filter=reg" class="" target="">в задачи</a>
+						<!--<span style='margin-left:10px; color:#555;' > инструкция по работе <a href='https://youtu.be/BI6LaR-nlgs' class='' target='_blank'>на youtube</a></span>-->
+						<span style="margin-left:10px; color:#555;"><a href="https://help.winwinland.ru/docs/lichnyy-kabinet/kartochka-klienta" class="" target="_blank"><i class="fa fa-question-circle"></i></a></span>
+						&nbsp;&nbsp; <span class="badge badge-info">оплачено до: 21.07.2024</span> <span></span><a href="https://for16.ru/d/1000/billing_pay.php" class="" target="">продлить</a>
+			</div>		<div>
+<!--
+			<span class='badge badge-' > </span>&nbsp;
+			<span class='badge badge-warning' >Время контроля не установлено</span>
+-->
+<!--
+			<a href='?uid=-7727&window_close=yes' class='' target='' title='Закрыть (оставить в задачах, и сделать просмотренным у клиента в вк)'><button class='btn btn-primary mar3' >Закрыть</button></a>
+			<a href='?uid=-7727&mark_as_read=yes' class='' target='' title='Закрыть и убрать из задач'><button class='btn btn-primary mar3' >Закрыть и убрать из задач</button></a>
+-->
+		</div>
+		<form>
+		<div class="" style="display: flex; flex-wrap: wrap;">
+			<button type="submit" name="to_0min" value="yes" class="btn btn-info btn-sm ml-1">Сейчас</button>
+<!--
+			<a href='?uid=-7727&to_15min=yes' class='' target=''><button class='btn btn-info mar3' >На 15 мин</button></a>
+			<a href='?uid=-7727&to_1hour=yes' class='' target=''><button class='btn btn-info mar3' >На час</button></a>
+			<a href='?uid=-7727&to_3hour=yes' class='' target=''><button class='btn btn-info mar3' >На 3 часа</button></a>
+-->
+			<button type="submit" name="to_tomorrow" value="yes" class="btn btn-info btn-sm ml-1">На завтра</button>
+<!--
+			<a href='?uid=-7727&to_2days=yes' class='' target=''><button class='btn btn-info mar3' >На 2 дня</button></a>
+-->
+			<button type="submit" name="to_1week" value="yes" class="btn btn-info btn-sm ml-1">На неделю</button>
+			<button type="submit" name="to_month" value="yes" class="btn btn-info btn-sm ml-1">На месяц</button>
+
+			<input type="text" id="__dt_delay_1" name="dt_delay" value="12.09.2023" class="form-control text-center" style="display:inline_;width:140px;">
+			<input type="time" id="__hi_delay" name="hi_delay" value="23:28" class="form-control text-center" data-input="" style="display:inline_;width:120px;">
+			<input type="hidden" name="uid" value="-7727">
+			<button type="submit" name="dt_hi_delay_set" value="yes" class="btn btn-primary btn-sm">Уст</button>
+			<button type="submit" name="clr_delay" value="yes" class="btn btn-info btn-sm ml-1">Забыть</button>
+		</div>
+		</form>
+			<script>
+				$("#__dt_delay_1").datepicker({
+					weekStart: 1,
+					daysOfWeekHighlighted: "6,0",
+					autoclose: true,
+					todayHighlight: true,
+					format: 'dd.mm.yyyy',
+					language: 'ru',
+					timeFormat: "HH:mm",
+					showTime: true,
+					showMinute: true,
+					showSecond: false,
+					showMillisec: false,
+					timeSeparator: ":",
+				}).on('show', function() {
+					  if ($(this).val() == "00.00.0000") {
+						$(this).datepicker('update', '12.09.2023');  
+					  }
+					});
+			</script>
+		<form action="https://for16.ru/d/1000/msg.php?uid=-7727" class="form-inline"> <div class="alert alert-success">Клиента рекомендовал: <span class="p-3 bg-info text-white">partner_105 ( Вайсман Анна )</span> <select class="form-control" name="sel_user_id"><option value="0"> - не назначено - </option><option value="100">Ксения Самоделкина   (partner_100)</option><option value="101">Евгения   (partner_101)</option><option value="102">Максим Никитинский   (partner_102)</option><option value="103">Жанна Н  (partner_103)</option><option value="104">Николай  (partner_104)</option><option value="105" selected="">Вайсман Анна   (partner_105)</option><option value="106">Максим Дутов  (partner_106)</option><option value="107">Юлия Давыдова (partner_107)</option><option value="108">Валерия Логинова (partner_108)</option><option value="109">Сергей Савченко  (partner_109)</option><option value="110">Аматханов Давут  (partner_110)</option><option value="111">Анастасия Смолина  (partner_111)</option><option value="12">Vlad Apex (partner_12)</option><option value="14">Андрей Терешков (partner_14)</option><option value="20">Frau AnNa  (partner_20)</option><option value="21">Михаил Талалай (partner_21)</option><option value="22">Ольга Караханова (partner_22)</option><option value="23">Елизавета Йога (partner_23)</option><option value="26">Глеб FREEDOM (partner_26)</option><option value="31">Яна  (partner_31)</option><option value="32">Артём   (partner_32)</option><option value="33">Анна Смирнова Anna Smirnova|Аромастилист - коу (partner_33)</option><option value="34">Артём Забалуев (partner_34)</option><option value="35">Владимир Таранюк (partner_35)</option><option value="36">Оксана МОСТ  (partner_36)</option><option value="37">Игорь Высоцкий (partner_37)</option><option value="39">79139465831  (partner_39)</option><option value="40">Сергей   (partner_40)</option><option value="41">Мария  (partner_41)</option><option value="42">Сергей  (partner_42)</option><option value="43">Сергей  (partner_43)</option><option value="44">Алена Шигапова (partner_44)</option><option value="46">Оксана Лисицина (partner_46)</option><option value="47">Светлана   (partner_47)</option><option value="48">Анна IT + MarvelPrint (partner_48)</option><option value="49">Надежда Сорова (partner_49)</option><option value="50">Надежда Абаляева (partner_50)</option><option value="52">ТОНЯ НИКОЛАЕВА (partner_52)</option><option value="53">Венера  (partner_53)</option><option value="54">Елена ГРБ (partner_54)</option><option value="55">Андрей Ибрагимов (partner_55)</option><option value="56">Роман  (partner_56)</option><option value="57">Михаил Талалай (2) (partner_57)</option><option value="58">Оксана Лисицина (partner_58)</option><option value="60">Алина Петрова (partner_60)</option><option value="61">Евтухов Евгений  (partner_61)</option><option value="62">Дарина Богданова   (partner_62)</option><option value="63">Евланов Денис   (partner_63)</option><option value="64">Дарья Фризман (partner_64)</option><option value="65">Александр Зубарев  (partner_65)</option><option value="66">Марина Анатольевна Корчагина  (partner_66)</option><option value="67">Мандричко   (partner_67)</option><option value="68">Сергей  (partner_68)</option><option value="69">Дмитрий Манаков  (partner_69)</option><option value="70">Волков Николай  (partner_70)</option><option value="71">Мария  (partner_71)</option><option value="72">Дмитрий   (partner_72)</option><option value="73">Сергей Лукин   (partner_73)</option><option value="74">Люба Маркович (partner_74)</option><option value="75">Антон Перелыгин  (partner_75)</option><option value="76">Александр Шамин  (partner_76)</option><option value="77">Елена Серавина  (partner_77)</option><option value="79">TEST  (partner_79)</option><option value="8">Владимир Авштолис (partner_8)</option><option value="80">Лариса Скородумова   (partner_80)</option><option value="81">Анастасия   (partner_81)</option><option value="82">Виталий Рублевский  (partner_82)</option><option value="83">Сидоркина   (partner_83)</option><option value="84">Антон Неутов (partner_84)</option><option value="85">ю  (partner_85)</option><option value="86">Анна Тибилова  (partner_86)</option><option value="87">Анна  (partner_87)</option><option value="88">Владимир Торяник  (partner_88)</option><option value="89">Алексей Беляков  (partner_89)</option><option value="90">Гордеюк Анна   (partner_90)</option><option value="91">Евгений Чудаков  (partner_91)</option><option value="92">Илья  (partner_92)</option><option value="93">Юлия  (partner_93)</option><option value="94">Ульяна Волшебная   (partner_94)</option><option value="95">Анна Настольная игра (partner_95)</option><option value="96">Евгения Татаева (Квартальный) (partner_96)</option><option value="97">Ольга  (partner_97)</option><option value="98">Ольга Перелыгина  (partner_98)</option><option value="99">Белова Юлия   (partner_99)</option><option value="3">Юлия Авштолис (julia)</option><option value="1">Владимир Авш (vlav)</option></select><button type="submit" name="ch_user_id" value="yes" class="btn btn-primary "><span class="fa fa-save" title="Изменить"></span></button> <button type="submit" name="ch_user_id_clr" value="yes" class="btn btn-secondary btn-sm"><span class="fa fa-remove" title="Очистить"></span></button></div></form><div class="alert alert-info"><form action="https://for16.ru/d/1000/msg.php?uid=-7727" class="form-inline">
+			<input type="checkbox" name="head_control_chk">
+			<input type="text" name="head_control_comm" class="form-control" style="width:80%;" value="">
+			<button class="btn btn-primary" type="submit" name="head_control_set" value="yes"><span class="fa fa-save"></span></button>
+			<button class="btn btn-warning" type="submit" name="head_control_clr" value="yes"><span class="fa fa-remove"></span></button>
+			</form></div>
+
+<!--uid_info-->
+<div class="collapse" id="ch_new_uid"><form>
+				<input type="text" name="new_uid" value="-7727">
+				<input type="submit" name="do_ch_new_uid" value="Go">
+			</form></div>
+
+<div class="card bg-light card bg-light-sm">
+			<div class="media"><div class="collapse" id="setname"><form>
+				<input type="text" name="fname" value="Людмила">
+				<input type="text" name="lname" value="">
+				<input type="submit" name="do_ch_name" value="Изм.">
+				</form></div><div class="media-left">
+</div>
+<div class="media-body">
+<p><b><a href="https://for16.ru/d/1000/msg.php?uid=-7727#" class="" data-toggle="collapse" data-target="#ch_new_uid" target="">-7727</a></b> <span class="badge badge-warning">a124363d20b9e2a34c2b28b710a16f01</span></p>
+<p class="font24"><b><a href="https://for16.ru/d/1000/msg.php?uid=-7727#" class="" data-toggle="collapse" data-target="#setname" target="">Людмила<br> </a></b></p>
+<p><a href="https://t.me/Lud8mila" class="" target="_blank"><img src="./CRM_files/tg-48.png"> Lud8mila</a></p>
+			
+			<dl class="dl-horizontal">
+				<!--<dt>bdate</dt><dd></dd>
+				<dt>Sex</dt><dd></dd>
+				<dt>City</dt><dd></dd>
+				<dt>Status</dt><dd></dd>
+				<dt>СООБЩЕНИЯ</dt><dd><div></div></dd>-->
+																			</dl>
+			<dl class="dl-horizontal " style="padding:2px;">
+<dt>UTM</dt><dd></dd>
+</dl>
+<div class=""></div>
+<div class="" id="tm_pay_section"></div>
+<div class="badge badge-warning">Покупок не было</div>
+<a class="btn btn-info" href="javascript:wopen_1(&quot;discount.php?uid=-7727&quot;)">Спеццена</a>&nbsp;<a class="btn btn-primary" href="javascript:wopen_1(&quot;pay_cash.php?uid=-7727&quot;)">Провести оплату</a>&nbsp;<a class="btn btn-warning" href="javascript:wopen_1(&quot;partner.php?uid=-7727&quot;)">Сделать партнером</a></div></div>
+		</div>
+		
+
+<!--/uid_info-->
+<script>
+			var arr_opt={
+			17: {
+						dt: '13.09.2023',
+						dt_readonly:'readonly',
+						tm_arr: {
+							'1694613600' : '13.09.2023 17:00' ,
+							'1694700000' : '14.09.2023 17:00' ,
+							'1694786400' : '15.09.2023 17:00' ,
+							'1694872800' : '16.09.2023 17:00' ,
+						}
+					},
+				}
+			</script>
+
+<!--scheduling-->
+		<div class="card p-3">
+			<div id="scdl_hdr" class="card p-1" data-toggle="collapse" data-target="#scdl_panel" style="background-color:#EEE;">
+				<a href="javascript:void(0);" style="background-color:#EEE;">Расписание</a>
+			</div>
+			<form class="form-inline">
+			<div class="collapse" id="scdl_panel">
+							<div class="card bg-light m-1 bg-light-sm">
+				<div>
+							<input type="radio" class="form-check-input" value="17" id="scdl_web_17" t_web="(17) Вебинар TEST" name="scdl_web_radio"> (17) Вебинар TEST
+						</div>				</div>
+
+				<div class="form-group" id="scdl_opts_dt">
+<!--
+					<label for='scdl_dt'>Дата</label>
+					<input id='scdl_dt'  class='form-control' type='text' style='background-color:#EEE;' name='dt' value='12.09.2023 23:29' >
+-->
+				</div>
+
+				<div class="card p-1" id="scdl_opts">
+									</div>
+
+				<input type="hidden" id="scdl_funnel" value="0">				
+				<input type="hidden" name="klid" value="7735">
+				<input type="hidden" name="uid" value="-7727">
+				<input type="hidden" name="acc_id" value="2">
+				&nbsp;&nbsp;
+				<input type="hidden" id="scdl_dt" value="0">
+				<input type="submit" class="btn btn-success" name="do_scdl" value="Записать" uid="-7727" id="scdl_set" onclick="return(false);">&nbsp;&nbsp;
+				<input type="submit" class="btn btn-warning" name="do_scdl_del" value="Убрать" uid="-7727" id="scdl_clr" onclick="return(false);">
+						</div>
+			</form>
+		</div>
+
+		<script>
+							$("#scdl_web_17").click(function(){
+					console.log(arr_opt[17].tm_arr);
+
+					//scdl_opts_dt.innerHTML="<input id='scdl_dt'  class='form-control' type='text' name='dt'  value='"+arr_opt[17].dt+"' "+arr_opt[17].dt_readonly+" >";
+
+					var h="";
+					for (var key in arr_opt[17].tm_arr) {
+						let val=arr_opt[17].tm_arr[key];
+					  //scdl_opts.innerHTML=key + ": " + arr_opt[17].tm_arr[key];
+					  console.log("val="+val);
+					  h+="<div class='form-check-inline px-3'>"+
+						"<badge class='form-check-badge'>"+
+						"<input type='radio' class='form-check-input' value='"+key+"' id='scdl_time_"+key+"' t='"+val+"' name='scdl_radio'> "+val+
+					  "</badge>"+
+					"</div>\n";
+					}
+					scdl_opts.innerHTML=h;
+				});
+						</script>
+		
+		<!--/scheduling-->
+		<div class="card bg-light p-3" id="send_form"><div class="collapse_ card ml-2" id="comment"><div class="form-group m0" style=""><badge class="control-badge" for="comm">комментарий 1:</badge><textarea id="comm" class="form-control" name="comm" rows="5"></textarea></div><div class="form-group m0"><badge class="control-badge" for="comm1">комментарий 2:</badge><textarea id="comm1" class="form-control" name="comm1" rows="3"></textarea></div><div class="form-group m0" style=""><badge class="control-badge" for="tel">телефон: </badge>  <input id="tel" class="form-control" type="text" name="tel" value="79062297868"></div><div class="form-group m0" style=""><badge class="control-badge" for="email">email: <a href="javascript:wopen_1(&quot;merge_cards.php?uid=-7727&quot;)" class="" target=""><button class="btn btn-sm btn-default">объединить с другим</button></a></badge><input id="email" class="form-control" type="text" name="email" value=""></div><div class="form-group m0"><badge class="control-badge" for="s_comm">&nbsp;</badge><input id="s_comm" type="submit" user_id="1" class="btn btn-danger" name="do_edit_comm" value="Записать" uid="-7727" onclick="return(false);"></div></div>
+
+<!--SEND FORM-->
+
+			<form class="form-horizontal" name="f1" method="POST" action="https://for16.ru/d/1000/msg.php?uid=-7727#send_form">
+
+
+<!--/friend_status-->
+
+
+<!--print_templates-->
+<div class=""><a href="javascript:ins_text(&quot;a124363d20b9e2a34c2b28b710a16f01&quot;,f1.msg);void(0);" class="btn btn-primary btn-sm" style="margin:2px;">#uid</a><a href="javascript:ins_text(&quot;https://www.youtube.com/watch?v=-J90ATN36RY&quot;,f1.msg);void(0);" class="btn btn-primary btn-sm" style="margin:2px;">ВИДЕО </a><a href="javascript:ins_text(&quot;
+https://www.youtube.com/watch?v=Hc-oxo_OZoU&amp;feature=youtu.be&quot;,f1.msg);void(0);" class="btn btn-primary btn-sm" style="margin:2px;">ВИДЕО ПРИЕМ ОПЛАТ</a><a href="javascript:ins_text(&quot;https://winwinland.ru/consult/?uid=a124363d20b9e2a34c2b28b710a16f01&quot;,f1.msg);void(0);" class="btn btn-primary btn-sm" style="margin:2px;">ЗАПИСЬ НА КОНСУЛЬТАЦИЮ</a><a href="javascript:ins_text(&quot;https://winwinland.ru/?uid=a124363d20b9e2a34c2b28b710a16f01&quot;,f1.msg);void(0);" class="btn btn-primary btn-sm" style="margin:2px;">Лэндинг 2</a><a href="javascript:ins_text(&quot;https://winwinland.ru/?bc=1002#partner-section&quot;,f1.msg);void(0);" class="btn btn-primary btn-sm" style="margin:2px;">Партнерка WWL</a><a href="javascript:ins_text(&quot;{%partner_link%}&quot;,f1.msg);void(0);" class="btn btn-primary btn-sm" style="margin:2px;">Партнерская ссылка</a><a href="javascript:ins_text(&quot;https://t.me/vkt_support_bot?start=a124363d20b9e2a34c2b28b710a16f01&quot;,f1.msg);void(0);" class="btn btn-primary btn-sm" style="margin:2px;">Подписка на ТГ бот WWL</a><a href="javascript:ins_text(&quot;https://t.me/winwinland_ru&quot;,f1.msg);void(0);" class="btn btn-primary btn-sm" style="margin:2px;">ТГ канал</a><a href="javascript:ins_text(&quot;ИМЯ, здравствуйте! Меня зовут Антонина, хотела бы пообщаться с вами по поводу сотрудничества, давайте обсудим?&quot;,f1.msg);void(0);" class="btn btn-primary btn-sm" style="margin:2px;">ТОНЯ 1</a><a href="javascript:ins_text(&quot;Смотрите, я являюсь руководителем отдела по работе с партнерами ООО ВИНВИНЛЭНД. У нас онлайн платформа для экспертов и предпринимателей.
+
+У вас имеется база людей, которым вы можете нас порекомендовать. Условия выгодные, вознаграждение за рекомендацию 40%, причем деньгами, скинуть вам информацию? Либо есть вариант созвониться и я лично вам все расскажу, как вам будет удобнее?&quot;,f1.msg);void(0);" class="btn btn-primary btn-sm" style="margin:2px;">ТОНЯ 2</a><a href="javascript:ins_text(&quot;&quot;,f1.msg,&quot;&quot;);void(0);" class="btn btn-info btn-sm" style="margin:2px;">ИМЯ</a><a href="javascript:wopen_1(&quot;sales_script_items.php?sid=9&amp;view=yes&amp;uid=-7727&quot;)" class="btn btn-warning btn-sm" style="margin:2px;">ДЛЯ ТОНИ</a><a href="javascript:wopen_1(&quot;sales_script_items.php?sid=11&amp;view=yes&amp;uid=-7727&quot;)" class="btn btn-warning btn-sm" style="margin:2px;">Мероприятия</a><a href="javascript:wopen_1(&quot;sales_script_items.php?sid=10&amp;view=yes&amp;uid=-7727&quot;)" class="btn btn-warning btn-sm" style="margin:2px;">ПЛАТЕЖИ</a><a href="javascript:wopen_1(&quot;sales_script_items.php?sid=12&amp;view=yes&amp;uid=-7727&quot;)" class="btn btn-warning btn-sm" style="margin:2px;">ТЕСТ</a></div>
+
+<!--/print_templates-->
+<textarea id="msg_textarea" name="msg" rows="5" class="form-control"></textarea>
+<!--
+				<script type="text/javascript">
+					$( "#msg_textarea" ).emojionePicker({type : "unicode", pickerTop : 2, pickerRight : 2});
+				</script>
+-->
+				<input type="hidden" name="uid" value="-7727">
+<input type="hidden" name="acc_id" value="2">
+<div class=""><button type="submit" disabled="" class="btn btn-primary" name="do_send_msg" value="vk"> ВК </button>
+<button type="submit" disabled="" class="btn btn-warning" name="do_send_email" value="send_email">Email</button>
+<button type="submit" class="btn btn-success" name="do_send_wa" value="send_wa">Whatsapp</button>
+<button type="submit" class="btn btn-info" name="do_send_tg" value="send_tg">Telegram</button>
+<button type="submit" class="btn btn-danger btn-sm" name="do_send_tg_test" value="send_tg_test">test</button>
+</div></form>
+<!--/SEND FORM-->
+
+</div><div class="card bg-light p-3">		<div>
+<!--
+			<span class='badge badge-' > </span>&nbsp;
+			<span class='badge badge-warning' >Время контроля не установлено</span>
+-->
+<!--
+			<a href='?uid=-7727&window_close=yes' class='' target='' title='Закрыть (оставить в задачах, и сделать просмотренным у клиента в вк)'><button class='btn btn-primary mar3' >Закрыть</button></a>
+			<a href='?uid=-7727&mark_as_read=yes' class='' target='' title='Закрыть и убрать из задач'><button class='btn btn-primary mar3' >Закрыть и убрать из задач</button></a>
+-->
+		</div>
+		<form>
+		<div class="" style="display: flex; flex-wrap: wrap;">
+			<button type="submit" name="to_0min" value="yes" class="btn btn-info btn-sm ml-1">Сейчас</button>
+<!--
+			<a href='?uid=-7727&to_15min=yes' class='' target=''><button class='btn btn-info mar3' >На 15 мин</button></a>
+			<a href='?uid=-7727&to_1hour=yes' class='' target=''><button class='btn btn-info mar3' >На час</button></a>
+			<a href='?uid=-7727&to_3hour=yes' class='' target=''><button class='btn btn-info mar3' >На 3 часа</button></a>
+-->
+			<button type="submit" name="to_tomorrow" value="yes" class="btn btn-info btn-sm ml-1">На завтра</button>
+<!--
+			<a href='?uid=-7727&to_2days=yes' class='' target=''><button class='btn btn-info mar3' >На 2 дня</button></a>
+-->
+			<button type="submit" name="to_1week" value="yes" class="btn btn-info btn-sm ml-1">На неделю</button>
+			<button type="submit" name="to_month" value="yes" class="btn btn-info btn-sm ml-1">На месяц</button>
+
+			<input type="text" id="__dt_delay_2" name="dt_delay" value="12.09.2023" class="form-control text-center" style="display:inline_;width:140px;">
+			<input type="time" id="__hi_delay" name="hi_delay" value="23:29" class="form-control text-center" data-input="" style="display:inline_;width:120px;">
+			<input type="hidden" name="uid" value="-7727">
+			<button type="submit" name="dt_hi_delay_set" value="yes" class="btn btn-primary btn-sm">Уст</button>
+			<button type="submit" name="clr_delay" value="yes" class="btn btn-info btn-sm ml-1">Забыть</button>
+		</div>
+		</form>
+			<script>
+				$("#__dt_delay_2").datepicker({
+					weekStart: 1,
+					daysOfWeekHighlighted: "6,0",
+					autoclose: true,
+					todayHighlight: true,
+					format: 'dd.mm.yyyy',
+					language: 'ru',
+					timeFormat: "HH:mm",
+					showTime: true,
+					showMinute: true,
+					showSecond: false,
+					showMillisec: false,
+					timeSeparator: ":",
+				}).on('show', function() {
+					  if ($(this).val() == "00.00.0000") {
+						$(this).datepicker('update', '12.09.2023');  
+					  }
+					});
+			</script>
+		</div><div class="card bg-light card bg-light-sm"><form method="GET" name="f_tm_delay" action="https://for16.ru/d/1000/msg.php?uid=-7727#send_form"><span id="chk_cp_badge" class="badge" style="background-color:#dff0d8;"><input type="checkbox" id="chk_cp" uid="-7727"></span>  <span class="badge" style="color:#FFF; background-color:#FFA500;" title="отметить / снять отметку">A <input type="radio" name="chk" value="3" id="7735"></span>   <span class="badge" style="color:#FFF; background-color:#008000;" title="отметить / снять отметку">B <input type="radio" name="chk" value="2" id="7735"></span>   <span class="badge" style="color:#FFF; background-color:#E3E32B;" title="отметить / снять отметку">C <input type="radio" name="chk" value="1" id="7735"></span>   <span class="badge" style="color:white; background-color:#A52A2A;" title="отметить / снять отметку">D <input type="radio" name="chk" value="4" checked="" id="7735"></span>   <span class="badge" style="background-color:#7a2149;color:#FFFFFF;" title="отметить / снять отметку">L4 <input type="radio" name="chk" value="33" id="7735"></span>   <span class="badge" style="color:#FFF; background-color:#1818A9" title="отметить / снять отметку">Other <input type="radio" name="chk" value="5" id="7735"></span>   <span class="badge" style="background-color:#4a175a;color:#FFFFFF;" title="отметить / снять отметку">TEST <input type="radio" name="chk" value="34" id="7735"></span>   <span class="badge" style="background-color:#074a6a;color:#FFFFFF;" title="отметить / снять отметку">КОНТРОЛЬ <input type="radio" name="chk" value="36" id="7735"></span>   <span class="badge" style="background-color:#7f1b55;color:#FFFFFF;" title="отметить / снять отметку">Переговоры по продаже <input type="radio" name="chk" value="6" id="7735"></span>   <span class="badge" style="background-color:#723a24;color:#FFFFFF;" title="отметить / снять отметку">Работа <input type="radio" name="chk" value="32" id="7735"></span>   <span class="badge" style="background-color:#0c6023;color:#FFFFFF;" title="отметить / снять отметку">Ручная регистрация <input type="radio" name="chk" value="35" id="7735"></span> 
+			</form>
+			
+			
+
+			</div>	
+		<div class="card bg-light p-3">
+			<div class="container mt-3">
+				<form id="tag-form" class="form-inline">
+				<div class="form-group mr-2">
+					<label for="tag-name" class="mr-1">Название</label>
+					<input type="text" class="form-control form-control-sm" id="tag-name" name="tag_name" required>
+				</div>
+				<div class="form-group position-relative">
+					<label class="mr-1">Цвет</label>
+					<div class="d-flex align-items-center">
+					<button type="button" id="color-picker-toggle" class="btn btn-secondary btn-sm mb-2">Выбрать цвет</button>
+					<div id="selected-color" class="ml-2" style="width: 15px; height: 15px; background-color: #000000;"></div>
+					</div>
+					<div id="color-dropdown" class="dropdown-menu" style="display: none; width: 200px;">
+					</div>
+					<input type="hidden" id="tag-color" name="tag_color" value="#000000" required>
+				</div>
+				<button type="submit" class="btn btn-primary btn-sm ml-2">Создать тэг</button>
+				</form>
+				<div id="existing-tags" class="mt-3">
+				<h5 class="h6">Тэги</h5>
+				</div>
+			</div>
+		</div>
+
+		<script>
+			function ins_text1(text,obj) {
+				obj.focus();
+				obj.value=""+obj.value.substr(0,obj.selectionStart)+text+""+obj.value.substr(obj.selectionStart,obj.value.length-obj.selectionStart)+cr;
+				obj.focus();
+				pos=obj.value.length; //obj.selectionStart;
+				obj.setSelectionRange(pos,pos);
+			}
+		</script>
+				<script>
+			function ins_text1(text,obj) {
+				obj.focus();
+				obj.value=""+obj.value.substr(0,obj.selectionStart)+text+""+obj.value.substr(obj.selectionStart,obj.value.length-obj.selectionStart)+cr;
+				obj.focus();
+				pos=obj.value.length; //obj.selectionStart;
+				obj.setSelectionRange(pos,pos);
+			}
+		</script>
+		<hr class="bg-info"><div class="card" style="background-color:#EEEEEE;" data-uid="1">
+							<div class="d-flex">
+								<div class="d-flex flex-column bg-light p-3">
+									<div class="badge badge-warning p-2 bg-warning">n/a</div>
+									<div class="badge badge-info p-2 bg-info">сегодня<br>22:29</div>
+									<div class="badge badge-secondary p-2 bg-secondary">0</div>
+								</div>
+								<div class="pl-3">
+									Специалист по недвижимости 
+									<div class="dropdown">
+										<button type="button" class="btn btn-secondary btn-sm mb-2 assign-tag-btn dropdown-toggle" data-toggle="dropdown">Присвоить тэг</button>
+										<div class="dropdown-menu" style="max-height: 200px; overflow-y: auto;">
+										</div>
+									</div>
+									<div class="tag-list">
+									</div>
+								</div>
+							</div>
+			
+							</div><div class="card" style="background-color:#EEEEEE;" data-uid="2">
+								<div class="d-flex">
+									<div class="d-flex flex-column bg-light p-3">
+										<div class="badge badge-warning p-2 bg-warning">n/a</div>
+										<div class="badge badge-info p-2 bg-info">сегодня<br>22:29</div>
+										<div class="badge badge-secondary p-2 bg-secondary">1025</div>
+									</div>
+									<div class="pl-3">Анна Вайсман рекомендует
+
+										<div class="dropdown">
+											<button type="button" class="btn btn-secondary btn-sm mb-2 assign-tag-btn dropdown-toggle" data-toggle="dropdown">Присвоить тэг</button>
+											<div class="dropdown-menu" style="max-height: 200px; overflow-y: auto;">
+											</div>
+										</div>
+										<div class="tag-list">
+										</div>
+									</div>
+								</div>
+							</div><div class="card" style="background-color:#EEEEEE;" data-uid="3">
+								<div class="d-flex">
+									<div class="d-flex flex-column bg-light p-3">
+										<div class="badge badge-warning p-2 bg-warning">n/a</div>
+										<div class="badge badge-info p-2 bg-info">сегодня<br>22:29</div>
+										<div class="badge badge-secondary p-2 bg-secondary">12</div>
+									</div>
+									<div class="pl-3">⭐ Регистрация с лэндинга: 25
+
+										<div class="dropdown">
+											<button type="button" class="btn btn-secondary btn-sm mb-2 assign-tag-btn dropdown-toggle" data-toggle="dropdown">Присвоить тэг</button>
+											<div class="dropdown-menu" style="max-height: 200px; overflow-y: auto;">
+											</div>
+										</div>
+										<div class="tag-list">
+										</div>
+									</div>
+								</div>
+							</div><div class="card" style="background-color:#D9EDF7" data-uid="4">
+							<div class="d-flex">
+								<div class="d-flex flex-column bg-light p-3">
+								<div class="badge badge-light p-2 "><div class=""><img src="./CRM_files/tg-48.png"></div></div>
+								<div class="badge badge-warning p-2 bg-warning">n/a</div>
+								<div class="badge badge-info p-2 bg-info">сегодня<br>15:46</div>
+							</div>
+							<div class="pl-3">Людмила, рады приветствовать.<br>
+✅ Наш менеджер свяжется с вами и ответит на все вопросы по усилению сарафанного радио и увеличению продаж.<br>
+<br>
+1️⃣ Присоединяйтесь к чату ВИНВИНЛЭНД -  <a href="https://t.me/winwinland_chat" target="_blank">https://t.me/winwinland_chat</a><br>
+<br>
+2️⃣ Рабочую тетрадь "174 способа низкобюджетного маркетинга" можно скачать по ссылке:  <a href="https://winwinland.ru/pdf/low_cost_marketing.pdf" target="_blank">https://winwinland.ru/pdf/low_cost_marketing.pdf</a><br>
+<br>
+🔸<br>
+<br>
+
+
+<div class="dropdown">
+	<button type="button" class="btn btn-secondary btn-sm mb-2 assign-tag-btn dropdown-toggle" data-toggle="dropdown">Присвоить тэг</button>
+	<div class="dropdown-menu" style="max-height: 200px; overflow-y: auto;">
+	</div>
+</div>
+<div class="tag-list">
+</div>
+</div>
+							</div>
+						</div><div class="card" style="background-color:#EEEEEE;" data-uid="5">
+								<div class="d-flex">
+									<div class="d-flex flex-column bg-light p-3">
+										<div class="badge badge-warning p-2 bg-warning">n/a</div>
+										<div class="badge badge-info p-2 bg-info">сегодня<br>15:45</div>
+										<div class="badge badge-secondary p-2 bg-secondary">0</div>
+									</div>
+									<div class="pl-3">Специалист по недвижимости 
+
+										<div class="dropdown">
+											<button type="button" class="btn btn-secondary btn-sm mb-2 assign-tag-btn dropdown-toggle" data-toggle="dropdown">Присвоить тэг</button>
+											<div class="dropdown-menu" style="max-height: 200px; overflow-y: auto;">
+											</div>
+										</div>
+									<div class="tag-list">
+									</div>
+									</div>
+								</div>
+							</div><div class="card" style="background-color:#EEEEEE;" data-uid="6">
+								<div class="d-flex">
+									<div class="d-flex flex-column bg-light p-3">
+										<div class="badge badge-warning p-2 bg-warning">n/a</div>
+										<div class="badge badge-info p-2 bg-info">сегодня<br>15:45</div>
+										<div class="badge badge-secondary p-2 bg-secondary">1025</div>
+									</div>
+									<div class="pl-3">Анна Вайсман рекомендует
+
+										<div class="dropdown">
+											<button type="button" class="btn btn-secondary btn-sm mb-2 assign-tag-btn dropdown-toggle" data-toggle="dropdown">Присвоить тэг</button>
+											<div class="dropdown-menu" style="max-height: 200px; overflow-y: auto;">
+											</div>
+										</div>
+									<div class="tag-list">
+									</div>
+									</div>
+								</div>
+							</div><div class="card" style="background-color:#EEEEEE;" data-uid="7">
+								<div class="d-flex">
+									<div class="d-flex flex-column bg-light p-3">
+										<div class="badge badge-warning p-2 bg-warning">n/a</div>
+										<div class="badge badge-info p-2 bg-info">сегодня<br>15:45</div>
+										<div class="badge badge-secondary p-2 bg-secondary">12</div>
+									</div>
+									<div class="pl-3">⭐ Регистрация с лэндинга: 25
+
+										<div class="dropdown">
+											<button type="button" class="btn btn-secondary btn-sm mb-2 assign-tag-btn dropdown-toggle" data-toggle="dropdown">Присвоить тэг</button>
+											<div class="dropdown-menu" style="max-height: 200px; overflow-y: auto;">
+											</div>
+										</div>
+									<div class="tag-list">
+									</div>
+									</div>
+								</div>
+							</div><div><a href="https://for16.ru/tmp/-7727.html" class="" target="">скачать переписку</a></div>		<script type="text/javascript">
+	//	console.log('test');
+		$("input[name='chk']").change(function(){
+			var id=$(this).attr('id');
+		//	console.log('test'+id);
+		//	console.log('ch_razdel=yes&klid='+id+'&razdel='+this.value+'&uid=-7727&user_id=1&acc_id=2');
+			//setup the ajax call
+			$.ajax({
+				type:'GET',
+				url:'jquery.php',
+				data:'ch_razdel=yes&klid='+id+'&razdel='+this.value+'&uid=-7727&user_id=1&acc_id=2'
+			});
+			window.setTimeout( window.opener.location.reload(), 1000 );
+		});
+		$("#delay_dt").click(function(){
+			$('#accs_all').css("display", "none");
+		});
+		$('#delay_dt').datepicker({
+			weekStart: 1,
+			daysOfWeekHighlighted: "6,0",
+			autoclose: true,
+			todayHighlight: true,
+			format: 'dd.mm.yyyy',
+			language: 'ru',
+		});
+		$("#delay_set").click(function(){
+			$('#accs_all').css("display", "block");
+			var url="delay_set=yes&uid="+$(this).attr('uid')+"&dt="+$("#delay_dt").val();
+		//	console.log(url);
+			$.ajax({
+				type:'GET',
+				url:'jquery.php',
+				data:url,
+				success: function(data){
+					$('#delay_dt').css("background-color", "#aecedd"); //background-color:green; color:white;
+				}				
+			});
+			
+		});
+		$("#delay_clr").click(function(){
+			$('#accs_all').css("display", "block");
+			var url="delay_clr=yes&uid="+$(this).attr('uid');
+		//	console.log(url);
+			$.ajax({
+				type:'GET',
+				url:'jquery.php',
+				data:url,
+				success: function(data){
+					$('#delay_dt').css("background-color", "#D9EDF7"); //background-color:green; color:white;
+					$('#delay_dt').val("");
+				}				
+			});
+			
+		});
+		$("#chk_cp").click(function(){
+			if (!$(this).is(':checked')) {
+				var url="chk_cp=off&uid="+$(this).attr('uid');
+				var c=0;
+			} else {
+				var url="chk_cp=on&uid="+$(this).attr('uid');
+				var c=1;
+			}
+		//	console.log(url);
+			$.ajax({
+				type:'GET',
+				url:'jquery.php',
+				data:url,
+				success: function(data){
+					if (c==1)
+						$('#chk_cp_badge').css("background-color", "#5f9a48");
+					else
+						$('#chk_cp_badge').css("background-color", "#dff0d8");
+				}				
+			});
+			
+		});
+		$("#scdl_set").click(function(){
+			var scdl_opt=$("input[name='scdl_radio']:checked").val();
+			var scdl_web=$("input[name='scdl_web_radio']:checked").val();
+			var scdl_t=$("input[name='scdl_radio']:checked").attr('t');
+			var scdl_t_web=$("input[name='scdl_web_radio']:checked").attr('t_web');
+			var scdl_dt=$("#scdl_dt").val();
+			var scdl_funnel=$("#scdl_funnel").val();
+			var url="scdl_set=yes&uid="+$(this).attr('uid')+"&dt="+scdl_dt+"&scdl_opt="+scdl_opt+"&scdl_web="+scdl_web+"&scdl_funnel="+scdl_funnel;
+			console.log(url);
+			if(scdl_t==null)
+				alert("Не выбрано время эфира!");
+			if(scdl_t_web==null)
+				alert("Не выбран вебинар!");
+			$.ajax({
+				type:'GET',
+				url:'jquery.php',
+				data:url,
+				success: function(data){
+					//$("#scdl_panel").toggle();
+					//location='msg.php?uid=-7727#scdl_hdr';
+				location.reload();
+					//~ $('#scdl_hdr').html('В расписании на : '+scdl_dt+' '+scdl_t+' '+scdl_t_web);
+					//~ $('#scdl_hdr').css("background-color", "green"); //background-color:green; color:white;
+					//~ $('#scdl_hdr').css("color", "white"); //background-color:green; color:white;
+				}				
+			});
+			
+		});
+		$("#scdl_clr").click(function(){
+  			var url="scdl_clr=yes&uid="+$(this).attr('uid');
+		//	console.log(url);
+			$.ajax({
+				type:'GET',
+				url:'jquery.php',
+				data:url,
+				success: function(data){
+					location.reload();
+					$('#scdl_hdr').html('Расписание очищено');
+					$("#scdl_dt").val("");
+				}				
+			});
+			
+		});
+		if(!$('#scdl_dt').prop('readonly')) {
+			$('#scdl_dt').datepicker({
+				weekStart: 1,
+				daysOfWeekHighlighted: "6,0",
+				autoclose: true,
+				todayHighlight: true,
+				format: 'dd.mm.yyyy',
+				language: 'ru',
+			});
+		}
+		$("#s_comm").click(function(){
+			var comm1;
+			if($("#comm1").length > 0)
+				comm1='&comm1='+encodeURI($("#comm1").val()); else comm1="";
+		//	console.log($("#comm1").val());
+		//	console.log("comm1="+comm1);
+			var url="save_comm=yes&uid="+$(this).attr('uid')+'&comm='+encodeURI($("#comm").val())+comm1+'&mob='+$("#tel").val()+'&email='+$("#email").val()+'&touch='+$("#touch").val()+'&insta='+$("#insta").val()+'&user_id='+$(this).attr('user_id');
+			console.log("url= "+url);
+			$.ajax({
+				type:'GET',
+				url:'jquery.php',
+				data:url,
+				success: function(data){
+					//$('#disp_comm').html($("#comm").val().replace(/\n/g,"<br>")+'<br><b>'+$("#comm1").val()+'<br>Mob.: <b>'+$("#tel").val()+'</b>');
+					$('#comm').css("background-color", "#eeeeee");
+					$('#comm1').css("background-color", "#eeeeee");
+					$('#tel').css("background-color", "#eeeeee");
+					$('#email').css("background-color", "#eeeeee");
+					$('#insta').css("background-color", "#eeeeee");
+					$('#touch').css("background-color", "#eeeeee");
+					opener.location.reload();
+				}				
+			});
+			
+		});
+		//$( window ).focusout(function() {
+		$(window).bind("beforeunload", function() { 
+			//console.log('unload');
+			//alert("Пока, пользователь!"); 
+			$.ajax({
+				type:'GET',
+				url:'jquery.php',
+				data:'lock_off=yes&uid=-7727'
+			});
+			//window.setTimeout( window.opener.location.reload(), 1000 );
+			window.setTimeout( window.opener.location="cp.php?view=yes&uid=-7727", 1000 );
+		});		
+
+		//Скрипт для создания тэгов
+
+		$('#tag-form').on('submit', function(e) {
+			e.preventDefault();
+
+			var tagData = {
+				tagName: $('#tag-name').val(),
+				tagColor: $('#tag-color').val()
+			};
+
+			$.ajax({
+				url: 'CRM_files/create_tag.php',
+				type: 'POST',
+				data: JSON.stringify(tagData),
+				contentType: "application/json; charset=utf-8",
+				dataType: "json",
+				success: function(response) {
+					console.log("Data sent successfully");
+					var newTag = $('<span>').addClass('badge').addClass('badge-pill').css('background-color', response.tagColor + 'CC').css('color', '#fff').css('margin-right', '5px').css('text-shadow', "1px 1px 2px rgba(0, 0, 0, 0.5)").text(response.tagName);
+					var deleteButton = $('<button>').html('&#10006;').css('color', '#fff').css('font-size', '10px').css('padding', '0px').css('margin-left', '5px').css('text-shadow', "1px 1px 2px rgba(0, 0, 0, 0.5)").addClass('btn').addClass('btn-link').addClass('delete-tag-btn').attr('data-tag-id', response.id);
+					newTag.append(deleteButton);
+					$('#existing-tags').append(newTag);
+				},
+				error: function(jqXHR, textStatus, errorThrown) {
+					console.log("Error sending data");
+					console.log("Status: " + textStatus);
+					console.log("Error: " + errorThrown);
+					console.log("Response: " + jqXHR.responseText);
+				
+				}
+			});
+		});
+
+		//Скрипт для получения всех тэгов из базы данных
+		const standardColors = [
+			"#000000", "#800000", "#008000", "#808000", "#000080", 
+			"#800080", "#008080", "#c0c0c0", "#808080", "#ff0000", 
+			"#00ff00", "#ffff00", "#0000ff", "#ff00ff", "#00ffff", 
+			"#ADD8E6", "#000000", "#993300", "#333300", "#003300", 
+			"#003366", "#330099", "#333399", "#333333", "#800000", 
+			"#008000", "#808000", "#800080", "#008080", "#000080", 
+			"#666699", "#969696"
+		];
+
+		$(document).ready(function() {
+			const colorDropdown = $('#color-dropdown');
+			standardColors.forEach(function(color) {
+				const colorBox = $('<div>').addClass('color-box').css('background-color', color).click(function() {
+					$('#tag-color').val(color);
+					$('#selected-color').css('background-color', color);
+					colorDropdown.hide();
+				});
+				colorDropdown.append(colorBox);
+			});
+
+			$('#color-picker-toggle').click(function() {
+				colorDropdown.toggle();
+			});
+
+			$(document).on('click', function(event) {
+				if (!$(event.target).closest('#color-picker-toggle, #color-dropdown').length) {
+					$('#color-dropdown').hide();
+				}
+			});
+
+
+			// Получение существующих тэгов из базы данных
+			$.ajax({
+				url: 'CRM_files/fetch_tags.php',
+				type: 'GET',
+				dataType: 'json',
+				success: function(tags) {
+					const existingTagsContainer = $('#existing-tags');
+					tags.forEach(function(tag) {
+					var tagElement = $('<span>').addClass('badge badge-pill').css({
+						backgroundColor: tag.tag_color + 'CC',
+						marginRight: '5px',
+						color: "#fff",
+						textShadow: "1px 1px 2px rgba(0, 0, 0, 0.5)"
+					}).text(tag.tag_name);
+
+					var deleteButton = $('<button>').html('&#10006;').addClass('btn btn-link delete-tag-btn').css({
+						color: '#fff',
+						fontSize: '10px',
+						padding: '0px',
+						marginLeft: '5px',
+						textShadow: "1px 1px 2px rgba(0, 0, 0, 0.5)"
+					}).attr('data-tag-id', tag.id);
+
+					tagElement.append(deleteButton);
+					existingTagsContainer.append(tagElement);
+				});
+				},
+				error: function(error) {
+					console.log("Error fetching data");
+					console.log(error);
+				}
+			});
+
+			//Удаление тэга из базы
+
+			$('#existing-tags').on('click', '.delete-tag-btn', function() {
+				var tagId = $(this).attr('data-tag-id');
+    
+				$.ajax({
+					url: 'CRM_files/delete_tag.php',
+					type: 'POST',
+					data: { id: tagId },
+					success: function(response) {
+						console.log("Tag deleted successfully");
+						$('button[data-tag-id="' + tagId + '"]').parent().remove();
+					},
+					error: function(error) {
+						console.log("Error deleting tag");
+						console.log(error);
+					}
+				});
+			});
+
+			function populateTags(uid) {
+				$.ajax({
+					url: 'CRM_files/get_user_tags.php', 
+					type: 'GET',
+					data: {uid: uid},
+					success: function(data) {
+						let response = JSON.parse(data);
+						if(!response.error){
+							let tags = response;
+							let tagsHTML = tags.map(tag => `
+								<span class="badge badge-pill" style="background-color: ${tag.tag_color || '#000'}CC; color: #fff; margin-right: 5px; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);">
+									${tag.tag_name} 
+									<button class="btn btn-link unassign-tag-btn" style="color: #fff; font-size: 10px; padding: 0; margin-left: 5px; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);" data-tag-id="${tag.id}">&#10006</button>
+								</span>
+							`).join('');
+							$(`.card[data-uid="${uid}"] .tag-list`).html(tagsHTML);
+						}
+					}
+				});
+			}
+
+			$('.card').each(function() {
+				let uid = $(this).data('uid');
+				populateTags(uid);
+			});
+
+			// Присвоить тэг
+			$('.assign-tag-btn').on('click', function(event) {
+				event.preventDefault();  
+				
+				let uid = $(this).closest('.card').data('uid');
+				$.ajax({
+					url: 'CRM_files/fetch_tags.php',
+					type: 'GET',
+					success: function(data) {
+						let tags = JSON.parse(data);
+						let dropdownHTML = tags.map(tag => `
+						<a class="text-center tag-option badge badge-pill" href="#" data-tag-id="${tag.id}" style="background-color: ${tag.tag_color || '#000'}CC; color: #fff; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);">
+							${tag.tag_name}
+						</a>
+						`).join('');
+						let dropdownMenu = $(`.card[data-uid="${uid}"] .dropdown-menu`);
+						dropdownMenu.empty();
+						dropdownMenu.append(dropdownHTML);
+					}
+				});
+
+				$(`.dropdown[data-uid="${uid}"]`).dropdown('toggle');
+			});
+
+			$('.dropdown-menu').on('click', '.tag-option', function() {
+				event.preventDefault(); 
+				let uid = $(this).closest('.card').data('uid');
+				let tagId = $(this).data('tag-id');
+				$.post('CRM_files/assign_tag.php', {uid: uid, tag_id: tagId}, function(response) {
+					populateTags(uid)
+				});
+			});
+
+			// Убрать тэг из карты
+			$('.tag-list').on('click', '.unassign-tag-btn', function() {
+				let uid = $(this).closest('.card').data('uid');
+				let tagId = $(this).data('tag-id');
+				$.post('CRM_files/unassign_tag.php', {uid: uid, tag_id: tagId}, function(response) {
+					populateTags(uid)
+				});
+			});
+
+		});
+
+		</script>
+		<pre></pre>		</div>
+				
+			<script>
+			$('#datepicker').datepicker({
+				weekStart: 1,
+				daysOfWeekHighlighted: "6,0",
+				monthNames: ['Январь', 'Февраль', 'Март', 'Апрель','Май', 'Июнь', 'Июль', 'Август', 'Сентябрь','Октябрь', 'Ноябрь', 'Декабрь'],
+				dayNamesMin: ['Вс','Пн','Вт','Ср','Чт','Пт','Сб'],
+				autoclose: true,
+				todayHighlight: true,
+				format: 'dd.mm.yyyy',
+				language: 'ru',
+			});
+			$('#datepicker').datepicker("setDate", new Date());
+			$('#datepicker1').datepicker({
+				weekStart: 1,
+				daysOfWeekHighlighted: "6,0",
+				monthNames: ['Январь', 'Февраль', 'Март', 'Апрель','Май', 'Июнь', 'Июль', 'Август', 'Сентябрь','Октябрь', 'Ноябрь', 'Декабрь'],
+				dayNamesMin: ['Вс','Пн','Вт','Ср','Чт','Пт','Сб'],
+				autoclose: true,
+				todayHighlight: true,
+				format: 'dd.mm.yyyy',
+			});
+			$('#datepicker1').datepicker("setDate", new Date());
+			</script>
+
+		
+		</body></html>

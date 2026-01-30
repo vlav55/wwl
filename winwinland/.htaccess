@@ -1,0 +1,58 @@
+RewriteEngine On
+
+#404 redirect
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteCond %{REQUEST_URI} !\.(css)$ [NC]
+#RewriteCond %{REQUEST_URI} !^/img/.*$ [NC]
+#RewriteRule . / [L,R=301]
+
+#test
+RewriteRule ^test.html$ /index.php [R=301,L]
+
+#/2/ to root
+RewriteRule ^2/?$ / [R=301,L,QSA]
+
+RewriteRule ^(\d+)/?$ https://wwl.winwinland.ru/$1/ [R=301,L]
+
+RewriteRule ^db1/(\d+)/?$ https://wwl.winwinland.ru/$1/ [R=301,L]
+RewriteRule ^partnerka/?$ https://wwl.winwinland.ru/2/ [R=301,L,QSA]
+
+#Юлия Авштолис 
+RewriteRule ^win/?$ https://wwl.winwinland.ru/7/\?bc=1842515611 [R=301,L]
+
+#Евтухов
+RewriteRule ^evt/?$ https://wwl.winwinland.ru/7/\?bc=1605962757 [R=301,L]
+
+#Сергей Савченко 
+RewriteRule ^sawserg/?$ https://wwl.winwinland.ru/7/\?bc=1255715586 [R=301,L]
+
+#Алена Шигапова
+RewriteRule ^shigap/?$ https://wwl.winwinland.ru/34/\?bc=2206273451 [R=301,L]
+
+RewriteRule ^for_lawyers/?$ https://wwl.winwinland.ru/48/ [R=301,L,QSA]
+
+#Харьков
+RewriteRule ^kharkov/?$ https://wwl.winwinland.ru/10/?bc=1230626979 [R=301,L]
+
+#Майк
+RewriteRule ^aiuniversity/?$ https://wwl.winwinland.ru/7/?bc=3169118030 [R=301,L]
+
+#Янко
+RewriteRule ^spbfounders/?$ https://wwl.winwinland.ru/7/?bc=3467282763 [R=301,L]
+
+#UDMPAY
+RewriteRule ^udmpay/?$ https://wwl.winwinland.ru/7/?bc=839743426 [R=301,L]
+
+
+
+# Redirect to a query parameter format
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteRule ^tube/([^/]+)$ /tube/?$1 [L,QSA]
+
+# Check if the request starts with /tube/
+RewriteCond %{REQUEST_URI} ^/tube/(.+)$
+
+# Rewrite the URL by appending the matched part to the query string
+RewriteRule ^tube/(.+)$ /tube/?$1 [L,QSA]

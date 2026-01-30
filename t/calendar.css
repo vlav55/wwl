@@ -1,0 +1,54 @@
+TD.view_num {background-color:#FFBB00; width:20;}
+TD.view_tm_note {width:180; background-color:#FFBB00; color:black; font-weight:normal; padding:2; text-align:left;}
+TD.view_firm {background-color:#FFBB00;  padding-left:5;}
+TD.view_email {background-color:#FFBB00;  padding-left:5;}
+TD.view_note {background-color:#FFFFCC; padding-left:5;}
+TD.view_controls {background-color:#DDD; font-size:8pt;}
+
+
+TABLE.org1 {width:100%}
+TABLE.org1 TD {padding:2px; border-color:white; border-style:solid; border-width:1px;}
+TR.past TD.date {color:red;}
+TR.past TD.firm A {color:red;}
+TR.today TD.date {color:blue;}
+TR.today TD.firm A {color:blue;}
+TR.future TD.date {color:darkgreen;}
+TR.future TD.firm A {color:darkgreen;}
+TR.sticked TD.date {color:#555;}
+TR.sticked TD.firm A {color:#555;}
+
+DIV.controls {margin-bottom:10px; padding:5px; background-color:#EEE; text-align:left;}
+
+/* ¿À‹ ”Àﬂ“Œ– Õ»∆≈*/
+table.main_add {width:250px;}
+table.main_add TD {border-width:1; vertical-align:top;}
+P.note_doadd {background-color:#EEE; padding:10;}
+table.cal {border-width:2;border-style:groove;border-color:#475F84;background-color:#d6e3ee;}
+td.cal {text-align:center;padding:5 5 0 5;}
+td.cal2 {text-align:center;padding:5 5 10 5;}
+.red {color:#D31F0D;}
+td.weekdays {text-align:center;background-color:#022f40;color:white;border-color:#475F84;border-width:1;padding:3;}
+table.cells {text-align:center;	border-width:1;}
+td.cell {width:20;padding:0;}
+input.cell {color:#191b32;background-color:#d6e3ee;width:20;cursor:crosshair;border-width:0;text-align:center;}
+input.cell_dmy {color:#191b32;background-color:yellow;border-width:1;width:20;cursor:crosshair;}
+input.cell_today {color:white;background-color:#475F84;width:20;cursor:crosshair;}
+table.monthyear {background-color:#d6e3ee;}
+td.today A {color:#D31F0D;}
+td.today A:hover {text-decoration:underline;}
+table.weekdays {font-size:11px;text-align:center;}
+td.monthyear {background-color:#d6e3ee;}
+input.month,input.year {width:50;font-size:10px;background-color:#d6e3ee; color:#191b32;border-width:0;}
+input.year {width:30;}
+td.res {padding:5 5 5 5; font-size:9pt;}
+td.res INPUT {border-width:1;font-size:9pt;background-color:#d6e3ee; text-align:center;}
+td.time P {margin:0px;}
+table.time {width:40;border-width:1px;margin-left:5px;background-color:#d6e3ee;}
+table.time TD {text-align:center;border-width:1px;font-size:8pt;padding:1;}
+td.time_time {width:20;padding:3;color:#D31F0D;}
+td.time_mouseover {cursor:crosshair;background-color:red;color:white;}
+td.time_mouseout {cursor:default;background-color:#d6e3ee;color:#333;}
+td.chk {padding:2 0 2 5;font-size:9pt;}
+FORM.f_res {margin:5px 3px 3px 3px;}
+FORM.f_res INPUT {font-size:11pt;}
+.public_orgnote {border-width:1;border-color:#555;border-style:solid; padding:10px; background-color:#FFBB00; margin:2px;}

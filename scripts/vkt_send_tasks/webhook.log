@@ -1,0 +1,57 @@
+
+09.06.2025 16:41:04 102 
+Array
+(
+    [secret] => 3d224a17821add75d87df98ad2803c68
+    [action] => reg
+    [uid] => -1303
+    [first_name] => Vladimir Avshtolis
+    [last_name] => 
+    [phone] => 79119841012
+    [email] => vlav@mail.ru
+    [city] => 
+    [telegram_id] => 0
+    [telegram_nic] => 
+    [vk_id] => 0
+    [tm] => 1749476345
+    [comm] => 
+    [partner_id] => 0
+    [is_partner] => 1
+    [partner_code] => 3120223550
+    [partner_data] => Array
+        (
+            [cnt_reg_year] => 0
+            [sum_buy_year] => 0
+            [sum_fee_year] => 0
+            [sum_pay_year] => 0
+            [cnt_reg_this_month] => 0
+            [sum_buy_this_month] => 0
+            [sum_fee_this_month] => 0
+            [sum_pay_this_month] => 0
+            [cnt_reg_last_month] => 0
+            [sum_buy_last_month] => 0
+            [sum_fee_last_month] => 0
+            [sum_pay_last_month] => 0
+            [cnt_reg_this_week] => 0
+            [sum_buy_this_week] => 0
+            [sum_fee_this_week] => 0
+            [sum_pay_this_week] => 0
+            [cnt_reg_yesterday] => 0
+            [sum_buy_yesterday] => 0
+            [sum_fee_yesterday] => 0
+            [sum_pay_yesterday] => 0
+            [cnt_reg_today] => 0
+            [sum_buy_today] => 0
+            [sum_fee_today] => 0
+            [sum_pay_today] => 0
+            [sum_fee_all] => 0
+            [sum_pay_all] => 0
+            [rest_all] => 0
+        )
+
+    [current_order] => 
+    [promocodes] => Array
+        (
+        )
+
+)

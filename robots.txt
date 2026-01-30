@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /vkt/
+Allow: /vkt/1/index.php

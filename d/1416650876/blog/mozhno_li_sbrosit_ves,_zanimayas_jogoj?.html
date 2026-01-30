@@ -1,0 +1,26 @@
+<?$id=10;
+?><?
+if(!isset($id))
+	$id=intval($_GET['id']);
+include "/var/www/html/pini/inc/vklist/db.class.php";
+$db=new db("yogacenter");
+$r=$db->fetch_assoc($db->query("SELECT * FROM blog WHERE id='".intval($id)."'"));
+$title=$r['topic'];
+$descr="Онлайн школа йоги Андрея Викторова. $title";
+include "../top.header_new.inc.php";
+include "../logo.inc.php";
+?>
+
+<div class='container' > 
+	<div class='text-secondary font18' >
+		<?=date("d.m.Y",$r['tm'])?>
+		<?=$r['author']?>
+		<a href='/#blog' class='' target=''>все статьи</a>
+	</div>
+	<h1><?=$r['topic']?></h1>
+	<?=$r['article']?>
+</div>
+
+<?
+include "../bottom_blog.inc.php";
+?>

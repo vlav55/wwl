@@ -1,0 +1,12 @@
+avangard/POST
+zadarma/calls/
+*.lock
+tg_files/
+wwl/d/
+funnels_video/*.txt
+vkt_send_tasks/
+help/
+projects/
+.git/
+
+

@@ -1,0 +1,45 @@
+<?$id=22;
+?><?
+if(!isset($id))
+	$id=intval($_GET['id']);
+include "/var/www/html/pini/inc/vklist/db.class.php";
+$db=new db("yogacenter");
+$r=$db->fetch_assoc($db->query("SELECT * FROM blog WHERE id='".intval($id)."'"));
+$title=$r['topic'];
+$descr="Онлайн школа йоги Андрея Викторова. $title";
+include "../top.header_new.inc.php";
+//include "../menu.inc.php";
+
+$text=$r['article'];
+$trial="<div class='blog2trial' >
+Посмотрите <a href='/trip/?utm_source=blog' class='' target='_blank'>семинар</a>,
+если вы на нем еще не были.
+Попробуйте также <a href='/relax/?utm_source=blog' class='' target='_blank'>медитативные практики</a>
+на каждый день для сна, сброса стрессов и усталости.
+Все вопросы можно задать с помощью <a href='/feedback.php' class='' target='_blank'>формы обратной связи</a>.
+</div>";
+$trial="";
+
+$text=preg_replace("|@trial|s",$trial,$text);
+?>
+<div class='blog p-2' >
+	<div class='container' > 
+		<h1><?=$r['topic']?></h1>
+		<?=$text?>
+<!--
+		<div class='font18 p-3 blog-red' >
+			<?=date("d.m.Y",$r['tm'])?>
+			<?=$r['author']?>
+			<div class='pt-3' ><a href='javascript:history.back()' class='' target=''>вернуться</a></div>
+		</div>
+-->
+	<p class='pt-4' ><i>Андрей Викторов</i></p>
+	</div>
+</div>
+<?
+//include "../bottom_blog.inc.php";
+?>
+</div>
+</body>
+</html>
+

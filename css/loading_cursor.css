@@ -1,0 +1,37 @@
+body.loading {
+    cursor: progress; /* Change cursor to a loading icon */
+}
+
+/* Optional: Adding a full-screen overlay with a spinner */
+.loading-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999; /* Ensure it’s on top of other elements */
+}
+
+.spinner-border {
+    width: 3rem;
+    height: 3rem;
+    color: #007bff; /* Bootstrap primary color */
+}
+
+/*
+<div id="loadingOverlay" class="loading-overlay d-none">
+    <div class="spinner-border" role="status">
+        <span class="sr-only">Loading...</span>
+    </div>
+</div>
+
+<!-- Your content goes here -->
+<div class="container">
+    <h1>Hello, Bootstrap!</h1>
+    <!-- More content -->
+</div>
+*/

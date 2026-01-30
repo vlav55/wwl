@@ -1,0 +1,240 @@
+<?
+include "/var/www/vlav/data/www/wwl/inc/top.class.php";
+chdir("..");
+include "init.inc.php";
+$css="<LINK REL='StyleSheet' HREF='https://for16.ru/css/reg_report_styles.css' TYPE='text/css'>";
+$t=new top($database,'Отчеты по продажам', true);
+$db=new db($database);
+chdir("reports");
+?>
+    <div class="container mt-5">
+        <h1 class="mb-4">Отчеты по продажам</h1>
+
+        <!-- Filters -->
+        <form id="filtersForm" class="mb-4">
+            <div class="form-row">
+                <!-- Date Range -->
+                <div class="col-md-3">
+                    <label>С:</label>
+                    <input type="date" class="form-control" name="startDate">
+                </div>
+                <div class="col-md-3">
+                    <label>Дата окончания:</label>
+                    <input type="date" class="form-control" name="endDate">
+                </div>
+                
+                <!-- Razdel Filters -->
+                <div class="col-md-3">
+                    <label>Этап:</label>
+                    <select class="form-control" name="razdel">
+                        <!-- Options will be filled dynamically -->
+                    </select>
+                </div>
+                
+            </div>
+
+            <div class="form-row mt-3">
+                <!-- Tag Filters -->
+                <div class="col-md-4">
+                    <label>Теги:</label>
+                    <select class="form-control" name="tags">
+                        <!-- Options will be filled dynamically -->
+                    </select>
+                </div>
+
+                <!-- Manager Filters -->
+                <div class="col-md-4">
+                    <label>Менеджеры:</label>
+                    <select class="form-control" name="manager">
+                        <!-- Options will be filled dynamically -->
+                    </select>
+                </div>
+
+                <!-- Partner Filters -->
+                <div class="col-md-4">
+                    <label>Партнеры:</label>
+                    <select class="form-control" name="partner">
+                        <!-- Options will be filled dynamically -->
+                    </select>
+                </div>
+
+                <!-- Product Filters -->
+                <div class="col-md-4">
+                    <label>Продукты:</label>
+                    <select class="form-control" name="product">
+                        <!-- Options will be filled dynamically -->
+                    </select>
+                </div>
+                
+            </div>
+
+            <div class="row mt-4"> <!-- Added a margin-top for separation -->
+                <div class="col-md-12">
+                    <h4>UTM Filters</h4>
+                </div>
+                
+                <!-- UTM Source Filter -->
+                <div class="col-md-2">
+                    <label>UTM Source:</label>
+                    <select class="form-control" name="utm_source">
+                        <!-- Options will be filled dynamically -->
+                    </select>
+                </div>
+            
+                <!-- UTM Medium Filter -->
+                <div class="col-md-2">
+                    <label>UTM Medium:</label>
+                    <select class="form-control" name="utm_medium">
+                        <!-- Options will be filled dynamically -->
+                    </select>
+                </div>
+            
+                <!-- UTM Campaign Filter -->
+                <div class="col-md-2">
+                    <label>UTM Campaign:</label>
+                    <select class="form-control" name="utm_campaign">
+                        <!-- Options will be filled dynamically -->
+                    </select>
+                </div>
+            
+                <!-- UTM Content Filter -->
+                <div class="col-md-2">
+                    <label>UTM Content:</label>
+                    <select class="form-control" name="utm_content">
+                        <!-- Options will be filled dynamically -->
+                    </select>
+                </div>
+            
+                <!-- UTM Term Filter -->
+                <div class="col-md-2">
+                    <label>UTM Term:</label>
+                    <select class="form-control" name="utm_term">
+                        <!-- Options will be filled dynamically -->
+                    </select>
+                </div>
+            </div>
+
+            <button type="submit" class="btn btn-primary mt-4">Создать отчет</button>
+            
+        </form>
+        <button id="dropFiltersBtn" class="btn btn-secondary mt-4">Сбросить фильтры</button>
+
+        <!-- Tab navigation -->
+        <ul class="nav nav-tabs" id="reportTabs" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active reportp-nav" id="byDay-tab" data-toggle="tab" href="#reportByDayTable" role="tab">Оплаты по дням</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link reportp-nav" id="byWeek-tab" data-toggle="tab" href="#reportByWeekTable" role="tab">Оплаты по неделям</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link reportp-nav" id="byMonth-tab" data-toggle="tab" href="#reportByMonthTable" role="tab">Оплаты по месяцам</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link reportp-nav" id="byQuarter-tab" data-toggle="tab" href="#reportByQuarterTable" role="tab">Оплаты по кварталам</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link reportp-nav" id="byRazdel-tab" data-toggle="tab" href="#reportByRazdelTable" role="tab">Оплаты по этапам</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link reportp-nav" id="byTag-tab" data-toggle="tab" href="#reportByTagTable" role="tab">Оплаты по тэгам</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link reportp-nav" id="byManager-tab" data-toggle="tab" href="#reportByManagerTable" role="tab">Оплаты по менеджерам</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link reportp-nav" id="byPartner-tab" data-toggle="tab" href="#reportByPartnerTable" role="tab">Оплаты по партнерам</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link reportp-nav" id="byProduct-tab" data-toggle="tab" href="#reportByProductTable" role="tab">Оплаты по продуктам</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link reportp-nav" id="byUtm-tab" data-toggle="tab" href="#reportByUtmTable" role="tab">Оплаты по utm</a>
+            </li>
+        </ul>
+
+
+        <div class="loader" id="dataLoader" style="display: none"></div>
+        <!-- Tab content -->
+        <div class="tab-content" id="reportTabContent"></div>
+
+        <script>
+            const reportTypes = [
+                { title: "Оплаты по дням за период", id: "reportByDayTable", colName: "Дата" },
+                { title: "Оплаты по неделям за период", id: "reportByWeekTable", colName: "Неделя" },
+                { title: "Оплаты по месяцам за период", id: "reportByMonthTable", colName: "Месяц" },
+                { title: "Оплаты по кварталам за период", id: "reportByQuarterTable", colName: "Квартал" },
+                { title: "Оплаты по этапам за период", id: "reportByRazdelTable", colName: "Этап" },
+                { title: "Оплаты по тэгам за период", id: "reportByTagTable", colName: "Тэг" },
+                { title: "Оплаты по менеджерам за период", id: "reportByManagerTable", colName: "Менеджер" },
+                { title: "Оплаты по партнерам за период", id: "reportByPartnerTable", colName: "Партнер" },
+                { title: "Оплаты по продуктам за период", id: "reportByProductTable", colName: "Продукт" }
+            ];
+
+            const utmReportTypes = [
+                { title: "Оплаты по utm_source за период", id: "reportByUtmSourceTable", colName: "UTM Source" },
+                { title: "Оплаты по utm_medium за период", id: "reportByUtmMediumTable", colName: "UTM Medium" },
+                { title: "Оплаты по utm_campaign за период", id: "reportByUtmCampaignTable", colName: "UTM Campaign" },
+                { title: "Оплаты по utm_content за период", id: "reportByUtmContentTable", colName: "UTM Content" },
+                { title: "Оплаты по utm_term за период", id: "reportByUtmTermTable", colName: "UTM Term" }
+            ];
+
+
+            
+            const generateReportSection = ({ title, id, colName }, index, isActive = false, className = '') => `
+                <div class="tab-pane fade ${className} ${isActive ? 'show active' : ''}" id="${id}">
+                    <h2 class="mt-5">${title}</h2>
+                    <table class="table table-striped mt-3">
+                        <thead>
+                            <tr>
+                                <th scope="col">${colName}</th>
+                                <th scope="col">Количество</th>
+                                <th scope="col">Сумма</th>
+                                <th scope="col">Процент от общей суммы</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- Data will be filled dynamically here -->
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <th>Итого:</th>
+                                <th id="${id}-total-count"></th>
+                                <th id="${id}-total-sum"></th>
+                                <th id="${id}-total-percentage">100%</th>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+            `;
+
+            const generateUtmReportLinks = () => `
+                <div class="tab-pane fade" id="reportByUtmTable">
+                    <h2 class="mt-5">Оплаты по utm</h2>
+                    <ul>
+                        ${utmReportTypes.map(type => `<li><a href="#${type.id}">${type.title}</a></li>`).join('')}
+                    </ul>
+                </div>
+            `;
+
+            const reportContent = reportTypes.map((type, index) => generateReportSection(type, index, index === 0)).join('');
+            const utmReportContent = generateUtmReportLinks() + utmReportTypes.map((type, index) => generateReportSection(type, index, false, 'utm-report-content')).join('');
+
+            document.getElementById('reportTabContent').innerHTML = reportContent + utmReportContent;
+
+        </script>
+
+
+
+        <script src="sales_reports_scripts.js"></script>
+    </div>
+
+    <div id="detailsModal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2>Детали Продаж</h2>
+            <!-- The registration details will be added here by the JavaScript -->
+        </div>
+    </div>
+
+   <?$t->bottom();?>

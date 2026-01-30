@@ -1,0 +1,5 @@
+<?
+class formula extends db {
+}
+
+?>

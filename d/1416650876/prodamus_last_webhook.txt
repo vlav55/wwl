@@ -1,0 +1,33 @@
+Array
+(
+    [date] => 2026-01-22T02:22:11+03:00
+    [order_id] => 40566475
+    [order_num] => 7251
+    [domain] => yogahelpyou.payform.ru
+    [sum] => 900.00
+    [currency] => rub
+    [customer_phone] => +79057700681
+    [customer_email] => yatan2012@yandex.ru
+    [customer_extra] => 103
+    [payment_type] => СБП
+    [commission] => 3.1
+    [commission_sum] => 27.90
+    [attempt] => 1
+    [vk_user_id] => -18686
+    [vk_user_name] => Татьяна Яблонских 
+    [products] => Array
+        (
+            [0] => Array
+                (
+                    [name] => Доступ к продукту: Практика релаксации Шавасана для сна, 30 дней
+                    [price] => 900.00
+                    [quantity] => 1
+                    [sum] => 900.00
+                )
+
+        )
+
+    [payment_status] => success
+    [payment_status_description] => Успешная оплата
+    [payment_init] => manual
+)

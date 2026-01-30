@@ -1,0 +1,31 @@
+init.php при многосайтовости должент быть в папке /local/php_interface или /local/php_interface/s2 в данном случае. Так же init.php может лежать в /bitrix/php_interface/ или /bitrix/php_interface/s2
+
+если нигде нет, то можно создать директории /local/php_interface/s2
+
+
+
+ДАЛЕЕ ВСЕ МАНИПУЛЯЦИИ ДЕЛАЮТСЯ ЧЕРЕЗ FTP МЕНЕДЖЕР, например FileZilla (если делать через админку, то можно положить сайт и чтобы откатить изменения нужен будет ftp клиент)
+
+там файл init.php и его содержимое
+
+<?php
+use Bitrix\Main\Config\Option;
+use Bitrix\Main\Application;
+
+AddEventHandler("main", "OnProlog", "OnPrologHandler");
+function OnPrologHandler(){
+    $moduleId = "winwinland.connecting";
+    $arCurrentDomains = explode('|', htmlspecialcharsbx(Option::get($moduleId, "currentDomains")));
+
+    // Получаем текущий URL и IP-адрес
+    $request = Application::getInstance()->getContext()->getRequest();
+    $currentUrl = $request->getRequestUri();
+
+    file_put_contents($_SERVER['DOCUMENT_ROOT'].'/wwl2_send_log_'.date('d_m_Y').'.txt', 'OnProlog: '.$currentUrl.PHP_EOL, FILE_APPEND);
+
+    if(strpos($currentUrl, 'bc=') !== false){
+        foreach($arCurrentDomains as $domain){
+            setcookie('first_current_location_2', $currentUrl, time() + 3600*24*7*12*30, "/", $domain);
+        }
+    }
+}

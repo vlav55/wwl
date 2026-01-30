@@ -1,0 +1,564 @@
+	<html>
+		<head>
+		<meta charset="utf-8">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		<title>CRM</title>
+		<link href="https://1-info.ru/vktrade/images/favicon.png" rel="icon">
+		<style type='text/css'>
+			div {border-collapse:collapse;border-width:0px;border-style:solid;border-color:#555; margin:5px 0; padding:3px;}
+			div.tbl_agent {border-width:1px;}
+			span.agent_vacant {border-collapse:collapse;border-width:1px;border-style:solid;border-color:#555; padding:1px; margin:1px; color:green;}
+			span.agent_busy {border-collapse:collapse;border-width:1px;border-style:solid;border-color:#555; padding:1px; margin:1px;  color:red;}
+			span.num_visited_shop_0 { background-color:#555; width:10px; color:white; padding:2px;}
+			span.num_visited_shop_0 a {color:white;}
+			span.num_visited_shop_1 { background-color:#555; width:10px; color:yellow; padding:2px;}
+			span.num_visited_shop_1 a {color:yellow;}
+			.disp_form TD {padding:3px;}
+		</style>
+
+				<script src="https://1-info.ru/css/calendar_ru.js" type="text/javascript"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- Latest compiled and minified CSS -->
+<!--
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+-->
+		<link rel="stylesheet" href="/css/bootstrap-3.3.7/css/bootstrap.min.css">
+		
+		<!-- jQuery library -->
+<!--
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+-->
+				<script src="/css/bootstrap-3.3.7/js/jquery.min.js"></script>
+		
+		<!-- Latest compiled JavaScript -->
+<!--
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>		
+-->
+				<script src="/css/bootstrap-3.3.7/js/bootstrap.min.js"></script>		
+				
+		<!-- DatePicker -->
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/css/bootstrap-datepicker.standalone.min.css" rel="stylesheet"/>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/js/bootstrap-datepicker.min.js"></script>
+		<style type="text/css">
+			.datepicker td, .datepicker th {
+				width: 2.5em;
+				height: 1.5em;
+			}
+			.datepicker.dropdown-menu {
+				font-size:14px;
+			}
+	   </style>
+
+
+		<LINK REL='StyleSheet' HREF='https://1-info.ru/css/vkt_db.css' TYPE='text/css'>
+		
+				<SCRIPT>
+		function ins_text(text,obj,cr="\n") {
+			obj.focus();
+			obj.value=""+obj.value.substr(0,obj.selectionStart)+text+""+obj.value.substr(obj.selectionStart,obj.value.length-obj.selectionStart)+cr;
+			obj.focus();
+			pos=obj.value.length; //obj.selectionStart;
+			obj.setSelectionRange(pos,pos);
+		}
+		function block(id) {
+			//alert(id);
+			if (document.getElementById(id).style.display == "none") {
+				document.getElementById(id).style.display = "block";
+			} else {
+				document.getElementById(id).style.display = "none";
+			}
+		}
+		function setAllCheckboxes(divId, sourceCheckbox) {
+			divElement = document.getElementById(divId);
+			inputElements = divElement.getElementsByTagName('input');
+			for (i = 0; i < inputElements.length; i++) {
+				if (inputElements[i].type != 'checkbox')
+				continue;
+				inputElements[i].checked = sourceCheckbox.checked;
+			}
+		}
+		function wopen(url) {
+			w1=window.open(url, "w1", "left=200,top=100,width=800,height=900");
+		}
+		function wopen_s(url) {
+			w1=window.open(url, "w1", "left=300,top=200,width=600,height=600");
+		}
+		function wopen_1(url) {
+			w1=window.open(url, "w2", "left=300,top=120,width=800,height=800");
+		}
+		</SCRIPT>
+		
+		</head>
+		<body>
+		<div class="container-fluid">
+		<div class='top10'>
+			<ul class='nav nav-pills'>
+				<li class='active'><a href='cp.php?view=yes&filter=new'>Контрольная панель</a></li>
+				<li class=''><a href='javascript:wopen("msgs_templates.php")'>Шаблоны</a></li>
+				<li class=''><a href='javascript:wopen("razdel.php")'>Разделы</a></li>
+				<li class=''><a href='javascript:wopen("sources.php")'>Sources</a></li>
+				<li class=''><a href='vklist_send_cp.php'>Рассылка</a></li>
+				<li class=''><a href='vklist_acc.php'>Аккаунты</a></li>
+				<li class=''><a href='users.php?view=yes'>Users</a></li><li class='dropdown'>
+						<a class='dropdown-toggle' data-toggle='dropdown' href='#'>Настройки</span>
+							<span class='caret'></span>
+						</a>
+						<ul class='dropdown-menu'>				<li><a href='javascript:wopen("ad_retargeting.php")'>Ретаргетинг</a></li>				<li><a href='javascript:wopen("serv_votes.php")'>Сканирование опросов</a></li>				<li><a href='users5.php?view=yes' target='_blank'>Профиль</a></li>				<li><a href='javascript:wopen("serv_param.php")'>Прочие параметры</a></li><li><a href='leadgen.php' class='' target='_blank'>Купить лиды</a></li><li><a href='lk/cabinet.php' class='' target='_blank'>Кабинет партнера</a></li><li><a href='pact.php' class='' target='_blank'>Подключить вотсап</a></li><li><a href='billing_pay.php' class='' target='_blank'>Оплатить доступ</a></li>			</ul>
+				</li><li class=''><a href='?logout=yes'>logout</a></li>
+			</ul>
+		</div>
+
+			<table  class='table table-condensed  table-responsive table-hover' style='font-size:14px;'>
+				<thead>
+
+				<tr>
+
+				<th><select id='manage_checkboxes' style='width:20px;' ids='6164,6169,6167,6178,6179,6176,6200,6180,6159,6157,6156,6155,1001,6141,6140,6137,1002,6150,' >
+		<option></option>
+		<option> = Всего отмечено - 0 = </option>
+		<option value='set_all_razd'>Отметить все в разделе</option>
+		<option value='clr_all_razd'>Снять все в разделе</option>
+		<option value='clr_all'>Снять ВСЕ</option>
+		<option value='clr_all'>-------------</option>
+		<option value='chk_grp_ops'>ГРУПОВЫЕ ОПЕРАЦИИ</option>
+		</select></th>
+				<th><span class='badge'>18</span></th>
+				<th>Раздел</th>
+				<th>Дата события</th>
+				<th>А</th>
+				<th>MSGS</th>
+				<th>Имя</th>
+				<th>Город</th>
+				<th>Комм</th>
+				<th>&nbsp;</th>
+				<th>&nbsp;</th>
+				<th>&nbsp;</th>
+				</tr>
+				</thead>
+		<tbody>
+				<tr id='r_6164'  class='' >
+					<td><input type='checkbox' name='chk1' id='6164'  title=-6070></td>
+					<td title=6164><a href='/msg.php?uid=-6070' target='_blank'><span class='badge' >1</span></a></td>
+					<td class='text-center'><span class='badge'  style='color:white; background-color:#A52A2A;'>D</span></td>
+					<td  class='text-center'><div class='label label-success' >28/09 17:57</div></td>
+					<td ><a href='?mark_read=yes&uid=-6070' title='убрать из задач' target=''><span class='glyphicon glyphicon-remove-circle'></span></a></td>
+					<td ><a  href='msg.php?uid=-6070&no_reload_opener=yes' target='_blank'>
+						<span class='badge' style='background-color:##7F7F7F;'>2</span>
+						</a>
+						<a href='javascript:wopen("comm.php?klid=6164&active=delay")' class='' target=''><span class='label label-info' title='Отложенное время : 28.09.22 17:13 
+						Время пришло!'>28/09</span></a>
+					</td>
+					<td ><b><a title='' href='msg.php?uid=-6070&no_reload_opener=yes' target='_blank'> Екатерина  </a></b></td>
+					<td><span class='label label-default' ></span></td>
+					<td onclick=''  class='cp_comm'>
+						<div class='blue' >79877535517 </div>
+						<div class=''>https://vk.com/yogalifenn<br />
+						<br />
+						 </div> 
+						<div class='well well-sm'>Скинула чат инструкторов</div>
+				
+					</td>
+					<td  class='cp_info'><span class='label label-danger'><a href='user_info.php?user_id=3' style='color:white;' target='_blank'>3</a></span>    <span class='glyphicon glyphicon-phone-alt ' title='79877535517'></span></td>
+					<td  class='cp_ctrl'>
+						<span class='glyphicon glyphicon-check' title='28.09.2022 15:56'></span>
+						<a href='javascript:wopen("notes.php?uid=-6070")'><span class='glyphicon glyphicon-list' title='история комментариев'></span></a>
+						<span class='label label-info' >ТЛФ - успешно</span> 
+						<a href='?edit=yes&id=6164'><span class='glyphicon glyphicon-pencil' title='редактировать'></span></a> <a href='?del=yes&id=6164'><span class='glyphicon glyphicon-trash' title='удалить'></span></a>
+					</td>
+				</tr>
+
+				<tr id='r_6169'  class='' ><td><input type='checkbox' name='chk1' id='6169'  title=-6075></td><td title=6169><a href='/msg.php?uid=-6075' target='_blank'><span class='badge' >2</span></a></td><td class='text-center'><span class='badge'  style='color:white; background-color:#A52A2A;'>D</span></td><td  class='text-center'><div class='label label-success' >28/09 15:55</div></td><td ><a href='?mark_read=yes&uid=-6075' title='убрать из задач' target=''><span class='glyphicon glyphicon-remove-circle'></span></a></td><td ><a  href='msg.php?uid=-6075&no_reload_opener=yes' target='_blank'>
+					<span class='badge' style='background-color:##7F7F7F;'>2</span>
+					</a>
+					<a href='javascript:wopen("comm.php?klid=6169&active=delay")' class='' target=''><span class='label label-info' title='Отложенное время : 28.09.22 16:55 
+Время пришло!'>28/09</span></a>
+				</td><td ><b><a title='' href='msg.php?uid=-6075&no_reload_opener=yes' target='_blank'> Анастасия  </a></b></td><td><span class='label label-default' ></span></td><td onclick=''  class='cp_comm'>
+				<div class='blue' >79526965761 </div>
+				<div class=''>https://vk.com/yogauray<br />
+<br />
+ </div> 
+				<div class='well well-sm'>Не отвечает<br />
+</div>
+				
+				</td><td  class='cp_info'><span class='label label-danger'><a href='user_info.php?user_id=3' style='color:white;' target='_blank'>3</a></span>    <span class='glyphicon glyphicon-phone-alt ' title='79526965761'></span></td><td  class='cp_ctrl'>
+				
+				
+				
+				<span class='glyphicon glyphicon-check' title='28.09.2022 14:42'></span>
+				<a href='javascript:wopen("notes.php?uid=-6075")'><span class='glyphicon glyphicon-list' title='история комментариев'></span></a>
+				<span class='label label-info' >ТЛФ - не дозвонилась</span> 
+				<a href='?edit=yes&id=6169'><span class='glyphicon glyphicon-pencil' title='редактировать'></span></a> <a href='?del=yes&id=6169'><span class='glyphicon glyphicon-trash' title='удалить'></span></a></td>
+				</tr><tr id='r_6167'  class='' ><td><input type='checkbox' name='chk1' id='6167'  title=-6073></td><td title=6167><a href='/msg.php?uid=-6073' target='_blank'><span class='badge' >3</span></a></td><td class='text-center'><span class='badge'  style='color:white; background-color:#A52A2A;'>D</span></td><td  class='text-center'><div class='label label-success' >28/09 16:49</div></td><td ><a href='?mark_read=yes&uid=-6073' title='убрать из задач' target=''><span class='glyphicon glyphicon-remove-circle'></span></a></td><td ><a  href='msg.php?uid=-6073&no_reload_opener=yes' target='_blank'>
+					<span class='badge' style='background-color:##7F7F7F;'>2</span>
+					</a>
+					<a href='javascript:wopen("comm.php?klid=6167&active=delay")' class='' target=''><span class='label label-info' title='Отложенное время : 28.09.22 16:01 
+Время пришло!'>28/09</span></a>
+				</td><td ><b><a title='89028348558' href='msg.php?uid=-6073&no_reload_opener=yes' target='_blank'> Светлана  </a></b></td><td><span class='label label-default' ></span></td><td onclick=''  class='cp_comm'>
+				<div class='blue' >79194836630 </div>
+				<div class=''>https://vk.com/vedisva<br />
+<br />
+ </div> 
+				<div class='well well-sm'>Понты что не нужнылюди, не шарит вообще нифига</div>
+				
+				</td><td  class='cp_info'><span class='label label-danger'><a href='user_info.php?user_id=3' style='color:white;' target='_blank'>3</a></span>    <span class='glyphicon glyphicon-phone-alt ' title='79194836630'></span></td><td  class='cp_ctrl'>
+				
+				
+				<img src='/css/icons/email-16.png' title='89028348558'>
+				<span class='glyphicon glyphicon-check' title='28.09.2022 14:53'></span>
+				<a href='javascript:wopen("notes.php?uid=-6073")'><span class='glyphicon glyphicon-list' title='история комментариев'></span></a>
+				<span class='label label-info' >ТЛФ - успешно</span> 
+				<a href='?edit=yes&id=6167'><span class='glyphicon glyphicon-pencil' title='редактировать'></span></a> <a href='?del=yes&id=6167'><span class='glyphicon glyphicon-trash' title='удалить'></span></a></td>
+				</tr><tr id='r_6178'  class='' ><td><input type='checkbox' name='chk1' id='6178'  title=-6084></td><td title=6178><a href='/msg.php?uid=-6084' target='_blank'><span class='badge' >4</span></a></td><td class='text-center'><span class='badge'  style='color:white; background-color:#A52A2A;'>D</span></td><td  class='text-center'><div class='label label-success' >04/10 18:52</div></td><td ><a href='?mark_read=yes&uid=-6084' title='убрать из задач' target=''><span class='glyphicon glyphicon-remove-circle'></span></a></td><td ><a  href='msg.php?uid=-6084&no_reload_opener=yes' target='_blank'>
+					<span class='badge' style='background-color:#d9534f;'>2</span>
+					</a>
+					
+				</td><td ><b><a title='' href='msg.php?uid=-6084&no_reload_opener=yes' target='_blank'> Анна  </a></b></td><td><span class='label label-default' ></span></td><td onclick=''  class='cp_comm'>
+				<div class='blue' >79234508244 </div>
+				<div class=''>https://vk.com/element_kansk<br />
+60 человек<br />
+ </div> 
+				<div class='well well-sm'>13:00</div>
+				
+				</td><td  class='cp_info'><span class='label label-danger'><a href='user_info.php?user_id=3' style='color:white;' target='_blank'>3</a></span>  <span class='label label-warning' onclick='javascript:wopen("comm.php?klid=6178&active=scdl");'> 05/10 20:00 <div class='label label-primary' >1</div></span>  <span class='glyphicon glyphicon-phone-alt ' title='79234508244'></span></td><td  class='cp_ctrl'>
+				
+				
+				
+				<span class='glyphicon glyphicon-check' title='29.09.2022 13:11'></span>
+				<a href='javascript:wopen("notes.php?uid=-6084")'><span class='glyphicon glyphicon-list' title='история комментариев'></span></a>
+				<span class='label label-info' >ТЛФ - успешно</span> 
+				<a href='?edit=yes&id=6178'><span class='glyphicon glyphicon-pencil' title='редактировать'></span></a> <a href='?del=yes&id=6178'><span class='glyphicon glyphicon-trash' title='удалить'></span></a></td>
+				</tr><tr id='r_6179'  class='' ><td><input type='checkbox' name='chk1' id='6179'  title=-6085></td><td title=6179><a href='/msg.php?uid=-6085' target='_blank'><span class='badge' >5</span></a></td><td class='text-center'><span class='badge'  style='color:white; background-color:#A52A2A;'>D</span></td><td  class='text-center'><div class='label label-success' >04/10 16:52</div></td><td ><a href='?mark_read=yes&uid=-6085' title='убрать из задач' target=''><span class='glyphicon glyphicon-remove-circle'></span></a></td><td ><a  href='msg.php?uid=-6085&no_reload_opener=yes' target='_blank'>
+					<span class='badge' style='background-color:#d9534f;'>2</span>
+					</a>
+					
+				</td><td ><b><a title='' href='msg.php?uid=-6085&no_reload_opener=yes' target='_blank'> Анна  </a></b></td><td><span class='label label-default' ></span></td><td onclick=''  class='cp_comm'>
+				<div class='blue' >79277228228 </div>
+				<div class=''>https://vk.com/yogaburevestnik<br />
+<br />
+ </div> 
+				<div class='well well-sm'>без разницы</div>
+				
+				</td><td  class='cp_info'><span class='label label-danger'><a href='user_info.php?user_id=3' style='color:white;' target='_blank'>3</a></span>  <span class='label label-warning' onclick='javascript:wopen("comm.php?klid=6179&active=scdl");'> 05/10 20:00 <div class='label label-primary' >1</div></span>  <span class='glyphicon glyphicon-phone-alt ' title='79277228228'></span></td><td  class='cp_ctrl'>
+				
+				
+				
+				<span class='glyphicon glyphicon-check' title='29.09.2022 12:58'></span>
+				<a href='javascript:wopen("notes.php?uid=-6085")'><span class='glyphicon glyphicon-list' title='история комментариев'></span></a>
+				<span class='label label-info' >ТЛФ - успешно</span> 
+				<a href='?edit=yes&id=6179'><span class='glyphicon glyphicon-pencil' title='редактировать'></span></a> <a href='?del=yes&id=6179'><span class='glyphicon glyphicon-trash' title='удалить'></span></a></td>
+				</tr><tr id='r_6176'  class='' ><td><input type='checkbox' name='chk1' id='6176'  title=-6082></td><td title=6176><a href='/msg.php?uid=-6082' target='_blank'><span class='badge' >6</span></a></td><td class='text-center'><span class='badge'  style='color:white; background-color:#A52A2A;'>D</span></td><td  class='text-center'><div class='label label-success' >04/10 16:49</div></td><td ><a href='?mark_read=yes&uid=-6082' title='убрать из задач' target=''><span class='glyphicon glyphicon-remove-circle'></span></a></td><td ><a  href='msg.php?uid=-6082&no_reload_opener=yes' target='_blank'>
+					<span class='badge' style='background-color:#d9534f;'>2</span>
+					</a>
+					
+				</td><td ><b><a title='' href='msg.php?uid=-6082&no_reload_opener=yes' target='_blank'> Светлана  </a></b></td><td><span class='label label-default' ></span></td><td onclick=''  class='cp_comm'>
+				<div class='blue' >79897728582 </div>
+				<div class=''>https://vk.com/sadhu_temryuk<br />
+<br />
+ </div> 
+				<div class='well well-sm'>13:00</div>
+				
+				</td><td  class='cp_info'><span class='label label-danger'><a href='user_info.php?user_id=3' style='color:white;' target='_blank'>3</a></span>  <span class='label label-warning' onclick='javascript:wopen("comm.php?klid=6176&active=scdl");'> 05/10 20:00 <div class='label label-primary' >1</div></span>  <span class='glyphicon glyphicon-phone-alt ' title='79897728582'></span></td><td  class='cp_ctrl'>
+				
+				
+				
+				<span class='glyphicon glyphicon-check' title='29.09.2022 13:17'></span>
+				<a href='javascript:wopen("notes.php?uid=-6082")'><span class='glyphicon glyphicon-list' title='история комментариев'></span></a>
+				<span class='label label-info' >ТЛФ - успешно</span> 
+				<a href='?edit=yes&id=6176'><span class='glyphicon glyphicon-pencil' title='редактировать'></span></a> <a href='?del=yes&id=6176'><span class='glyphicon glyphicon-trash' title='удалить'></span></a></td>
+				</tr><tr id='r_6200'  class='' ><td><input type='checkbox' name='chk1' id='6200'  title=-6106></td><td title=6200><a href='/msg.php?uid=-6106' target='_blank'><span class='badge' >7</span></a></td><td class='text-center'><span class='badge'  style='color:white; background-color:#A52A2A;'>D</span></td><td  class='text-center'><div class='label label-success' >04/10 11:26</div></td><td ><a href='?mark_read=yes&uid=-6106' title='убрать из задач' target=''><span class='glyphicon glyphicon-remove-circle'></span></a></td><td ><a  href='msg.php?uid=-6106&no_reload_opener=yes' target='_blank'>
+					<span class='badge' style='background-color:#d9534f;'>2</span>
+					</a>
+					
+				</td><td ><b><a title='' href='msg.php?uid=-6106&no_reload_opener=yes' target='_blank'> 79788742062  </a></b></td><td><span class='label label-default' ></span></td><td onclick=''  class='cp_comm'>
+				<div class='blue' >79788742062 </div>
+				 
+				
+				
+				</td><td  class='cp_info'><span class='label label-danger'></span>    <span class='glyphicon glyphicon-phone-alt ' title='79788742062'></span></td><td  class='cp_ctrl'>
+				
+				
+				
+				
+				<a href='javascript:wopen("notes.php?uid=-6106")'><span class='glyphicon glyphicon-list' title='история комментариев'></span></a>
+				<span class='label label-info' >Регистрация PPL</span> 
+				<a href='?edit=yes&id=6200'><span class='glyphicon glyphicon-pencil' title='редактировать'></span></a> <a href='?del=yes&id=6200'><span class='glyphicon glyphicon-trash' title='удалить'></span></a></td>
+				</tr><tr id='r_6180'  class='' ><td><input type='checkbox' name='chk1' id='6180'  title=-6086></td><td title=6180><a href='/msg.php?uid=-6086' target='_blank'><span class='badge' >8</span></a></td><td class='text-center'><span class='badge'  style='color:white; background-color:#A52A2A;'>D</span></td><td  class='text-center'><div class='label label-success' >30/09 03:46</div></td><td ><a href='?mark_read=yes&uid=-6086' title='убрать из задач' target=''><span class='glyphicon glyphicon-remove-circle'></span></a></td><td ><a  href='msg.php?uid=-6086&no_reload_opener=yes' target='_blank'>
+					<span class='badge' style='background-color:#d9534f;'>2</span>
+					</a>
+					
+				</td><td ><b><a title='' href='msg.php?uid=-6086&no_reload_opener=yes' target='_blank'> Марина  </a></b></td><td><span class='label label-default' ></span></td><td onclick=''  class='cp_comm'>
+				<div class='blue' >79093294206 </div>
+				<div class=''>https://vk.com/gruppa_yoga_samara<br />
+1000 с чем-то человек<br />
+ </div> 
+				<div class='well well-sm'>Записала</div>
+				
+				</td><td  class='cp_info'><span class='label label-danger'><a href='user_info.php?user_id=3' style='color:white;' target='_blank'>3</a></span>  <span class='label label-warning' onclick='javascript:wopen("comm.php?klid=6180&active=scdl");'> 05/10 20:00 <div class='label label-primary' >1</div></span>  <span class='glyphicon glyphicon-phone-alt ' title='79093294206'></span></td><td  class='cp_ctrl'>
+				
+				
+				
+				<span class='glyphicon glyphicon-check' title='29.09.2022 12:56'></span>
+				<a href='javascript:wopen("notes.php?uid=-6086")'><span class='glyphicon glyphicon-list' title='история комментариев'></span></a>
+				<span class='label label-info' >ТЛФ - успешно</span> 
+				<a href='?edit=yes&id=6180'><span class='glyphicon glyphicon-pencil' title='редактировать'></span></a> <a href='?del=yes&id=6180'><span class='glyphicon glyphicon-trash' title='удалить'></span></a></td>
+				</tr><tr id='r_6159'  class='' ><td><input type='checkbox' name='chk1' id='6159'  title=-6065></td><td title=6159><a href='/msg.php?uid=-6065' target='_blank'><span class='badge' >9</span></a></td><td class='text-center'><span class='badge'  style='color:white; background-color:#A52A2A;'>D</span></td><td  class='text-center'><div class='label label-success' >23/09 20:28</div></td><td ><a href='?mark_read=yes&uid=-6065' title='убрать из задач' target=''><span class='glyphicon glyphicon-remove-circle'></span></a></td><td ><a  href='msg.php?uid=-6065&no_reload_opener=yes' target='_blank'>
+					<span class='badge' style='background-color:#d9534f;'>2</span>
+					</a>
+					
+				</td><td ><b><a title='' href='msg.php?uid=-6065&no_reload_opener=yes' target='_blank'> 79957770778  </a></b></td><td><span class='label label-default' ></span></td><td onclick=''  class='cp_comm'>
+				<div class='blue' >79957770778 </div>
+				 
+				
+				
+				</td><td  class='cp_info'><span class='label label-danger'></span>    <span class='glyphicon glyphicon-phone-alt ' title='79957770778'></span></td><td  class='cp_ctrl'>
+				
+				
+				
+				<span class='glyphicon glyphicon-check' title='25.09.2022 14:18'></span>
+				<a href='javascript:wopen("notes.php?uid=-6065")'><span class='glyphicon glyphicon-list' title='история комментариев'></span></a>
+				<span class='label label-info' >Регистрация PPL</span> 
+				<a href='?edit=yes&id=6159'><span class='glyphicon glyphicon-pencil' title='редактировать'></span></a> <a href='?del=yes&id=6159'><span class='glyphicon glyphicon-trash' title='удалить'></span></a></td>
+				</tr><tr id='r_6157'  class='' ><td><input type='checkbox' name='chk1' id='6157'  title=-6064></td><td title=6157><a href='/msg.php?uid=-6064' target='_blank'><span class='badge' >10</span></a></td><td class='text-center'><span class='badge'  style='color:white; background-color:#A52A2A;'>D</span></td><td  class='text-center'><div class='label label-success' >23/09 12:42</div></td><td ><a href='?mark_read=yes&uid=-6064' title='убрать из задач' target=''><span class='glyphicon glyphicon-remove-circle'></span></a></td><td ><a  href='msg.php?uid=-6064&no_reload_opener=yes' target='_blank'>
+					<span class='badge' style='background-color:#d9534f;'>2</span>
+					</a>
+					
+				</td><td ><b><a title='' href='msg.php?uid=-6064&no_reload_opener=yes' target='_blank'> 79196890645  </a></b></td><td><span class='label label-default' ></span></td><td onclick=''  class='cp_comm'>
+				<div class='blue' >79196890645 </div>
+				 
+				
+				
+				</td><td  class='cp_info'><span class='label label-danger'></span>    <span class='glyphicon glyphicon-phone-alt ' title='79196890645'></span></td><td  class='cp_ctrl'>
+				
+				
+				
+				
+				<a href='javascript:wopen("notes.php?uid=-6064")'><span class='glyphicon glyphicon-list' title='история комментариев'></span></a>
+				<span class='label label-info' >Регистрация PPL</span> 
+				<a href='?edit=yes&id=6157'><span class='glyphicon glyphicon-pencil' title='редактировать'></span></a> <a href='?del=yes&id=6157'><span class='glyphicon glyphicon-trash' title='удалить'></span></a></td>
+				</tr><tr id='r_6156'  class='' ><td><input type='checkbox' name='chk1' id='6156'  title=-6063></td><td title=6156><a href='/msg.php?uid=-6063' target='_blank'><span class='badge' >11</span></a></td><td class='text-center'><span class='badge'  style='color:white; background-color:#A52A2A;'>D</span></td><td  class='text-center'><div class='label label-success' >23/09 10:08</div></td><td ><a href='?mark_read=yes&uid=-6063' title='убрать из задач' target=''><span class='glyphicon glyphicon-remove-circle'></span></a></td><td ><a  href='msg.php?uid=-6063&no_reload_opener=yes' target='_blank'>
+					<span class='badge' style='background-color:#d9534f;'>2</span>
+					</a>
+					
+				</td><td ><b><a title='' href='msg.php?uid=-6063&no_reload_opener=yes' target='_blank'> 79139504064  </a></b></td><td><span class='label label-default' ></span></td><td onclick=''  class='cp_comm'>
+				<div class='blue' >79139504064 </div>
+				 
+				
+				
+				</td><td  class='cp_info'><span class='label label-danger'></span>    <span class='glyphicon glyphicon-phone-alt ' title='79139504064'></span></td><td  class='cp_ctrl'>
+				
+				
+				
+				<span class='glyphicon glyphicon-check' title='23.09.2022 12:57'></span>
+				<a href='javascript:wopen("notes.php?uid=-6063")'><span class='glyphicon glyphicon-list' title='история комментариев'></span></a>
+				<span class='label label-info' >Регистрация PPL</span> 
+				<a href='?edit=yes&id=6156'><span class='glyphicon glyphicon-pencil' title='редактировать'></span></a> <a href='?del=yes&id=6156'><span class='glyphicon glyphicon-trash' title='удалить'></span></a></td>
+				</tr><tr id='r_6155'  class='' ><td><input type='checkbox' name='chk1' id='6155'  title=-6062></td><td title=6155><a href='/msg.php?uid=-6062' target='_blank'><span class='badge' >12</span></a></td><td class='text-center'><span class='badge'  style='color:white; background-color:#A52A2A;'>D</span></td><td  class='text-center'><div class='label label-success' >23/09 04:53</div></td><td ><a href='?mark_read=yes&uid=-6062' title='убрать из задач' target=''><span class='glyphicon glyphicon-remove-circle'></span></a></td><td ><a  href='msg.php?uid=-6062&no_reload_opener=yes' target='_blank'>
+					<span class='badge' style='background-color:#d9534f;'>2</span>
+					</a>
+					
+				</td><td ><b><a title='' href='msg.php?uid=-6062&no_reload_opener=yes' target='_blank'> 79276586879  </a></b></td><td><span class='label label-default' ></span></td><td onclick=''  class='cp_comm'>
+				<div class='blue' >79276586879 </div>
+				 
+				
+				
+				</td><td  class='cp_info'><span class='label label-danger'></span>    <span class='glyphicon glyphicon-phone-alt ' title='79276586879'></span></td><td  class='cp_ctrl'>
+				
+				
+				
+				
+				<a href='javascript:wopen("notes.php?uid=-6062")'><span class='glyphicon glyphicon-list' title='история комментариев'></span></a>
+				<span class='label label-info' >Регистрация PPL</span> 
+				<a href='?edit=yes&id=6155'><span class='glyphicon glyphicon-pencil' title='редактировать'></span></a> <a href='?del=yes&id=6155'><span class='glyphicon glyphicon-trash' title='удалить'></span></a></td>
+				</tr><tr id='r_1001'  class='' ><td><input type='checkbox' name='chk1' id='1001'  title=-1001></td><td title=1001><a href='/msg.php?uid=-1001' target='_blank'><span class='badge' >13</span></a></td><td class='text-center'><span class='badge'  style='background-color:red; color:white;'>D</span></td><td  class='text-center'><div class='label label-success' >07/09 13:29</div></td><td ><a href='?mark_read=yes&uid=-1001' title='убрать из задач' target=''><span class='glyphicon glyphicon-remove-circle'></span></a></td><td ><a  href='msg.php?uid=-1001&no_reload_opener=yes' target='_blank'>
+					<span class='badge' style='background-color:#d9534f;'>2</span>
+					</a>
+					
+				</td><td ><b><a title='julietavshtolis@gmail.com' href='msg.php?uid=-1001&no_reload_opener=yes' target='_blank'> Юлия  </a></b></td><td><span class='label label-default' ></span></td><td onclick=''  class='cp_comm'>
+				<div class='blue' >79916782085 <span class='label label-success' >+0 часов</span></div>
+				 
+				
+				
+				</td><td  class='cp_info'><span class='label label-danger'><a href='user_info.php?user_id=1' style='color:white;' target='_blank'>1</a></span>    <span class='glyphicon glyphicon-phone-alt ' title='79916782085'></span></td><td  class='cp_ctrl'>
+				
+				<img src='/css/icons/tg-16.png' title='julietavshtolis'>
+				<img src='/css/icons/email-16.png' title='julietavshtolis@gmail.com'>
+				<span class='glyphicon glyphicon-check' title='27.05.2022 19:32'></span>
+				<a href='javascript:wopen("notes.php?uid=-1001")'><span class='glyphicon glyphicon-list' title='история комментариев'></span></a>
+				<span class='label label-info' >Забрал лидмагнит</span> 
+				<a href='?edit=yes&id=1001'><span class='glyphicon glyphicon-pencil' title='редактировать'></span></a> <a href='?del=yes&id=1001'><span class='glyphicon glyphicon-trash' title='удалить'></span></a></td>
+				</tr><tr id='r_6141'  class='' ><td><input type='checkbox' name='chk1' id='6141'  title=-6049></td><td title=6141><a href='/msg.php?uid=-6049' target='_blank'><span class='badge' >14</span></a></td><td class='text-center'><span class='badge'  style='color:white; background-color:#A52A2A;'>D</span></td><td  class='text-center'><div class='label label-success' >17/08 09:45</div></td><td ><a href='?mark_read=yes&uid=-6049' title='убрать из задач' target=''><span class='glyphicon glyphicon-remove-circle'></span></a></td><td ><a  href='msg.php?uid=-6049&no_reload_opener=yes' target='_blank'>
+					<span class='badge' style='background-color:#d9534f;'>2</span>
+					</a>
+					
+				</td><td ><b><a title='' href='msg.php?uid=-6049&no_reload_opener=yes' target='_blank'> 79207534962  </a></b></td><td><span class='label label-default' ></span></td><td onclick=''  class='cp_comm'>
+				<div class='blue' >79207534962 </div>
+				 
+				
+				
+				</td><td  class='cp_info'><span class='label label-danger'></span>    <span class='glyphicon glyphicon-phone-alt ' title='79207534962'></span></td><td  class='cp_ctrl'>
+				
+				
+				
+				<span class='glyphicon glyphicon-check' title='17.08.2022 12:37'></span>
+				<a href='javascript:wopen("notes.php?uid=-6049")'><span class='glyphicon glyphicon-list' title='история комментариев'></span></a>
+				<span class='label label-info' >Регистрация PPL</span> 
+				<a href='?edit=yes&id=6141'><span class='glyphicon glyphicon-pencil' title='редактировать'></span></a> <a href='?del=yes&id=6141'><span class='glyphicon glyphicon-trash' title='удалить'></span></a></td>
+				</tr><tr id='r_6140'  class='' ><td><input type='checkbox' name='chk1' id='6140'  title=-6048></td><td title=6140><a href='/msg.php?uid=-6048' target='_blank'><span class='badge' >15</span></a></td><td class='text-center'><span class='badge'  style='color:white; background-color:#A52A2A;'>D</span></td><td  class='text-center'><div class='label label-success' >16/08 08:33</div></td><td ><a href='?mark_read=yes&uid=-6048' title='убрать из задач' target=''><span class='glyphicon glyphicon-remove-circle'></span></a></td><td ><a  href='msg.php?uid=-6048&no_reload_opener=yes' target='_blank'>
+					<span class='badge' style='background-color:#d9534f;'>2</span>
+					</a>
+					
+				</td><td ><b><a title='' href='msg.php?uid=-6048&no_reload_opener=yes' target='_blank'> 79051848055  </a></b></td><td><span class='label label-default' ></span></td><td onclick=''  class='cp_comm'>
+				<div class='blue' >79051848055 </div>
+				 
+				
+				
+				</td><td  class='cp_info'><span class='label label-danger'></span>    <span class='glyphicon glyphicon-phone-alt ' title='79051848055'></span></td><td  class='cp_ctrl'>
+				
+				
+				
+				
+				<a href='javascript:wopen("notes.php?uid=-6048")'><span class='glyphicon glyphicon-list' title='история комментариев'></span></a>
+				<span class='label label-info' >Регистрация PPL</span> 
+				<a href='?edit=yes&id=6140'><span class='glyphicon glyphicon-pencil' title='редактировать'></span></a> <a href='?del=yes&id=6140'><span class='glyphicon glyphicon-trash' title='удалить'></span></a></td>
+				</tr><tr id='r_6137'  class='' ><td><input type='checkbox' name='chk1' id='6137'  title=-6047></td><td title=6137><a href='/msg.php?uid=-6047' target='_blank'><span class='badge' >16</span></a></td><td class='text-center'><span class='badge'  style='color:white; background-color:#A52A2A;'>D</span></td><td  class='text-center'><div class='label label-success' >13/08 16:46</div></td><td ><a href='?mark_read=yes&uid=-6047' title='убрать из задач' target=''><span class='glyphicon glyphicon-remove-circle'></span></a></td><td ><a  href='msg.php?uid=-6047&no_reload_opener=yes' target='_blank'>
+					<span class='badge' style='background-color:#d9534f;'>2</span>
+					</a>
+					
+				</td><td ><b><a title='' href='msg.php?uid=-6047&no_reload_opener=yes' target='_blank'> 79165057173  </a></b></td><td><span class='label label-default' ></span></td><td onclick=''  class='cp_comm'>
+				<div class='blue' >79165057173 </div>
+				 
+				
+				
+				</td><td  class='cp_info'><span class='label label-danger'></span>    <span class='glyphicon glyphicon-phone-alt ' title='79165057173'></span></td><td  class='cp_ctrl'>
+				
+				
+				
+				<span class='glyphicon glyphicon-check' title='11.08.2022 21:14'></span>
+				<a href='javascript:wopen("notes.php?uid=-6047")'><span class='glyphicon glyphicon-list' title='история комментариев'></span></a>
+				<span class='label label-info' >Регистрация PPL</span> 
+				<a href='?edit=yes&id=6137'><span class='glyphicon glyphicon-pencil' title='редактировать'></span></a> <a href='?del=yes&id=6137'><span class='glyphicon glyphicon-trash' title='удалить'></span></a></td>
+				</tr><tr id='r_1002'  class='' ><td><input type='checkbox' name='chk1' id='1002'  title=-1002></td><td title=1002><a href='/msg.php?uid=-1002' target='_blank'><span class='badge' >17</span></a></td><td class='text-center'><span class='badge'  style='color:white; background-color:#A52A2A;'>D</span></td><td  class='text-center'><div class='label label-success' >02/10 19:47</div></td><td ><a href='?mark_read=yes&uid=-1002' title='убрать из задач' target=''><span class='glyphicon glyphicon-remove-circle'></span></a></td><td ><a  href='msg.php?uid=-1002&no_reload_opener=yes' target='_blank'>
+					<span class='badge' style='background-color:#f0ad4e;'>2</span>
+					</a>
+					
+				</td><td ><b><a title='vlav@mail.ru' href='msg.php?uid=-1002&no_reload_opener=yes' target='_blank'> Владимир  </a></b></td><td><span class='label label-default' >Санкт-Петербург</span></td><td onclick=''  class='cp_comm'>
+				<div class='blue' >79119841012 <span class='label label-success' >+0 часов</span></div>
+				 
+				
+				
+				</td><td  class='cp_info'><span class='label label-danger'><a href='user_info.php?user_id=3' style='color:white;' target='_blank'>3</a></span>    <span class='glyphicon glyphicon-phone-alt ' title='79119841012'></span></td><td  class='cp_ctrl'>
+				<img src='/css/icons/vk-16.png' title='VK'>
+				<img src='/css/icons/tg-16.png' title='vladimir_avshtolis'>
+				<img src='/css/icons/email-16.png' title='vlav@mail.ru'>
+				<span class='glyphicon glyphicon-check' title='12.05.2022 18:53'></span>
+				<a href='javascript:wopen("notes.php?uid=-1002")'><span class='glyphicon glyphicon-list' title='история комментариев'></span></a>
+				<span class='label label-info' >Зашел на страницу заказа</span> 
+				<a href='?edit=yes&id=1002'><span class='glyphicon glyphicon-pencil' title='редактировать'></span></a> <a href='?del=yes&id=1002'><span class='glyphicon glyphicon-trash' title='удалить'></span></a></td>
+				</tr><tr id='r_6150'  class='' ><td><input type='checkbox' name='chk1' id='6150'  title=-6057></td><td title=6150><a href='/msg.php?uid=-6057' target='_blank'><span class='badge' >18</span></a></td><td class='text-center'><span class='badge'  style='color:white; background-color:#A52A2A;'>D</span></td><td  class='text-center'><div class='label label-success' >16/09 15:53</div></td><td ><a href='?mark_read=yes&uid=-6057' title='убрать из задач' target=''><span class='glyphicon glyphicon-remove-circle'></span></a></td><td ><a  href='msg.php?uid=-6057&no_reload_opener=yes' target='_blank'>
+					<span class='badge' style='background-color:#f0ad4e;'>2</span>
+					</a>
+					
+				</td><td ><b><a title='' href='msg.php?uid=-6057&no_reload_opener=yes' target='_blank'> (tg=) Анна  </a></b></td><td><span class='label label-default' ></span></td><td onclick=''  class='cp_comm'>
+				<div class='blue' > </div>
+				 
+				
+				
+				</td><td  class='cp_info'><span class='label label-danger'><a href='user_info.php?user_id=3' style='color:white;' target='_blank'>3</a></span>    </td><td  class='cp_ctrl'>
+				
+				<img src='/css/icons/tg-16.png' title=''>
+				
+				<span class='glyphicon glyphicon-check' title='09.09.2022 12:10'></span>
+				<a href='javascript:wopen("notes.php?uid=-6057")'><span class='glyphicon glyphicon-list' title='история комментариев'></span></a>
+				<span class='label label-info' >Зашел на страницу заказа</span> 
+				<a href='?edit=yes&id=6150'><span class='glyphicon glyphicon-pencil' title='редактировать'></span></a> <a href='?del=yes&id=6150'><span class='glyphicon glyphicon-trash' title='удалить'></span></a></td>
+				</tr>
+
+				</tbody>
+				</table>		<script>
+			$("tr").click(function(){
+		//		console.log("TR click");
+				$('.tr_selected').removeClass('tr_selected');
+				$(this).addClass("tr_selected");
+				
+			});
+		</script>
+				<script type="text/javascript">
+		$(document).on('change', '#manage_checkboxes', function() {
+			var selected = $(this).val();
+			var ids=$(this).attr('ids');
+			var mode;
+ 		//	console.log("manage_checkboxes "+selected);
+ 			if(selected=='chk_grp_ops') {
+		//		console.log("manage_checkboxes = chk_grp_ops");
+				wopen("cp.php?chk_grp_ops=yes");
+			}
+			$.ajax({
+				type:'POST',
+				data: {
+					'manage_checkboxes':'yes',
+					'mode':selected,
+					'ids': ids
+				},
+				url:'jquery.php',
+				success: function(data){
+					location.reload();
+				}				
+			});
+		});
+		$("input[name='chk1']").change(function(){
+			var id=$(this).attr('id');
+			if(this.checked)
+				var fl=1;  else var fl=0;
+			var url='set_fl=yes&id='+id+'&fl='+fl;
+		//	console.log(url);
+			//setup the ajax call
+			$.ajax({
+				type:'GET',
+				url:'jquery.php',
+				data:url
+			});
+		});
+		$("#get_unicum_uid").click(function(){
+			var url="get_unicum_uid=yes";
+		//	console.log(url);
+			$.ajax({
+				type:'GET',
+				url:'jquery.php',
+				data:url,
+				success: function(data){
+					f1.uid.value=data;
+				}				
+			});
+			
+		});
+		$(document).ready(function(){
+			 $('[data-toggle="popover"]').popover(); 
+		});
+		</script>
+				</div>
+		</body>
+			<script>
+			$('#datepicker').datepicker({
+				weekStart: 1,
+				daysOfWeekHighlighted: "6,0",
+				monthNames: ['Январь', 'Февраль', 'Март', 'Апрель','Май', 'Июнь', 'Июль', 'Август', 'Сентябрь','Октябрь', 'Ноябрь', 'Декабрь'],
+				dayNamesMin: ['Вс','Пн','Вт','Ср','Чт','Пт','Сб'],
+				autoclose: true,
+				todayHighlight: true,
+				format: 'dd.mm.yyyy',
+				language: 'ru',
+			});
+			$('#datepicker').datepicker("setDate", new Date());
+			$('#datepicker1').datepicker({
+				weekStart: 1,
+				daysOfWeekHighlighted: "6,0",
+				monthNames: ['Январь', 'Февраль', 'Март', 'Апрель','Май', 'Июнь', 'Июль', 'Август', 'Сентябрь','Октябрь', 'Ноябрь', 'Декабрь'],
+				dayNamesMin: ['Вс','Пн','Вт','Ср','Чт','Пт','Сб'],
+				autoclose: true,
+				todayHighlight: true,
+				format: 'dd.mm.yyyy',
+			});
+			$('#datepicker1').datepicker("setDate", new Date());
+			</script>
+		</html>
+		

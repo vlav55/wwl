@@ -1,0 +1,166 @@
+@media (min-width:800px) {
+/* styles for browsers larger than 960px; */
+}
+
+@media (min-width:960px) {
+	body {margin-left:50px;}
+}
+@media (min-width:1440px) {
+/* styles for browsers larger than 1440px; */
+}
+@media (min-width:2000px) {
+/* for sumo sized (mac) screens */
+}
+@media (max-device-width:480px) {
+/* styles for mobile browsers smaller than 480px; (iPhone) */
+}
+@media (device-width:768px) {
+/* default iPad screens */
+}
+/* different techniques for iPad screening */
+@media (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
+/* For portrait layouts only */
+}
+
+@media (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
+/* For landscape layouts only */
+}
+
+body { position: relative; }
+
+body,table {font-size:12pt;font-family:Verdana,Arial,Helvetica,sans-serif; }
+iframe {border-collapse:collapse;border-width:0px;border-style:solid;border-color:#555;}
+table, div {border-collapse:collapse;border-width:0px;border-style:solid;border-color:#777;}
+P {margin:3px;}
+H1 {font-size:12pt;}
+TD {border-width:0px;border-style:solid;border-color:#774F38;padding:3px;}
+INPUT,TEXTAREA,SELECT {border-width:1px;border-style:solid;border-color:#777;padding:3px; margin:3px;}
+INPUT {text-align:left;}
+FORM {margin:1;}
+.red {color:red;}
+a:hover {color:#ADD8E6;}
+
+fieldset {border-collapse:collapse;border-width:1px;border-style:solid;border-color:#777; margin:3px;}
+
+P.mode_mess {font-weight:bold; font-size:14px; background-color:#DDD; padding:5px;}
+TABLE.view_tbl {border-width:1px; margin:5;}
+TABLE.view_tbl TD {border-width:1px; margin:5;}
+TR.view_tbl_tr_cur {background-color: yellow;}
+
+.tr_selected {background-color:#90EE90;}
+
+
+table.vklist td {padding:5px;} 
+
+TABLE.ops {border-width:1px; margin-left:0px;}
+TABLE.ops TD {border-width:1px; border-color:white; margin-left:0px; background-color:#EEE; text-align:right;}
+TR.ops_tr_cur TD {background-color: yellow;}
+.scdl_1,.scdl_2,.scdl_3 {border-collapse:collapse;border-width:1px;border-style:solid;border-color:red; padding:3px; margin:1px; float:right; width:60px;}
+.scdl_1 {background-color:#054700; color:white; }
+.scdl_2 {background-color:#0A7800; color:white; }
+.scdl_3 {background-color:#10C900; color:white; }
+.delayed {border-collapse:collapse;border-width:1px;border-style:solid;border-color:black;background-color:#5CB6FF; color:black;  padding:2px; margin:1px; float:right; width:40px;}
+.agent_busy {border-collapse:collapse;border-width:1px;border-style:solid;border-color:black;background-color:#5CB6FF; color:black;  padding:2px; margin:1px; float:left; width:20px; text-align:center;} 
+.ops_info {border-collapse:collapse;border-width:1px;border-style:solid;border-color:black; padding:2px; margin:1px; background-color:yellow;}
+.set_c_and_submit {border-collapse:collapse;border-width:1px;border-style:solid;border-color:black; padding:3px; margin:1px; background-color:yellow;}
+.set_d_and_submit {border-collapse:collapse;border-width:1px;border-style:solid;border-color:black; padding:3px; margin:1px; background-color:#555;color:white;}
+
+.cp_comm {width:30%;}
+
+table.tbl_acc {border-width:1px;}
+table.tbl_acc td {border-width:1px;}
+table.msgs {border-collapse:collapse;border-width:1px;border-style:solid;border-color:#777; margin: 3px 0 3px 0; padding:5px; width:100%;}
+td.msgs_info {border-collapse:collapse;border-width:1px;border-style:solid;border-color:#777; margin: 3px; padding:3px; width:60px;} 
+td.msgs_txt {padding:7px; font-weight:bold;}
+
+table.rep_1, table.rep_1 td {border-width:1px;}
+table.rep_1 td {text-align:center;}
+.razdel_1 {background-color:#FFC6B6;}
+.razdel_2 {background-color:#CBFF81;}
+.razdel_3 {background-color:yellow;}
+.razdel_4 {background-color:#444; color:white;}
+.razdel_4 A {color:white;}
+.razdel_5 {background-color:#F3C8FF;}
+.cnt {background-color:white;color:black;}
+
+table.stat, table.stat td {border-width:1px;}
+table.stat td {text-align:left; padding-left:5px;}
+
+div.search {border-collapse:collapse;border-width:1px;border-style:solid;border-color:#555; margin:5px 0; padding:3px;}
+p.search_p {background-color:#CCC; padding:2px;}
+
+table.table-report TD {padding:3px;}
+
+.m0 {margin-top:0; margin-bottom:0;}
+.popover {
+    font-size:12px;
+}
+.popover-content {
+	width:400px;
+}
+
+.white {color:white;}
+.blue {color:#337ab7;}
+.yellow {color:#f0ad4e;}
+.brown {color:#806024;}
+.green {color:#3c763d;}
+.red {color:#a94442;}
+.black {color:#444;}
+.grey,.gray {color:#93969D;}
+.orange {color:#f03317;}
+.lightorange {color:#fac0b7;}
+
+.bg-black {background-color:#222;}
+.bg-white {background-color:white;}
+.well_auth {background-color:#d9edf7;}
+.bg-blue {background-color:#337ab7;}
+.bg-green {background-color:#006600;}
+.bg-orange {background-color:#f03317;}
+.bg-yellow {background-color:#ffbf00;}
+.bg-lightorange {background-color:#fac0b7;}
+.bg-lightgrey {background-color:#e6e6e6;}
+.lightblue {color:#80b9f8;}
+.bg-lightblue {background-color:#80b9f8;}
+.bg-blue {background-color:#597da3;}
+.bg-black {background-color:#333;}
+.bg-grey {background-color:#93969D;}
+
+.font48 {font-size:48px;}
+.font42 {font-size:42px;}
+.font38 {font-size:38px;}
+.font36 {font-size:36px;}
+.font34 {font-size:34px;}
+.font32 {font-size:32px;}
+.font30 {font-size:30px;}
+.font28 {font-size:28px;}
+.font26 {font-size:26px;}
+.font24 {font-size:24px;}
+.font22 {font-size:22px;}
+.font20 {font-size:20px;}
+.font18 {font-size:18px;}
+.font16 {font-size:16px;}
+.font14 {font-size:14px;}
+.font12 {font-size:12px;}
+.font10 {font-size:10px;}
+
+.bold {font-weight:bold;}
+
+.auto {margin:0 auto;}
+.mar3 {margin-top:3px;}
+.mar10 {margin-top:10px;}
+.mar20 {margin-top:20px;}
+.top10 {padding-top:10px;}
+.top20 {padding-top:20px;}
+.top30 {padding-top:30px;}
+.top40 {padding-top:40px;}
+.pad3,p-1 {padding:3px;}
+.pad5,p-2 {padding:5px;}
+.pad7,p-3 {padding:7px;}
+.pad10,p-4 {padding:10px;}
+.pad20,p-5 {padding:20px;}
+.pad30 {padding:30px;}
+.pad40 {padding:40px;}
+
+.left50proc {margin-left:50%;}
+
+.email_subj {padding:3px;background-color:#93969D;color:white;}

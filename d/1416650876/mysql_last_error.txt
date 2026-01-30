@@ -1,0 +1,2 @@
+SELECT *,users.comm AS comm,users.id AS id,cards.uid AS uid FROM users JOIN cards ON cards.id=users.klid WHERE users.del=0 ORDER BY fl_allowlogin DESC, id DESC
+Column 'id' in order clause is ambiguous

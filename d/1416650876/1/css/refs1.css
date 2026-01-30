@@ -1,0 +1,82 @@
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  background-color: rgba(255,255,255, 0.5);
+  margin: 20px auto;
+  margin-bottom:0px;
+  max-width:1024px;
+/*
+  background: #f1f1f1f1;
+*/
+}
+
+/* Slides */
+.mySlides {
+  display: none;
+  padding: 20px 10px 20px 10px;
+  text-align: center;
+}
+
+/* Next & previous buttons */
+.refs_prev, .refs_next {
+  cursor: pointer;
+  position: absolute;
+  top: 10%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #AAA;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.refs_next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.left {
+  position: absolute;
+  left: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+a.refs_prev:hover, a.refs_next:hover {
+  background-color: rgba(255,255,255,0.7);
+  color: white;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+  text-align: center;
+  padding: 20px;
+  background: #ddd;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Add an italic font style to all quotes */
+q {font-size: 22px; color:#1a2a70;}
+
+/* Add a blue color to the author */
+.author {font-size: 20px; color:#1a2a70; padding-top:8px;}
+.read_all a {color:#666;font-size:12px;}

@@ -1,0 +1,7 @@
+.vscode/*
+ToDo.txt
+
+vendor/*
+composer.lock
+tests/**/*.sensitive.json
+clover.xml

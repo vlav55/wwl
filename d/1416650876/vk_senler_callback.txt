@@ -1,0 +1,25 @@
+Array
+(
+    [event_time] => 2025-10-02 15:58:13
+    [event_unixtime] => 1759409893
+    [object] => Array
+        (
+            [date] => 2025-10-02 12:58:12
+            [first] => 1
+            [full_unsubscribe] => 
+            [source] => message_allow
+            [subscription_id] => 
+            [unixtime] => 1759409892
+            [utm_campaign] => 
+            [utm_content] => 
+            [utm_id] => 
+            [utm_medium] => 
+            [utm_source] => 
+            [utm_term] => 
+            [vk_group_id] => 160316160
+            [vk_user_id] => 1074782077
+        )
+
+    [secret] => b335c32b0895d026a4d908caf9ce9ff8affa1ac2
+    [type] => subscribe
+)

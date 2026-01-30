@@ -1,0 +1,2010 @@
+13.11.2023 20:31:00--->8
+13.11.2023 20:31:00--->36UPDATE avangard SET res=1,amount1=4500 WHERE order_id='358'
+13.11.2023 20:31:00--->55
+13.11.2023 20:31:00--->99 sp_template=1a06eccc-0ebe-11ee-ae2e-223d66534473
+13.11.2023 20:31:00--->101 unisender_secret=6s1414bffqhg69c1ggzw79wrtgw6zstdbd4k161o
+13.11.2023 20:31:01--->120 email to user sent email=vlav@mail.ru sp_template=1a06eccc-0ebe-11ee-ae2e-223d66534473 
+Array
+(
+    [uid] => c667e4bf35df040b0e62b326948b100c
+    [passw] => 5AHyYHebnE
+    [client_name] => Владимир
+    [vkt_link] => NAN
+    [product] => Абонентская плата за подключение к платформе WINWINLAND, 30 дней
+    [sum] => 4500
+)
+
+Array
+(
+    [status] => success
+    [job_id] => 1r2am4-0002a2-FtCO
+    [emails] => Array
+        (
+            [0] => vlav@mail.ru
+        )
+
+    [tags] => Array
+        (
+        )
+
+)
+
+Array
+(
+    [message] => Array
+        (
+            [recipients] => Array
+                (
+                    [0] => Array
+                        (
+                            [email] => vlav@mail.ru
+                            [substitutions] => Array
+                                (
+                                    [uid] => c667e4bf35df040b0e62b326948b100c
+                                    [passw] => 5AHyYHebnE
+                                    [client_name] => Владимир
+                                    [vkt_link] => NAN
+                                    [product] => Абонентская плата за подключение к платформе WINWINLAND, 30 дней
+                                    [sum] => 4500
+                                )
+
+                        )
+
+                )
+
+            [skip_unsubscribe] => 0
+            [global_language] => ru
+            [template_engine] => simple
+            [template_id] => 1a06eccc-0ebe-11ee-ae2e-223d66534473
+            [track_links] => 0
+            [track_read] => 0
+            [bypass_global] => 1
+            [bypass_unavailable] => 1
+            [bypass_unsubscribed] => 0
+            [bypass_complained] => 0
+            [from_email] => office@winwinland.ru
+            [from_name] => WinWinLand
+        )
+
+)
+
+13.11.2023 20:31:04--->136 notified
+13.11.2023 20:31:04--->139 tag=1 added
+13.11.2023 20:31:04--->142 finished
+13.11.2023 20:35:05--->8
+13.11.2023 20:35:05--->36UPDATE avangard SET res=1,amount1=0 WHERE order_id='358'
+13.11.2023 20:35:05--->136 notified
+13.11.2023 20:35:05--->142 finished
+13.11.2023 20:35:05--->8
+13.11.2023 20:35:05--->36UPDATE avangard SET res=1,amount1=0 WHERE order_id='357'
+13.11.2023 20:35:05--->136 notified
+13.11.2023 20:35:05--->142 finished
+13.11.2023 20:45:36--->8
+13.11.2023 20:45:36--->36UPDATE avangard SET res=1,amount1=0 WHERE order_id='358'
+13.11.2023 20:45:36--->136 notified
+13.11.2023 20:45:36--->142 finished
+13.11.2023 20:45:36--->8
+13.11.2023 20:45:36--->36UPDATE avangard SET res=1,amount1=0 WHERE order_id='357'
+13.11.2023 20:45:36--->136 notified
+13.11.2023 20:45:36--->142 finished
+13.11.2023 20:55:26--->8
+13.11.2023 20:55:26--->36UPDATE avangard SET res=1,amount1=0 WHERE order_id='358'
+13.11.2023 20:55:26--->136 notified
+13.11.2023 20:55:26--->142 finished
+13.11.2023 20:55:26--->8
+13.11.2023 20:55:26--->36UPDATE avangard SET res=1,amount1=0 WHERE order_id='357'
+13.11.2023 20:55:27--->136 notified
+13.11.2023 20:55:27--->142 finished
+13.11.2023 21:05:02--->8
+13.11.2023 21:05:02--->36UPDATE avangard SET res=1,amount1=0 WHERE order_id='358'
+13.11.2023 21:05:02--->136 notified
+13.11.2023 21:05:02--->142 finished
+13.11.2023 21:05:02--->8
+13.11.2023 21:05:02--->36UPDATE avangard SET res=1,amount1=0 WHERE order_id='357'
+13.11.2023 21:05:02--->136 notified
+13.11.2023 21:05:02--->142 finished
+13.11.2023 21:15:08--->8
+13.11.2023 21:15:08--->36UPDATE avangard SET res=1,amount1=0 WHERE order_id='358'
+13.11.2023 21:15:08--->136 notified
+13.11.2023 21:15:08--->142 finished
+13.11.2023 21:15:13--->8
+13.11.2023 21:15:13--->36UPDATE avangard SET res=1,amount1=0 WHERE order_id='357'
+13.11.2023 21:15:14--->136 notified
+13.11.2023 21:15:14--->142 finished
+13.11.2023 21:46:09--->8
+13.11.2023 21:46:09--->36UPDATE avangard SET res=1,amount1=4500 WHERE order_id='357'
+13.11.2023 21:46:09--->55
+13.11.2023 21:46:09--->99 sp_template=1a06eccc-0ebe-11ee-ae2e-223d66534473
+13.11.2023 21:46:09--->101 unisender_secret=6s1414bffqhg69c1ggzw79wrtgw6zstdbd4k161o
+13.11.2023 21:46:10--->120 email to user sent email=vlav@mail.ru sp_template=1a06eccc-0ebe-11ee-ae2e-223d66534473 
+Array
+(
+    [uid] => c667e4bf35df040b0e62b326948b100c
+    [passw] => 5AHyYHebnE
+    [client_name] => Владимир
+    [vkt_link] => NAN
+    [product] => Абонентская плата за подключение к платформе WINWINLAND, 30 дней
+    [sum] => 4500
+)
+
+Array
+(
+    [status] => success
+    [job_id] => 1r2bwn-0002wA-9t1q
+    [emails] => Array
+        (
+            [0] => vlav@mail.ru
+        )
+
+    [tags] => Array
+        (
+        )
+
+)
+
+Array
+(
+    [message] => Array
+        (
+            [recipients] => Array
+                (
+                    [0] => Array
+                        (
+                            [email] => vlav@mail.ru
+                            [substitutions] => Array
+                                (
+                                    [uid] => c667e4bf35df040b0e62b326948b100c
+                                    [passw] => 5AHyYHebnE
+                                    [client_name] => Владимир
+                                    [vkt_link] => NAN
+                                    [product] => Абонентская плата за подключение к платформе WINWINLAND, 30 дней
+                                    [sum] => 4500
+                                )
+
+                        )
+
+                )
+
+            [skip_unsubscribe] => 0
+            [global_language] => ru
+            [template_engine] => simple
+            [template_id] => 1a06eccc-0ebe-11ee-ae2e-223d66534473
+            [track_links] => 0
+            [track_read] => 0
+            [bypass_global] => 1
+            [bypass_unavailable] => 1
+            [bypass_unsubscribed] => 0
+            [bypass_complained] => 0
+            [from_email] => office@winwinland.ru
+            [from_name] => WinWinLand
+        )
+
+)
+
+13.11.2023 21:46:13--->134 notified
+13.11.2023 21:46:13--->137 tag=1 added
+13.11.2023 21:46:13--->140 finished
+14.11.2023 19:19:36--->
+START
+14.11.2023 19:19:36--->24
+14.11.2023 19:19:36--->35HERE_2
+14.11.2023 19:19:36--->70 error
+15.11.2023 23:39:14--->
+START
+15.11.2023 23:39:14--->24
+15.11.2023 23:39:14--->35HERE_2
+15.11.2023 23:39:14--->70 error
+16.11.2023 20:23:07--->
+START
+16.11.2023 20:23:07--->24
+16.11.2023 20:23:07--->46
+16.11.2023 20:23:07--->8
+16.11.2023 20:23:07--->36UPDATE avangard SET res=1,amount1=22002 WHERE order_id='360'
+16.11.2023 20:23:07--->55
+16.11.2023 20:23:07--->99 sp_template=1a06eccc-0ebe-11ee-ae2e-223d66534473
+16.11.2023 20:23:07--->101 unisender_secret=6s1414bffqhg69c1ggzw79wrtgw6zstdbd4k161o
+16.11.2023 20:23:07--->120 email to user sent email=sherlokyanka@gmail.com sp_template=1a06eccc-0ebe-11ee-ae2e-223d66534473 
+Array
+(
+    [uid] => 57dea035e63b669db410a5f641817a31
+    [passw] => Wgn9X3rXQZ
+    [client_name] => Татьяна Аткина
+    [vkt_link] => NAN
+    [product] => Абонентская плата за подключение к платформе WINWINLAND, 365 дней
+    [sum] => 22800
+)
+
+Array
+(
+    [status] => success
+    [job_id] => 1r3g55-0004Y9-9qlr
+    [emails] => Array
+        (
+            [0] => sherlokyanka@gmail.com
+        )
+
+    [tags] => Array
+        (
+        )
+
+)
+
+Array
+(
+    [message] => Array
+        (
+            [recipients] => Array
+                (
+                    [0] => Array
+                        (
+                            [email] => sherlokyanka@gmail.com
+                            [substitutions] => Array
+                                (
+                                    [uid] => 57dea035e63b669db410a5f641817a31
+                                    [passw] => Wgn9X3rXQZ
+                                    [client_name] => Татьяна Аткина
+                                    [vkt_link] => NAN
+                                    [product] => Абонентская плата за подключение к платформе WINWINLAND, 365 дней
+                                    [sum] => 22800
+                                )
+
+                        )
+
+                )
+
+            [skip_unsubscribe] => 0
+            [global_language] => ru
+            [template_engine] => simple
+            [template_id] => 1a06eccc-0ebe-11ee-ae2e-223d66534473
+            [track_links] => 0
+            [track_read] => 0
+            [bypass_global] => 1
+            [bypass_unavailable] => 1
+            [bypass_unsubscribed] => 0
+            [bypass_complained] => 0
+            [from_email] => office@winwinland.ru
+            [from_name] => WinWinLand
+        )
+
+)
+
+16.11.2023 20:23:11--->134 notified
+16.11.2023 20:23:11--->137 tag=1 added
+16.11.2023 20:23:11--->140 finished
+22.11.2023 08:47:48--->8
+22.11.2023 08:47:48--->36UPDATE avangard SET res=1,amount1=0 WHERE order_id='TEST'
+22.11.2023 08:47:48--->134 notified
+22.11.2023 08:47:48--->140 finished
+22.11.2023 08:48:20--->8
+22.11.2023 08:48:20--->36UPDATE avangard SET res=1,amount1=0 WHERE order_id='testt'
+22.11.2023 08:48:20--->134 notified
+22.11.2023 08:48:20--->140 finished
+22.11.2023 16:52:33--->8
+22.11.2023 16:52:33--->36UPDATE avangard SET res=1,amount1=1100 WHERE order_id='363'
+22.11.2023 16:52:33--->99 sp_template=1a06eccc-0ebe-11ee-ae2e-223d66534473
+22.11.2023 16:52:33--->101 unisender_secret=6s1414bffqhg69c1ggzw79wrtgw6zstdbd4k161o
+22.11.2023 16:52:34--->120 email to user sent email=vlav@mail.ru sp_template=1a06eccc-0ebe-11ee-ae2e-223d66534473 
+Array
+(
+    [uid] => c667e4bf35df040b0e62b326948b100c
+    [passw] => 5AHyYHebnE
+    [client_name] => Владимир
+    [vkt_link] => NAN
+    [product] => Тестовый продукт
+    [sum] => 1100
+)
+
+Array
+(
+    [status] => success
+    [job_id] => 1r5neb-0006nO-9pxI
+    [emails] => Array
+        (
+            [0] => vlav@mail.ru
+        )
+
+    [tags] => Array
+        (
+        )
+
+)
+
+Array
+(
+    [message] => Array
+        (
+            [recipients] => Array
+                (
+                    [0] => Array
+                        (
+                            [email] => vlav@mail.ru
+                            [substitutions] => Array
+                                (
+                                    [uid] => c667e4bf35df040b0e62b326948b100c
+                                    [passw] => 5AHyYHebnE
+                                    [client_name] => Владимир
+                                    [vkt_link] => NAN
+                                    [product] => Тестовый продукт
+                                    [sum] => 1100
+                                )
+
+                        )
+
+                )
+
+            [skip_unsubscribe] => 0
+            [global_language] => ru
+            [template_engine] => simple
+            [template_id] => 1a06eccc-0ebe-11ee-ae2e-223d66534473
+            [track_links] => 0
+            [track_read] => 0
+            [bypass_global] => 1
+            [bypass_unavailable] => 1
+            [bypass_unsubscribed] => 0
+            [bypass_complained] => 0
+            [from_email] => office@winwinland.ru
+            [from_name] => WinWinLand
+        )
+
+)
+
+22.11.2023 16:52:38--->134 notified
+22.11.2023 16:52:38--->137 tag=1 added
+22.11.2023 16:52:38--->140 finished
+29.11.2023 09:23:20--->
+START
+29.11.2023 09:23:20--->24
+29.11.2023 09:23:20--->46
+29.11.2023 09:23:20--->8
+29.11.2023 09:23:20--->36UPDATE avangard SET res=1,amount1=28853.5 WHERE order_id='376'
+29.11.2023 09:23:20--->55
+29.11.2023 09:23:20--->60
+29.11.2023 09:23:29--->71 ctrl_id=97
+29.11.2023 09:23:29--->81 HsILgIWLlr
+29.11.2023 09:23:29--->87 new user
+29.11.2023 09:23:29--->90 tm_end updated for 1209600
+29.11.2023 09:23:29--->99 sp_template=f610aeb6-6160-11ee-ad25-baa67caa4fc7
+29.11.2023 09:23:29--->101 unisender_secret=6s1414bffqhg69c1ggzw79wrtgw6zstdbd4k161o
+29.11.2023 09:23:30--->120 email to user sent email=dyagileva_liuba@mail.ru sp_template=f610aeb6-6160-11ee-ad25-baa67caa4fc7 
+Array
+(
+    [uid] => 400cc52e29e4eea13b4b3077e4717727
+    [passw] => HsILgIWLlr
+    [client_name] => Любовь Дягилева 
+    [vkt_link] => https://for16.ru/d/4158667338/cp.php?view=yes&filter=new
+    [product] => Подключение к платформе С ВНЕДРЕНИЕМ, 30 дн.
+    [sum] => 29900
+)
+
+Array
+(
+    [status] => success
+    [job_id] => 1r8Dyr-0004f2-D1X1
+    [emails] => Array
+        (
+            [0] => dyagileva_liuba@mail.ru
+        )
+
+    [tags] => Array
+        (
+        )
+
+)
+
+Array
+(
+    [message] => Array
+        (
+            [recipients] => Array
+                (
+                    [0] => Array
+                        (
+                            [email] => dyagileva_liuba@mail.ru
+                            [substitutions] => Array
+                                (
+                                    [uid] => 400cc52e29e4eea13b4b3077e4717727
+                                    [passw] => HsILgIWLlr
+                                    [client_name] => Любовь Дягилева 
+                                    [vkt_link] => https://for16.ru/d/4158667338/cp.php?view=yes&filter=new
+                                    [product] => Подключение к платформе С ВНЕДРЕНИЕМ, 30 дн.
+                                    [sum] => 29900
+                                )
+
+                        )
+
+                )
+
+            [skip_unsubscribe] => 0
+            [global_language] => ru
+            [template_engine] => simple
+            [template_id] => f610aeb6-6160-11ee-ad25-baa67caa4fc7
+            [track_links] => 0
+            [track_read] => 0
+            [bypass_global] => 1
+            [bypass_unavailable] => 1
+            [bypass_unsubscribed] => 0
+            [bypass_complained] => 0
+            [from_email] => office@winwinland.ru
+            [from_name] => WinWinLand
+        )
+
+)
+
+29.11.2023 09:23:32--->134 notified
+29.11.2023 09:23:32--->137 tag=1 added
+29.11.2023 09:23:32--->140 finished
+29.11.2023 09:44:12--->
+START
+29.11.2023 09:44:12--->24
+29.11.2023 09:44:12--->46
+05.12.2023 10:34:04--->8
+05.12.2023 10:34:04--->36UPDATE avangard SET res=1,amount1=13200 WHERE order_id='378'
+05.12.2023 10:34:04--->99 sp_template=1a06eccc-0ebe-11ee-ae2e-223d66534473
+05.12.2023 10:34:04--->101 unisender_secret=6s1414bffqhg69c1ggzw79wrtgw6zstdbd4k161o
+05.12.2023 10:34:05--->120 email to user sent email=s.krilova@mail.ru sp_template=1a06eccc-0ebe-11ee-ae2e-223d66534473 
+Array
+(
+    [uid] => 083840c038b3f5c956f812641c7b7aed
+    [passw] => 5AHyYHebnE
+    [client_name] => Светлана
+    [vkt_link] => NAN
+    [product] => Абонентская плата за подключение к платформе WINWINLAND, 180 дней
+    [sum] => 13200
+)
+
+Array
+(
+    [status] => success
+    [job_id] => 1rAPwT-0004Ng-7b6U
+    [emails] => Array
+        (
+            [0] => s.krilova@mail.ru
+        )
+
+    [tags] => Array
+        (
+        )
+
+)
+
+Array
+(
+    [message] => Array
+        (
+            [recipients] => Array
+                (
+                    [0] => Array
+                        (
+                            [email] => s.krilova@mail.ru
+                            [substitutions] => Array
+                                (
+                                    [uid] => 083840c038b3f5c956f812641c7b7aed
+                                    [passw] => 5AHyYHebnE
+                                    [client_name] => Светлана
+                                    [vkt_link] => NAN
+                                    [product] => Абонентская плата за подключение к платформе WINWINLAND, 180 дней
+                                    [sum] => 13200
+                                )
+
+                        )
+
+                )
+
+            [skip_unsubscribe] => 0
+            [global_language] => ru
+            [template_engine] => simple
+            [template_id] => 1a06eccc-0ebe-11ee-ae2e-223d66534473
+            [track_links] => 0
+            [track_read] => 0
+            [bypass_global] => 1
+            [bypass_unavailable] => 1
+            [bypass_unsubscribed] => 0
+            [bypass_complained] => 0
+            [from_email] => office@winwinland.ru
+            [from_name] => WinWinLand
+        )
+
+)
+
+05.12.2023 10:34:08--->134 notified
+05.12.2023 10:34:08--->137 tag=1 added
+05.12.2023 10:34:08--->140 finished
+12.12.2023 22:48:00--->8
+12.12.2023 22:48:00--->36UPDATE avangard SET res=1,amount1=7500 WHERE order_id='382'
+12.12.2023 22:48:00--->55
+12.12.2023 22:48:00--->99 sp_template=1a06eccc-0ebe-11ee-ae2e-223d66534473
+12.12.2023 22:48:00--->101 unisender_secret=6s1414bffqhg69c1ggzw79wrtgw6zstdbd4k161o
+12.12.2023 22:48:00--->120 email to user sent email=Tuluz@inbox.ru sp_template=1a06eccc-0ebe-11ee-ae2e-223d66534473 
+Array
+(
+    [uid] => 7adefc11b1ea0b69bd91fc219aea3899
+    [passw] => JcKGZFMXF9
+    [client_name] => Марина Бушигина
+    [vkt_link] => NAN
+    [product] => Абонентская плата за подключение к платформе WINWINLAND, 90 дней
+    [sum] => 7500
+)
+
+Array
+(
+    [status] => success
+    [job_id] => 1rD8jY-0000od-5A6D
+    [emails] => Array
+        (
+            [0] => Tuluz@inbox.ru
+        )
+
+    [tags] => Array
+        (
+        )
+
+)
+
+Array
+(
+    [message] => Array
+        (
+            [recipients] => Array
+                (
+                    [0] => Array
+                        (
+                            [email] => Tuluz@inbox.ru
+                            [substitutions] => Array
+                                (
+                                    [uid] => 7adefc11b1ea0b69bd91fc219aea3899
+                                    [passw] => JcKGZFMXF9
+                                    [client_name] => Марина Бушигина
+                                    [vkt_link] => NAN
+                                    [product] => Абонентская плата за подключение к платформе WINWINLAND, 90 дней
+                                    [sum] => 7500
+                                )
+
+                        )
+
+                )
+
+            [skip_unsubscribe] => 0
+            [global_language] => ru
+            [template_engine] => simple
+            [template_id] => 1a06eccc-0ebe-11ee-ae2e-223d66534473
+            [track_links] => 0
+            [track_read] => 0
+            [bypass_global] => 1
+            [bypass_unavailable] => 1
+            [bypass_unsubscribed] => 0
+            [bypass_complained] => 0
+            [from_email] => office@winwinland.ru
+            [from_name] => WinWinLand
+        )
+
+)
+
+12.12.2023 22:48:03--->134 notified
+12.12.2023 22:48:03--->137 tag=1 added
+12.12.2023 22:48:03--->140 finished
+19.12.2023 15:02:17--->8
+19.12.2023 15:02:17--->36UPDATE avangard SET res=1,amount1=4500 WHERE order_id='383'
+19.12.2023 15:02:17--->55
+19.12.2023 15:02:17--->60
+19.12.2023 15:02:31--->71 ctrl_id=99
+19.12.2023 15:02:31--->81 ewV9QVTzm0
+19.12.2023 15:02:31--->87 new user
+19.12.2023 15:02:31--->90 tm_end updated for 1209600
+19.12.2023 15:02:31--->99 sp_template=1a06eccc-0ebe-11ee-ae2e-223d66534473
+19.12.2023 15:02:31--->101 unisender_secret=6s1414bffqhg69c1ggzw79wrtgw6zstdbd4k161o
+19.12.2023 15:02:31--->120 email to user sent email=salmonberrry@gmail.com sp_template=1a06eccc-0ebe-11ee-ae2e-223d66534473 
+Array
+(
+    [uid] => a50a976905ee00bfc7a9ea04938dc12f
+    [passw] => ewV9QVTzm0
+    [client_name] => СЕМЕНОВА ЕЛЕНА НИКОЛАЕВНА
+    [vkt_link] => https://for16.ru/d/274208589/cp.php?view=yes&filter=new
+    [product] => Абонентская плата за подключение к платформе WINWINLAND, 30 дней
+    [sum] => 4500
+)
+
+Array
+(
+    [status] => success
+    [job_id] => 1rFYnv-0005ED-63Y9
+    [emails] => Array
+        (
+            [0] => salmonberrry@gmail.com
+        )
+
+    [tags] => Array
+        (
+        )
+
+)
+
+Array
+(
+    [message] => Array
+        (
+            [recipients] => Array
+                (
+                    [0] => Array
+                        (
+                            [email] => salmonberrry@gmail.com
+                            [substitutions] => Array
+                                (
+                                    [uid] => a50a976905ee00bfc7a9ea04938dc12f
+                                    [passw] => ewV9QVTzm0
+                                    [client_name] => СЕМЕНОВА ЕЛЕНА НИКОЛАЕВНА
+                                    [vkt_link] => https://for16.ru/d/274208589/cp.php?view=yes&filter=new
+                                    [product] => Абонентская плата за подключение к платформе WINWINLAND, 30 дней
+                                    [sum] => 4500
+                                )
+
+                        )
+
+                )
+
+            [skip_unsubscribe] => 0
+            [global_language] => ru
+            [template_engine] => simple
+            [template_id] => 1a06eccc-0ebe-11ee-ae2e-223d66534473
+            [track_links] => 0
+            [track_read] => 0
+            [bypass_global] => 1
+            [bypass_unavailable] => 1
+            [bypass_unsubscribed] => 0
+            [bypass_complained] => 0
+            [from_email] => office@winwinland.ru
+            [from_name] => WinWinLand
+        )
+
+)
+
+19.12.2023 15:02:35--->134 notified
+19.12.2023 15:02:35--->137 tag=1 added
+19.12.2023 15:02:35--->140 finished
+08.01.2024 15:19:35--->8
+08.01.2024 15:19:35--->38UPDATE avangard SET res=1,amount1=7500 WHERE order_id='386'
+08.01.2024 15:19:35--->57
+08.01.2024 15:19:35--->101 sp_template=1a06eccc-0ebe-11ee-ae2e-223d66534473
+08.01.2024 15:19:35--->103 unisender_secret=6s1414bffqhg69c1ggzw79wrtgw6zstdbd4k161o
+08.01.2024 15:19:36--->122 email to user sent email=AnikievaO@gmail.com sp_template=1a06eccc-0ebe-11ee-ae2e-223d66534473 
+Array
+(
+    [uid] => c5efa1991fa40d9a40b3d810fabd7b27
+    [passw] => lb2F49AGf5
+    [client_name] => Аникиева Ольга
+    [vkt_link] => NAN
+    [product] => Абонентская плата за подключение к платформе WINWINLAND, 90 дней
+    [sum] => 7500
+)
+
+Array
+(
+    [status] => success
+    [job_id] => 1rMobP-0002K6-Dryn
+    [emails] => Array
+        (
+            [0] => AnikievaO@gmail.com
+        )
+
+    [tags] => Array
+        (
+        )
+
+)
+
+Array
+(
+    [message] => Array
+        (
+            [recipients] => Array
+                (
+                    [0] => Array
+                        (
+                            [email] => AnikievaO@gmail.com
+                            [substitutions] => Array
+                                (
+                                    [uid] => c5efa1991fa40d9a40b3d810fabd7b27
+                                    [passw] => lb2F49AGf5
+                                    [client_name] => Аникиева Ольга
+                                    [vkt_link] => NAN
+                                    [product] => Абонентская плата за подключение к платформе WINWINLAND, 90 дней
+                                    [sum] => 7500
+                                )
+
+                        )
+
+                )
+
+            [skip_unsubscribe] => 0
+            [global_language] => ru
+            [template_engine] => simple
+            [template_id] => 1a06eccc-0ebe-11ee-ae2e-223d66534473
+            [track_links] => 0
+            [track_read] => 0
+            [bypass_global] => 1
+            [bypass_unavailable] => 1
+            [bypass_unsubscribed] => 0
+            [bypass_complained] => 0
+            [from_email] => office@winwinland.ru
+            [from_name] => WinWinLand
+        )
+
+)
+
+08.01.2024 15:19:38--->136 notified
+08.01.2024 15:19:38--->139 tag=1 added
+08.01.2024 15:19:38--->141 finished
+09.01.2024 09:52:49--->8
+09.01.2024 09:52:49--->38UPDATE avangard SET res=1,amount1=7500 WHERE order_id='387'
+09.01.2024 09:52:49--->57
+09.01.2024 09:52:49--->101 sp_template=1a06eccc-0ebe-11ee-ae2e-223d66534473
+09.01.2024 09:52:49--->103 unisender_secret=6s1414bffqhg69c1ggzw79wrtgw6zstdbd4k161o
+09.01.2024 09:52:49--->122 email to user sent email=Sofiavoh@yandex.ru sp_template=1a06eccc-0ebe-11ee-ae2e-223d66534473 
+Array
+(
+    [uid] => 22dc293327ca93f69f7acd531ccc1a49
+    [passw] => M5uolt4f0d
+    [client_name] => Софья
+    [vkt_link] => NAN
+    [product] => Абонентская плата за подключение к платформе WINWINLAND, 90 дней
+    [sum] => 7500
+)
+
+Array
+(
+    [status] => success
+    [job_id] => 1rN5yj-0000cJ-BNzh
+    [emails] => Array
+        (
+            [0] => Sofiavoh@yandex.ru
+        )
+
+    [tags] => Array
+        (
+        )
+
+)
+
+Array
+(
+    [message] => Array
+        (
+            [recipients] => Array
+                (
+                    [0] => Array
+                        (
+                            [email] => Sofiavoh@yandex.ru
+                            [substitutions] => Array
+                                (
+                                    [uid] => 22dc293327ca93f69f7acd531ccc1a49
+                                    [passw] => M5uolt4f0d
+                                    [client_name] => Софья
+                                    [vkt_link] => NAN
+                                    [product] => Абонентская плата за подключение к платформе WINWINLAND, 90 дней
+                                    [sum] => 7500
+                                )
+
+                        )
+
+                )
+
+            [skip_unsubscribe] => 0
+            [global_language] => ru
+            [template_engine] => simple
+            [template_id] => 1a06eccc-0ebe-11ee-ae2e-223d66534473
+            [track_links] => 0
+            [track_read] => 0
+            [bypass_global] => 1
+            [bypass_unavailable] => 1
+            [bypass_unsubscribed] => 0
+            [bypass_complained] => 0
+            [from_email] => office@winwinland.ru
+            [from_name] => WinWinLand
+        )
+
+)
+
+09.01.2024 09:52:52--->136 notified
+09.01.2024 09:52:52--->139 tag=1 added
+09.01.2024 09:52:52--->141 finished
+10.01.2024 11:54:31--->8
+10.01.2024 11:54:31--->38UPDATE avangard SET res=1,amount1=10 WHERE order_id='388'
+10.01.2024 11:54:31--->101 sp_template=9d940c48-af93-11ee-9050-66dfd4a50367
+10.01.2024 11:54:31--->103 unisender_secret=6s1414bffqhg69c1ggzw79wrtgw6zstdbd4k161o
+10.01.2024 11:54:32--->122 email to user sent email=vlav@mail.ru sp_template=9d940c48-af93-11ee-9050-66dfd4a50367 
+Array
+(
+    [uid] => c667e4bf35df040b0e62b326948b100c
+    [passw] => 5AHyYHebnE
+    [client_name] => Авштолис Владимир Игоревич
+    [vkt_link] => NAN
+    [product] => Тестовый доступ на 7 дней
+    [sum] => 10
+)
+
+Array
+(
+    [status] => success
+    [job_id] => 1rNUM3-0004tM-K1b4
+    [emails] => Array
+        (
+            [0] => vlav@mail.ru
+        )
+
+    [tags] => Array
+        (
+        )
+
+)
+
+Array
+(
+    [message] => Array
+        (
+            [recipients] => Array
+                (
+                    [0] => Array
+                        (
+                            [email] => vlav@mail.ru
+                            [substitutions] => Array
+                                (
+                                    [uid] => c667e4bf35df040b0e62b326948b100c
+                                    [passw] => 5AHyYHebnE
+                                    [client_name] => Авштолис Владимир Игоревич
+                                    [vkt_link] => NAN
+                                    [product] => Тестовый доступ на 7 дней
+                                    [sum] => 10
+                                )
+
+                        )
+
+                )
+
+            [skip_unsubscribe] => 0
+            [global_language] => ru
+            [template_engine] => simple
+            [template_id] => 9d940c48-af93-11ee-9050-66dfd4a50367
+            [track_links] => 0
+            [track_read] => 0
+            [bypass_global] => 1
+            [bypass_unavailable] => 1
+            [bypass_unsubscribed] => 0
+            [bypass_complained] => 0
+            [from_email] => office@winwinland.ru
+            [from_name] => WinWinLand
+        )
+
+)
+
+10.01.2024 11:54:35--->136 notified
+10.01.2024 11:54:35--->141 finished
+10.01.2024 12:04:34--->8
+10.01.2024 12:04:34--->38UPDATE avangard SET res=1,amount1=10 WHERE order_id='389'
+10.01.2024 12:04:34--->57
+10.01.2024 12:04:34--->101 sp_template=9d940c48-af93-11ee-9050-66dfd4a50367
+10.01.2024 12:04:34--->103 unisender_secret=6s1414bffqhg69c1ggzw79wrtgw6zstdbd4k161o
+10.01.2024 12:04:35--->122 email to user sent email=vlav@mail.ru sp_template=9d940c48-af93-11ee-9050-66dfd4a50367 
+Array
+(
+    [uid] => c667e4bf35df040b0e62b326948b100c
+    [passw] => 5AHyYHebnE
+    [client_name] => Авштолис Владимир Игоревич
+    [vkt_link] => NAN
+    [product] => Тестовый доступ на 7 дней
+    [sum] => 10
+)
+
+Array
+(
+    [status] => success
+    [job_id] => 1rNUVm-0004xH-8lOI
+    [emails] => Array
+        (
+            [0] => vlav@mail.ru
+        )
+
+    [tags] => Array
+        (
+        )
+
+)
+
+Array
+(
+    [message] => Array
+        (
+            [recipients] => Array
+                (
+                    [0] => Array
+                        (
+                            [email] => vlav@mail.ru
+                            [substitutions] => Array
+                                (
+                                    [uid] => c667e4bf35df040b0e62b326948b100c
+                                    [passw] => 5AHyYHebnE
+                                    [client_name] => Авштолис Владимир Игоревич
+                                    [vkt_link] => NAN
+                                    [product] => Тестовый доступ на 7 дней
+                                    [sum] => 10
+                                )
+
+                        )
+
+                )
+
+            [skip_unsubscribe] => 0
+            [global_language] => ru
+            [template_engine] => simple
+            [template_id] => 9d940c48-af93-11ee-9050-66dfd4a50367
+            [track_links] => 0
+            [track_read] => 0
+            [bypass_global] => 1
+            [bypass_unavailable] => 1
+            [bypass_unsubscribed] => 0
+            [bypass_complained] => 0
+            [from_email] => office@winwinland.ru
+            [from_name] => WinWinLand
+        )
+
+)
+
+10.01.2024 12:04:37--->136 notified
+10.01.2024 12:04:37--->141 finished
+10.01.2024 12:12:00--->8
+10.01.2024 12:12:00--->38UPDATE avangard SET res=1,amount1=10 WHERE order_id='391'
+10.01.2024 12:12:00--->57
+10.01.2024 12:12:00--->102 sp_template=9d940c48-af93-11ee-9050-66dfd4a50367
+10.01.2024 12:12:00--->104 unisender_secret=6s1414bffqhg69c1ggzw79wrtgw6zstdbd4k161o
+10.01.2024 12:12:01--->123 email to user sent email=vlav@mail.ru sp_template=9d940c48-af93-11ee-9050-66dfd4a50367 
+Array
+(
+    [uid] => c667e4bf35df040b0e62b326948b100c
+    [passw] => 5AHyYHebnE
+    [client_name] => Авштолис Владимир Игоревич
+    [vkt_link] => https://for16.ru/d/1000/cp.php?view=yes&filter=new
+    [product] => Тестовый доступ на 7 дней
+    [sum] => 10
+)
+
+Array
+(
+    [status] => success
+    [job_id] => 1rNUcy-00054o-2Bbf
+    [emails] => Array
+        (
+            [0] => vlav@mail.ru
+        )
+
+    [tags] => Array
+        (
+        )
+
+)
+
+Array
+(
+    [message] => Array
+        (
+            [recipients] => Array
+                (
+                    [0] => Array
+                        (
+                            [email] => vlav@mail.ru
+                            [substitutions] => Array
+                                (
+                                    [uid] => c667e4bf35df040b0e62b326948b100c
+                                    [passw] => 5AHyYHebnE
+                                    [client_name] => Авштолис Владимир Игоревич
+                                    [vkt_link] => https://for16.ru/d/1000/cp.php?view=yes&filter=new
+                                    [product] => Тестовый доступ на 7 дней
+                                    [sum] => 10
+                                )
+
+                        )
+
+                )
+
+            [skip_unsubscribe] => 0
+            [global_language] => ru
+            [template_engine] => simple
+            [template_id] => 9d940c48-af93-11ee-9050-66dfd4a50367
+            [track_links] => 0
+            [track_read] => 0
+            [bypass_global] => 1
+            [bypass_unavailable] => 1
+            [bypass_unsubscribed] => 0
+            [bypass_complained] => 0
+            [from_email] => office@winwinland.ru
+            [from_name] => WinWinLand
+        )
+
+)
+
+10.01.2024 12:12:04--->137 notified
+10.01.2024 12:12:04--->142 finished
+10.01.2024 12:16:36--->8
+10.01.2024 12:16:36--->38UPDATE avangard SET res=1,amount1=10 WHERE order_id='392'
+10.01.2024 12:16:36--->57
+10.01.2024 12:16:36--->62
+10.01.2024 12:16:48--->73 ctrl_id=102
+10.01.2024 12:16:48--->83 5TOf1D4f16
+10.01.2024 12:16:48--->89 first payment detected
+10.01.2024 12:16:48--->92 tm_end updated to 1706734799
+10.01.2024 12:16:48--->102 sp_template=9d940c48-af93-11ee-9050-66dfd4a50367
+10.01.2024 12:16:48--->104 unisender_secret=6s1414bffqhg69c1ggzw79wrtgw6zstdbd4k161o
+10.01.2024 12:16:48--->123 email to user sent email=bastrygina.02@mail.ru sp_template=9d940c48-af93-11ee-9050-66dfd4a50367 
+Array
+(
+    [uid] => dcc815c869dc5ff37d63727c7afbe232
+    [passw] => 5TOf1D4f16
+    [client_name] => Анастасия Бастрыгина
+    [vkt_link] => https://for16.ru/d/3447271878/cp.php?view=yes&filter=new
+    [product] => Тестовый доступ на 7 дней
+    [sum] => 10
+)
+
+Array
+(
+    [status] => success
+    [job_id] => 1rNUhc-0004xZ-Hrwo
+    [emails] => Array
+        (
+            [0] => bastrygina.02@mail.ru
+        )
+
+    [tags] => Array
+        (
+        )
+
+)
+
+Array
+(
+    [message] => Array
+        (
+            [recipients] => Array
+                (
+                    [0] => Array
+                        (
+                            [email] => bastrygina.02@mail.ru
+                            [substitutions] => Array
+                                (
+                                    [uid] => dcc815c869dc5ff37d63727c7afbe232
+                                    [passw] => 5TOf1D4f16
+                                    [client_name] => Анастасия Бастрыгина
+                                    [vkt_link] => https://for16.ru/d/3447271878/cp.php?view=yes&filter=new
+                                    [product] => Тестовый доступ на 7 дней
+                                    [sum] => 10
+                                )
+
+                        )
+
+                )
+
+            [skip_unsubscribe] => 0
+            [global_language] => ru
+            [template_engine] => simple
+            [template_id] => 9d940c48-af93-11ee-9050-66dfd4a50367
+            [track_links] => 0
+            [track_read] => 0
+            [bypass_global] => 1
+            [bypass_unavailable] => 1
+            [bypass_unsubscribed] => 0
+            [bypass_complained] => 0
+            [from_email] => office@winwinland.ru
+            [from_name] => WinWinLand
+        )
+
+)
+
+10.01.2024 12:16:51--->137 notified
+10.01.2024 12:16:51--->142 finished
+16.01.2024 14:24:47--->8
+16.01.2024 14:24:47--->38UPDATE avangard SET res=1,amount1=7500 WHERE order_id='394'
+16.01.2024 14:24:47--->57
+16.01.2024 14:24:47--->102 sp_template=1a06eccc-0ebe-11ee-ae2e-223d66534473
+16.01.2024 14:24:47--->104 unisender_secret=6s1414bffqhg69c1ggzw79wrtgw6zstdbd4k161o
+16.01.2024 14:24:47--->123 email to user sent email=sokkomsnda@yandex.ru sp_template=1a06eccc-0ebe-11ee-ae2e-223d66534473 
+Array
+(
+    [uid] => a97586953dc08bda24c898c022770ee4
+    [passw] => QUO8Msjv2J
+    [client_name] => Семиделова Ольга
+    [vkt_link] => https://for16.ru/d/2396732099/cp.php?view=yes&filter=new
+    [product] => Абонентская плата за подключение к платформе WINWINLAND, 90 дней
+    [sum] => 7500
+)
+
+Array
+(
+    [status] => success
+    [job_id] => 1rPhYl-0006qk-9Eex
+    [emails] => Array
+        (
+            [0] => sokkomsnda@yandex.ru
+        )
+
+    [tags] => Array
+        (
+        )
+
+)
+
+Array
+(
+    [message] => Array
+        (
+            [recipients] => Array
+                (
+                    [0] => Array
+                        (
+                            [email] => sokkomsnda@yandex.ru
+                            [substitutions] => Array
+                                (
+                                    [uid] => a97586953dc08bda24c898c022770ee4
+                                    [passw] => QUO8Msjv2J
+                                    [client_name] => Семиделова Ольга
+                                    [vkt_link] => https://for16.ru/d/2396732099/cp.php?view=yes&filter=new
+                                    [product] => Абонентская плата за подключение к платформе WINWINLAND, 90 дней
+                                    [sum] => 7500
+                                )
+
+                        )
+
+                )
+
+            [skip_unsubscribe] => 0
+            [global_language] => ru
+            [template_engine] => simple
+            [template_id] => 1a06eccc-0ebe-11ee-ae2e-223d66534473
+            [track_links] => 0
+            [track_read] => 0
+            [bypass_global] => 1
+            [bypass_unavailable] => 1
+            [bypass_unsubscribed] => 0
+            [bypass_complained] => 0
+            [from_email] => office@winwinland.ru
+            [from_name] => WinWinLand
+        )
+
+)
+
+16.01.2024 14:24:47--->135 tm_end saved as 1713214799
+16.01.2024 14:24:50--->139 notified
+16.01.2024 14:24:50--->142 tag=1 added
+16.01.2024 14:24:50--->144 finished
+18.01.2024 17:46:27--->8
+18.01.2024 17:46:27--->38UPDATE avangard SET res=1,amount1=4500 WHERE order_id='396'
+18.01.2024 17:46:27--->57
+18.01.2024 17:46:27--->102 sp_template=1a06eccc-0ebe-11ee-ae2e-223d66534473
+18.01.2024 17:46:27--->104 unisender_secret=6s1414bffqhg69c1ggzw79wrtgw6zstdbd4k161o
+18.01.2024 17:46:28--->123 email to user sent email=bastrygina.02@mail.ru sp_template=1a06eccc-0ebe-11ee-ae2e-223d66534473 
+Array
+(
+    [uid] => dcc815c869dc5ff37d63727c7afbe232
+    [passw] => 5TOf1D4f16
+    [client_name] => Анастасия
+    [vkt_link] => https://for16.ru/d/3447271878/cp.php?view=yes&filter=new
+    [product] => Абонентская плата за подключение к платформе WINWINLAND, 30 дней
+    [sum] => 4500
+)
+
+Array
+(
+    [status] => success
+    [job_id] => 1rQTf1-0002w1-9BFp
+    [emails] => Array
+        (
+            [0] => bastrygina.02@mail.ru
+        )
+
+    [tags] => Array
+        (
+        )
+
+)
+
+Array
+(
+    [message] => Array
+        (
+            [recipients] => Array
+                (
+                    [0] => Array
+                        (
+                            [email] => bastrygina.02@mail.ru
+                            [substitutions] => Array
+                                (
+                                    [uid] => dcc815c869dc5ff37d63727c7afbe232
+                                    [passw] => 5TOf1D4f16
+                                    [client_name] => Анастасия
+                                    [vkt_link] => https://for16.ru/d/3447271878/cp.php?view=yes&filter=new
+                                    [product] => Абонентская плата за подключение к платформе WINWINLAND, 30 дней
+                                    [sum] => 4500
+                                )
+
+                        )
+
+                )
+
+            [skip_unsubscribe] => 0
+            [global_language] => ru
+            [template_engine] => simple
+            [template_id] => 1a06eccc-0ebe-11ee-ae2e-223d66534473
+            [track_links] => 0
+            [track_read] => 0
+            [bypass_global] => 1
+            [bypass_unavailable] => 1
+            [bypass_unsubscribed] => 0
+            [bypass_complained] => 0
+            [from_email] => office@winwinland.ru
+            [from_name] => WinWinLand
+        )
+
+)
+
+18.01.2024 17:46:28--->135 tm_end saved as 1708203599
+18.01.2024 17:46:31--->139 notified
+18.01.2024 17:46:31--->142 tag=1 added
+18.01.2024 17:46:31--->144 finished
+21.01.2024 18:11:20--->8
+21.01.2024 18:11:20--->38UPDATE avangard SET res=1,amount1=10 WHERE order_id='399'
+21.01.2024 18:11:20--->57
+21.01.2024 18:11:20--->62
+21.01.2024 18:11:32--->73 ctrl_id=103
+21.01.2024 18:11:32--->83 tl4IMGUG8J
+21.01.2024 18:11:32--->102 sp_template=9d940c48-af93-11ee-9050-66dfd4a50367
+21.01.2024 18:11:32--->104 unisender_secret=6s1414bffqhg69c1ggzw79wrtgw6zstdbd4k161o
+21.01.2024 18:11:32--->123 email to user sent email=Yagubovaev@gmail.com sp_template=9d940c48-af93-11ee-9050-66dfd4a50367 
+Array
+(
+    [uid] => 2593bab08aa120a6793058b2fcef0b33
+    [passw] => tl4IMGUG8J
+    [client_name] => Ягубова Екатерина Владиславовна 
+    [vkt_link] => https://for16.ru/d/3128820048/cp.php?view=yes&filter=new
+    [product] => Тестовый доступ на 7 дней
+    [sum] => 10
+)
+
+Array
+(
+    [status] => success
+    [job_id] => 1rRZTw-0003ZW-2jRQ
+    [emails] => Array
+        (
+            [0] => Yagubovaev@gmail.com
+        )
+
+    [tags] => Array
+        (
+        )
+
+)
+
+Array
+(
+    [message] => Array
+        (
+            [recipients] => Array
+                (
+                    [0] => Array
+                        (
+                            [email] => Yagubovaev@gmail.com
+                            [substitutions] => Array
+                                (
+                                    [uid] => 2593bab08aa120a6793058b2fcef0b33
+                                    [passw] => tl4IMGUG8J
+                                    [client_name] => Ягубова Екатерина Владиславовна 
+                                    [vkt_link] => https://for16.ru/d/3128820048/cp.php?view=yes&filter=new
+                                    [product] => Тестовый доступ на 7 дней
+                                    [sum] => 10
+                                )
+
+                        )
+
+                )
+
+            [skip_unsubscribe] => 0
+            [global_language] => ru
+            [template_engine] => simple
+            [template_id] => 9d940c48-af93-11ee-9050-66dfd4a50367
+            [track_links] => 0
+            [track_read] => 0
+            [bypass_global] => 1
+            [bypass_unavailable] => 1
+            [bypass_unsubscribed] => 0
+            [bypass_complained] => 0
+            [from_email] => office@winwinland.ru
+            [from_name] => WinWinLand
+        )
+
+)
+
+21.01.2024 18:11:32--->135 tm_end saved as 1706475599
+21.01.2024 18:11:35--->140 notified
+21.01.2024 18:11:35--->145 finished
+22.01.2024 12:54:10--->8
+22.01.2024 12:54:10--->38UPDATE avangard SET res=1,amount1=10 WHERE order_id='400'
+22.01.2024 12:54:10--->57
+22.01.2024 12:54:10--->62
+22.01.2024 12:54:21--->73 ctrl_id=104
+22.01.2024 12:54:21--->83 o4jeF08l06
+22.01.2024 12:54:21--->102 sp_template=9d940c48-af93-11ee-9050-66dfd4a50367
+22.01.2024 12:54:21--->104 unisender_secret=6s1414bffqhg69c1ggzw79wrtgw6zstdbd4k161o
+22.01.2024 12:54:22--->123 email to user sent email=russoant@yandex.ru sp_template=9d940c48-af93-11ee-9050-66dfd4a50367 
+Array
+(
+    [uid] => 364ad3209cb9cb055d86922c9e3a8779
+    [passw] => o4jeF08l06
+    [client_name] => Руссо Антон Александрович
+    [vkt_link] => https://for16.ru/d/605721843/cp.php?view=yes&filter=new
+    [product] => Тестовый доступ на 7 дней
+    [sum] => 10
+)
+
+Array
+(
+    [status] => success
+    [job_id] => 1rRr0Y-0007YY-8R4Y
+    [emails] => Array
+        (
+            [0] => russoant@yandex.ru
+        )
+
+    [tags] => Array
+        (
+        )
+
+)
+
+Array
+(
+    [message] => Array
+        (
+            [recipients] => Array
+                (
+                    [0] => Array
+                        (
+                            [email] => russoant@yandex.ru
+                            [substitutions] => Array
+                                (
+                                    [uid] => 364ad3209cb9cb055d86922c9e3a8779
+                                    [passw] => o4jeF08l06
+                                    [client_name] => Руссо Антон Александрович
+                                    [vkt_link] => https://for16.ru/d/605721843/cp.php?view=yes&filter=new
+                                    [product] => Тестовый доступ на 7 дней
+                                    [sum] => 10
+                                )
+
+                        )
+
+                )
+
+            [skip_unsubscribe] => 0
+            [global_language] => ru
+            [template_engine] => simple
+            [template_id] => 9d940c48-af93-11ee-9050-66dfd4a50367
+            [track_links] => 0
+            [track_read] => 0
+            [bypass_global] => 1
+            [bypass_unavailable] => 1
+            [bypass_unsubscribed] => 0
+            [bypass_complained] => 0
+            [from_email] => office@winwinland.ru
+            [from_name] => WinWinLand
+        )
+
+)
+
+22.01.2024 12:54:22--->135 tm_end saved as 1706561999
+22.01.2024 12:54:24--->140 notified
+22.01.2024 12:54:24--->145 finished
+29.01.2024 14:58:39--->8
+29.01.2024 14:58:39--->38UPDATE avangard SET  tm='1706529519',res=1,amount1=4500 WHERE order_id='402'
+29.01.2024 14:58:40--->57
+29.01.2024 14:58:40--->62
+29.01.2024 14:58:52--->73 ctrl_id=105
+29.01.2024 14:58:52--->83 qhfM6KkaVA
+29.01.2024 14:58:52--->89 first payment detected
+29.01.2024 14:58:52--->92 tm_end corrected to 1710363599
+29.01.2024 14:58:52--->102 sp_template=1a06eccc-0ebe-11ee-ae2e-223d66534473
+29.01.2024 14:58:52--->104 unisender_secret=6s1414bffqhg69c1ggzw79wrtgw6zstdbd4k161o
+29.01.2024 14:58:53--->123 email to user sent email=g.kubareva@gmail.com sp_template=1a06eccc-0ebe-11ee-ae2e-223d66534473 
+Array
+(
+    [uid] => 31a36767017eac8f41b82307a9a178f5
+    [passw] => qhfM6KkaVA
+    [client_name] => Кубарева Галина Владимировна
+    [vkt_link] => https://for16.ru/d/1394451557/cp.php?view=yes&filter=new
+    [product] => Абонентская плата за подключение к платформе WINWINLAND, 30 дней
+    [sum] => 4500
+)
+
+Array
+(
+    [status] => success
+    [job_id] => 1rUQHt-0000jS-F0b9
+    [emails] => Array
+        (
+            [0] => g.kubareva@gmail.com
+        )
+
+    [tags] => Array
+        (
+        )
+
+)
+
+Array
+(
+    [message] => Array
+        (
+            [recipients] => Array
+                (
+                    [0] => Array
+                        (
+                            [email] => g.kubareva@gmail.com
+                            [substitutions] => Array
+                                (
+                                    [uid] => 31a36767017eac8f41b82307a9a178f5
+                                    [passw] => qhfM6KkaVA
+                                    [client_name] => Кубарева Галина Владимировна
+                                    [vkt_link] => https://for16.ru/d/1394451557/cp.php?view=yes&filter=new
+                                    [product] => Абонентская плата за подключение к платформе WINWINLAND, 30 дней
+                                    [sum] => 4500
+                                )
+
+                        )
+
+                )
+
+            [skip_unsubscribe] => 0
+            [global_language] => ru
+            [template_engine] => simple
+            [template_id] => 1a06eccc-0ebe-11ee-ae2e-223d66534473
+            [track_links] => 0
+            [track_read] => 0
+            [bypass_global] => 1
+            [bypass_unavailable] => 1
+            [bypass_unsubscribed] => 0
+            [bypass_complained] => 0
+            [from_email] => office@winwinland.ru
+            [from_name] => WinWinLand
+        )
+
+)
+
+29.01.2024 14:58:53--->135 tm_end saved as 1710363599
+29.01.2024 14:58:57--->140 notified
+29.01.2024 14:58:57--->143 tag=1 added
+29.01.2024 14:58:57--->145 finished
+29.01.2024 22:30:18--->8
+29.01.2024 22:30:18--->38UPDATE avangard SET  tm='1706556618',res=1,amount1=10 WHERE order_id='407'
+29.01.2024 22:30:18--->57
+29.01.2024 22:30:18--->102 sp_template=1a06eccc-0ebe-11ee-ae2e-223d66534473
+29.01.2024 22:30:18--->104 unisender_secret=6s1414bffqhg69c1ggzw79wrtgw6zstdbd4k161o
+29.01.2024 22:30:19--->123 email to user sent email=vlav@mail.ru sp_template=1a06eccc-0ebe-11ee-ae2e-223d66534473 
+Array
+(
+    [uid] => c667e4bf35df040b0e62b326948b100c
+    [passw] => 5AHyYHebnE
+    [client_name] => Владимир
+    [vkt_link] => https://for16.ru/d/1000/cp.php?view=yes&filter=new
+    [product] => Абонентская плата за подключение к платформе WINWINLAND, 30 дней
+    [sum] => 10
+)
+
+Array
+(
+    [status] => success
+    [job_id] => 1rUXKk-0002t9-8N4c
+    [emails] => Array
+        (
+            [0] => vlav@mail.ru
+        )
+
+    [tags] => Array
+        (
+        )
+
+)
+
+Array
+(
+    [message] => Array
+        (
+            [recipients] => Array
+                (
+                    [0] => Array
+                        (
+                            [email] => vlav@mail.ru
+                            [substitutions] => Array
+                                (
+                                    [uid] => c667e4bf35df040b0e62b326948b100c
+                                    [passw] => 5AHyYHebnE
+                                    [client_name] => Владимир
+                                    [vkt_link] => https://for16.ru/d/1000/cp.php?view=yes&filter=new
+                                    [product] => Абонентская плата за подключение к платформе WINWINLAND, 30 дней
+                                    [sum] => 10
+                                )
+
+                        )
+
+                )
+
+            [skip_unsubscribe] => 0
+            [global_language] => ru
+            [template_engine] => simple
+            [template_id] => 1a06eccc-0ebe-11ee-ae2e-223d66534473
+            [track_links] => 0
+            [track_read] => 0
+            [bypass_global] => 1
+            [bypass_unavailable] => 1
+            [bypass_unsubscribed] => 0
+            [bypass_complained] => 0
+            [from_email] => office@winwinland.ru
+            [from_name] => WinWinLand
+        )
+
+)
+
+29.01.2024 22:30:19--->135 tm_end saved as 1709153999
+29.01.2024 22:30:22--->140 notified
+29.01.2024 22:30:22--->145 finished
+09.02.2024 17:08:39--->8
+09.02.2024 17:08:39--->38UPDATE avangard SET  tm='1707487719',res=1,amount1=7500 WHERE order_id='408'
+09.02.2024 17:08:40--->57
+09.02.2024 17:08:40--->62
+09.02.2024 17:08:50--->73 ctrl_id=106
+09.02.2024 17:08:50--->83 DXymJstXsi
+09.02.2024 17:08:51--->89 first payment detected
+09.02.2024 17:08:51--->92 tm_end corrected to 1716497999
+09.02.2024 17:08:51--->102 sp_template=1a06eccc-0ebe-11ee-ae2e-223d66534473
+09.02.2024 17:08:51--->104 unisender_secret=6s1414bffqhg69c1ggzw79wrtgw6zstdbd4k161o
+09.02.2024 17:08:51--->123 email to user sent email=business@unibell.ru sp_template=1a06eccc-0ebe-11ee-ae2e-223d66534473 
+Array
+(
+    [uid] => 20a965236be40555f3f2d1aafc965e02
+    [passw] => DXymJstXsi
+    [client_name] => Мария Осиевская
+    [vkt_link] => https://for16.ru/d/3390371295/cp.php?view=yes&filter=new
+    [product] => Абонентская плата за подключение к платформе WINWINLAND, 90 дней
+    [sum] => 7500
+)
+
+Array
+(
+    [status] => success
+    [job_id] => 1rYRYh-0003X9-D2Kp
+    [emails] => Array
+        (
+            [0] => business@unibell.ru
+        )
+
+    [tags] => Array
+        (
+        )
+
+)
+
+Array
+(
+    [message] => Array
+        (
+            [recipients] => Array
+                (
+                    [0] => Array
+                        (
+                            [email] => business@unibell.ru
+                            [substitutions] => Array
+                                (
+                                    [uid] => 20a965236be40555f3f2d1aafc965e02
+                                    [passw] => DXymJstXsi
+                                    [client_name] => Мария Осиевская
+                                    [vkt_link] => https://for16.ru/d/3390371295/cp.php?view=yes&filter=new
+                                    [product] => Абонентская плата за подключение к платформе WINWINLAND, 90 дней
+                                    [sum] => 7500
+                                )
+
+                        )
+
+                )
+
+            [skip_unsubscribe] => 0
+            [global_language] => ru
+            [template_engine] => simple
+            [template_id] => 1a06eccc-0ebe-11ee-ae2e-223d66534473
+            [track_links] => 0
+            [track_read] => 0
+            [bypass_global] => 1
+            [bypass_unavailable] => 1
+            [bypass_unsubscribed] => 0
+            [bypass_complained] => 0
+            [from_email] => office@winwinland.ru
+            [from_name] => WinWinLand
+        )
+
+)
+
+09.02.2024 17:08:51--->135 tm_end saved as 1716497999
+09.02.2024 17:08:55--->140 notified
+09.02.2024 17:08:55--->143 tag=1 added
+09.02.2024 17:08:55--->145 finished
+20.02.2024 17:59:08--->8
+20.02.2024 17:59:08--->38UPDATE avangard SET  tm='1708441148',res=1,amount1=10 WHERE order_id='412'
+20.02.2024 17:59:08--->57
+20.02.2024 17:59:08--->62
+20.02.2024 17:59:19--->73 ctrl_id=107
+20.02.2024 17:59:19--->83 CZwMsjjR8J
+20.02.2024 17:59:19--->102 sp_template=9d940c48-af93-11ee-9050-66dfd4a50367
+20.02.2024 17:59:19--->104 unisender_secret=6s1414bffqhg69c1ggzw79wrtgw6zstdbd4k161o
+20.02.2024 17:59:19--->123 email to user sent email=evlanov.1488@gmail.com sp_template=9d940c48-af93-11ee-9050-66dfd4a50367 
+Array
+(
+    [uid] => 72b2b1388acd56aca325b9893b92717f
+    [passw] => CZwMsjjR8J
+    [client_name] => Денис Евланов
+    [vkt_link] => https://for16.ru/d/3172189513/cp.php?view=yes&filter=new
+    [product] => Тестовый доступ на 7 дней
+    [sum] => 10
+)
+
+Array
+(
+    [status] => success
+    [job_id] => 1rcRaZ-0002OE-623F
+    [emails] => Array
+        (
+            [0] => evlanov.1488@gmail.com
+        )
+
+    [tags] => Array
+        (
+        )
+
+)
+
+Array
+(
+    [message] => Array
+        (
+            [recipients] => Array
+                (
+                    [0] => Array
+                        (
+                            [email] => evlanov.1488@gmail.com
+                            [substitutions] => Array
+                                (
+                                    [uid] => 72b2b1388acd56aca325b9893b92717f
+                                    [passw] => CZwMsjjR8J
+                                    [client_name] => Денис Евланов
+                                    [vkt_link] => https://for16.ru/d/3172189513/cp.php?view=yes&filter=new
+                                    [product] => Тестовый доступ на 7 дней
+                                    [sum] => 10
+                                )
+
+                        )
+
+                )
+
+            [skip_unsubscribe] => 0
+            [global_language] => ru
+            [template_engine] => simple
+            [template_id] => 9d940c48-af93-11ee-9050-66dfd4a50367
+            [track_links] => 0
+            [track_read] => 0
+            [bypass_global] => 1
+            [bypass_unavailable] => 1
+            [bypass_unsubscribed] => 0
+            [bypass_complained] => 0
+            [from_email] => office@winwinland.ru
+            [from_name] => WinWinLand
+        )
+
+)
+
+20.02.2024 17:59:19--->135 tm_end saved as 1709067599
+20.02.2024 17:59:24--->140 notified
+20.02.2024 17:59:24--->145 finished
+27.02.2024 12:27:27--->8
+27.02.2024 12:27:27--->38UPDATE avangard SET  tm='1709026047',res=1,amount1=7500 WHERE order_id='420'
+27.02.2024 12:27:28--->57
+27.02.2024 12:27:28--->62
+27.02.2024 12:27:38--->73 ctrl_id=108
+27.02.2024 12:27:38--->83 caU0RzSMwu
+27.02.2024 12:27:38--->89 first payment detected
+27.02.2024 12:27:38--->92 tm_end corrected to 1718053199
+27.02.2024 12:27:38--->102 sp_template=1a06eccc-0ebe-11ee-ae2e-223d66534473
+27.02.2024 12:27:38--->104 unisender_secret=6s1414bffqhg69c1ggzw79wrtgw6zstdbd4k161o
+27.02.2024 12:27:38--->123 email to user sent email=Grin-Anik@yandex.ru sp_template=1a06eccc-0ebe-11ee-ae2e-223d66534473 
+Array
+(
+    [uid] => 47127eaaadab48f0316e95df2c48fa67
+    [passw] => caU0RzSMwu
+    [client_name] => Аникиева Ольга
+    [vkt_link] => https://for16.ru/d/766302424/cp.php?view=yes&filter=new
+    [product] => Абонентская плата за подключение к платформе WINWINLAND, 90 дней
+    [sum] => 7500
+)
+
+Array
+(
+    [status] => success
+    [job_id] => 1retkQ-0000Cb-AImH
+    [emails] => Array
+        (
+            [0] => Grin-Anik@yandex.ru
+        )
+
+    [tags] => Array
+        (
+        )
+
+)
+
+Array
+(
+    [message] => Array
+        (
+            [recipients] => Array
+                (
+                    [0] => Array
+                        (
+                            [email] => Grin-Anik@yandex.ru
+                            [substitutions] => Array
+                                (
+                                    [uid] => 47127eaaadab48f0316e95df2c48fa67
+                                    [passw] => caU0RzSMwu
+                                    [client_name] => Аникиева Ольга
+                                    [vkt_link] => https://for16.ru/d/766302424/cp.php?view=yes&filter=new
+                                    [product] => Абонентская плата за подключение к платформе WINWINLAND, 90 дней
+                                    [sum] => 7500
+                                )
+
+                        )
+
+                )
+
+            [skip_unsubscribe] => 0
+            [global_language] => ru
+            [template_engine] => simple
+            [template_id] => 1a06eccc-0ebe-11ee-ae2e-223d66534473
+            [track_links] => 0
+            [track_read] => 0
+            [bypass_global] => 1
+            [bypass_unavailable] => 1
+            [bypass_unsubscribed] => 0
+            [bypass_complained] => 0
+            [from_email] => office@winwinland.ru
+            [from_name] => WinWinLand
+        )
+
+)
+
+27.02.2024 12:27:38--->135 tm_end saved as 1718053199
+27.02.2024 12:27:41--->140 notified
+27.02.2024 12:27:41--->143 tag=1 added
+27.02.2024 12:27:41--->145 finished
+02.03.2024 23:22:20--->8
+02.03.2024 23:22:20--->38UPDATE avangard SET  tm='1709410940',res=1,amount1=10 WHERE order_id='424'
+02.03.2024 23:22:20--->57
+02.03.2024 23:22:20--->62
+02.03.2024 23:22:31--->73 ctrl_id=109
+02.03.2024 23:22:31--->83 3xTwl0DcrN
+02.03.2024 23:22:31--->102 sp_template=9d940c48-af93-11ee-9050-66dfd4a50367
+02.03.2024 23:22:31--->104 unisender_secret=6s1414bffqhg69c1ggzw79wrtgw6zstdbd4k161o
+02.03.2024 23:22:32--->123 email to user sent email=pr9167771313@gmail.com sp_template=9d940c48-af93-11ee-9050-66dfd4a50367 
+Array
+(
+    [uid] => a1663f23bf10d39101eb6baeb549ddcd
+    [passw] => 3xTwl0DcrN
+    [client_name] => Роман Андреевич Морозов
+    [vkt_link] => https://for16.ru/d/1521215566/cp.php?view=yes&filter=new
+    [product] => Тестовый доступ на 7 дней
+    [sum] => 10
+)
+
+Array
+(
+    [status] => success
+    [job_id] => 1rgVsN-00076l-ETok
+    [emails] => Array
+        (
+            [0] => pr9167771313@gmail.com
+        )
+
+    [tags] => Array
+        (
+        )
+
+)
+
+Array
+(
+    [message] => Array
+        (
+            [recipients] => Array
+                (
+                    [0] => Array
+                        (
+                            [email] => pr9167771313@gmail.com
+                            [substitutions] => Array
+                                (
+                                    [uid] => a1663f23bf10d39101eb6baeb549ddcd
+                                    [passw] => 3xTwl0DcrN
+                                    [client_name] => Роман Андреевич Морозов
+                                    [vkt_link] => https://for16.ru/d/1521215566/cp.php?view=yes&filter=new
+                                    [product] => Тестовый доступ на 7 дней
+                                    [sum] => 10
+                                )
+
+                        )
+
+                )
+
+            [skip_unsubscribe] => 0
+            [global_language] => ru
+            [template_engine] => simple
+            [template_id] => 9d940c48-af93-11ee-9050-66dfd4a50367
+            [track_links] => 0
+            [track_read] => 0
+            [bypass_global] => 1
+            [bypass_unavailable] => 1
+            [bypass_unsubscribed] => 0
+            [bypass_complained] => 0
+            [from_email] => office@winwinland.ru
+            [from_name] => WinWinLand
+        )
+
+)
+
+02.03.2024 23:22:32--->135 tm_end saved as 1710017999
+02.03.2024 23:22:34--->140 notified
+02.03.2024 23:22:34--->145 finished
+05.04.2024 12:57:56--->8
+05.04.2024 12:57:56--->38UPDATE avangard SET  tm='1712311076',res=1,amount1=4500 WHERE order_id='425'
+05.04.2024 12:57:56--->57
+05.04.2024 12:57:56--->102 sp_template=1a06eccc-0ebe-11ee-ae2e-223d66534473
+05.04.2024 12:57:56--->104 unisender_secret=6s1414bffqhg69c1ggzw79wrtgw6zstdbd4k161o
+05.04.2024 12:57:56--->123 email to user sent email=smolina_nasta@mail.ru sp_template=1a06eccc-0ebe-11ee-ae2e-223d66534473 
+Array
+(
+    [uid] => 4985d9f719832be1c08cf353f864868c
+    [passw] => 0VTVu4IEVS
+    [client_name] => Анастасия Смолина
+    [vkt_link] => https://for16.ru/d/1886922373/cp.php?view=yes&filter=new
+    [product] => Абонентская плата за подключение к платформе WINWINLAND, 30 дней
+    [sum] => 4500
+)
+
+Array
+(
+    [status] => success
+    [job_id] => 1rsgKa-00016M-G0X0
+    [emails] => Array
+        (
+            [0] => smolina_nasta@mail.ru
+        )
+
+    [tags] => Array
+        (
+        )
+
+)
+
+Array
+(
+    [message] => Array
+        (
+            [recipients] => Array
+                (
+                    [0] => Array
+                        (
+                            [email] => smolina_nasta@mail.ru
+                            [substitutions] => Array
+                                (
+                                    [uid] => 4985d9f719832be1c08cf353f864868c
+                                    [passw] => 0VTVu4IEVS
+                                    [client_name] => Анастасия Смолина
+                                    [vkt_link] => https://for16.ru/d/1886922373/cp.php?view=yes&filter=new
+                                    [product] => Абонентская плата за подключение к платформе WINWINLAND, 30 дней
+                                    [sum] => 4500
+                                )
+
+                        )
+
+                )
+
+            [skip_unsubscribe] => 0
+            [global_language] => ru
+            [template_engine] => simple
+            [template_id] => 1a06eccc-0ebe-11ee-ae2e-223d66534473
+            [track_links] => 0
+            [track_read] => 0
+            [bypass_global] => 1
+            [bypass_unavailable] => 1
+            [bypass_unsubscribed] => 0
+            [bypass_complained] => 0
+            [from_email] => office@winwinland.ru
+            [from_name] => WinWinLand
+        )
+
+)
+
+05.04.2024 12:57:56--->135 tm_end saved as 1714942799
+05.04.2024 12:57:59--->140 notified
+05.04.2024 12:57:59--->143 tag=1 added
+05.04.2024 12:57:59--->145 finished
+08.04.2024 00:36:41--->8
+08.04.2024 00:36:41--->38UPDATE avangard SET  tm='1712525801',res=1,amount1=7500 WHERE order_id='426'
+08.04.2024 00:36:41--->57
+08.04.2024 00:36:41--->102 sp_template=1a06eccc-0ebe-11ee-ae2e-223d66534473
+08.04.2024 00:36:41--->104 unisender_secret=6s1414bffqhg69c1ggzw79wrtgw6zstdbd4k161o
+08.04.2024 00:36:42--->123 email to user sent email=AnikievaO@gmail.com sp_template=1a06eccc-0ebe-11ee-ae2e-223d66534473 
+Array
+(
+    [uid] => c5efa1991fa40d9a40b3d810fabd7b27
+    [passw] => lb2F49AGf5
+    [client_name] => Аникиева
+    [vkt_link] => https://for16.ru/d/4009429771/cp.php?view=yes&filter=new
+    [product] => Абонентская плата за подключение к платформе WINWINLAND, 90 дней
+    [sum] => 7500
+)
+
+Array
+(
+    [status] => success
+    [job_id] => 1rtaBt-0001PD-6ZN6
+    [emails] => Array
+        (
+            [0] => AnikievaO@gmail.com
+        )
+
+    [tags] => Array
+        (
+        )
+
+)
+
+Array
+(
+    [message] => Array
+        (
+            [recipients] => Array
+                (
+                    [0] => Array
+                        (
+                            [email] => AnikievaO@gmail.com
+                            [substitutions] => Array
+                                (
+                                    [uid] => c5efa1991fa40d9a40b3d810fabd7b27
+                                    [passw] => lb2F49AGf5
+                                    [client_name] => Аникиева
+                                    [vkt_link] => https://for16.ru/d/4009429771/cp.php?view=yes&filter=new
+                                    [product] => Абонентская плата за подключение к платформе WINWINLAND, 90 дней
+                                    [sum] => 7500
+                                )
+
+                        )
+
+                )
+
+            [skip_unsubscribe] => 0
+            [global_language] => ru
+            [template_engine] => simple
+            [template_id] => 1a06eccc-0ebe-11ee-ae2e-223d66534473
+            [track_links] => 0
+            [track_read] => 0
+            [bypass_global] => 1
+            [bypass_unavailable] => 1
+            [bypass_unsubscribed] => 0
+            [bypass_complained] => 0
+            [from_email] => office@winwinland.ru
+            [from_name] => WinWinLand
+        )
+
+)
+
+08.04.2024 00:36:42--->135 tm_end saved as 1720385999
+08.04.2024 00:36:44--->140 notified
+08.04.2024 00:36:44--->143 tag=1 added
+08.04.2024 00:36:44--->145 finished

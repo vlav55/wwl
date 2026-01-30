@@ -1,0 +1,43 @@
+Array
+(
+    [webhooktype] => 12
+    [phone] => 79684895998
+    [name] => Дмитрий
+    [email] => 
+    [message] => 
+    [created_at] => 2024-01-12 18:37:41
+    [referrer] => yandex.ru
+    [keyword] => 
+    [ip] => 188.65.246.150
+    [place] => Санкт-Петербург
+    [site] => winwinland.ru
+    [url] => https://winwinland.ru/#service
+    [utm_source] => 
+    [utm_medium] => 
+    [utm_campaign] => 
+    [utm_content] => 
+    [utm_term] => 
+    [visitor_id] => 15068746246
+    [google_client_id] => 
+    [yclid] => 
+    [rs] => 
+    [roistat_promo] => 
+    [adv_uid] => 
+    [calltracking_id] => 
+    [chat_text] => [Дмитрий, 12.01.2024 в 18:36]
+ Здравствуйте
+[Дмитрий, 12.01.2024 в 18:37]
+ Вы на связи?
+[Автоответ, 12.01.2024 в 18:37]
+ Здравствуйте! Извините, пожалуйста, сейчас все операторы заняты, пожалуйста, нажмите на кнопку &quot;Оставить заявку&quot;, и мы свяжемся с Вами в ближайшее время!
+[Системное сообщение, 12.01.2024 в 18:37]
+ Посетитель закрыл окно чата
+
+    [key] => cd495472b0394512c6b635c67d941f09
+    [lpgenerator_id] => 
+    [leadvertex_id] => 
+    [link] => http://chat.ru.envybox.io/chat/show/-NnyJLG2jAGKknOh3veK
+    [chat_id] => 38375092
+    [custom_data] => []
+    [yandex_client_id] => 1705073343722317767
+)

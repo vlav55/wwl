@@ -1,0 +1,201 @@
+@font-face {
+	font-family: 'ProximaNova-Reg';
+	src: url('//1-info.ru/css/fonts/ProximaNova-Reg.eot');
+	src: local('O'), url('//1-info.ru/css/fonts/ProximaNova-Reg.woff') format('woff'), url('//1-info.ru/css/fonts/ProximaNova-Reg.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'ProximaNova-Bold';
+	src: url('//1-info.ru/css/fonts/ProximaNova-Bold.eot');
+	src: local('O'), url('//1-info.ru/css/fonts/ProximaNova-Bold.woff') format('woff'), url('//1-info.ru/css/fonts/ProximaNova-Bold.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'ProximaNova-Light';
+	src: url('//1-info.ru/css/fonts/ProximaNova-Light.eot');
+	src: local('O'), url('//1-info.ru/css/fonts/ProximaNova-Light.woff') format('woff'), url('//1-info.ru/css/fonts/ProximaNova-Light.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'ProximaNova-Black';
+	src: url('//1-info.ru/css/fonts/ProximaNova-Black.eot');
+	src: local('O'), url('//1-info.ru/css/fonts/ProximaNova-Black.woff') format('woff'), url('//1-info.ru/css/fonts/ProximaNova-Black.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@media (min-width:800px) {
+/* styles for browsers larger than 960px; */
+	div.main,div.menu {width:607px; margin:0 auto; }
+}
+
+@media (min-width:960px) {
+}
+@media (min-width:1440px) {
+/* styles for browsers larger than 1440px; */
+}
+@media (min-width:2000px) {
+/* for sumo sized (mac) screens */
+}
+@media (max-device-width:480px) {
+/* styles for mobile browsers smaller than 480px; (iPhone) */
+}
+@media (device-width:768px) {
+/* default iPad screens */
+}
+/* different techniques for iPad screening */
+@media (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
+/* For portrait layouts only */
+}
+
+@media (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
+/* For landscape layouts only */
+}
+
+body { position: relative; }
+body {color:#333; background-color:white; font-family:"ProximaNova-Reg", sans-serif;}
+h1,h2 {color:#337ab7;}
+h3,h4,h5 {color:#a94442;}
+h1 {font-size:22px;font-family:"ProximaNova-Bold", sans-serif;}
+h2 {font-size:18px;font-family:"ProximaNova-Bold", sans-serif;}
+h3 {font-size:14px;font-family:"ProximaNova-Bold", sans-serif;}
+h4 {font-size:14px; font-weight:bold;font-family:"ProximaNova-Bold", sans-serif;}
+div {border-style:solid;  border-collapse:collapse;border-width:0; border-color:#E7E7E7;}
+div.wrapper_menu  {height:60px;border-width:0 0 1px 0;}
+div.wrapper_menu,div.wrapper_menu div, navbar-collapse, ul.nav, ul.nav li {background-color:#F7F7F7;}
+.menu {} /*#FAFAFA*/
+.navbar { margin-left:0px; padding-top:0px;}
+.navbar-toggle {background-color:#E6E6E6;}
+.navbar-toggle span {background-color:#666;}
+a.navbar-brand {color:#111;font-weight:bold;}
+#myNavbar{float:right;}
+.main {font-size:16px; background-color:white;}
+p { }
+img {margin-right:5px;}
+li {margin-bottom:5px;}
+label {color:#999;}
+table,table TD, table TR {border-width:0; border-collapse:collapse; border-style:solid;}
+
+
+.striked_price {text-decoration: line-through;}
+.striked_price2 {text-decoration: line-through;font-weight:normal; font-size:16px; color:white;font-family:"ProximaNova-Reg", sans-serif;}
+span.cherry {background-image:url('images/icons/cherry.png'); background-position:left; background-repeat:no-repeat;padding-left:20px;}
+span.cherry_r {background-image:url('images/icons/cherry.png'); background-position:right; background-repeat:no-repeat;padding-right:20px;}
+span.redheart {background-image:url('images/icons/redheart.png'); background-position:left; background-repeat:no-repeat;padding-left:20px;}
+span.redheart_r {background-image:url('images/icons/redheart.png'); background-position:right; background-repeat:no-repeat;padding-right:20px;}
+ul.cherry li {vertical-align:top;list-style:none;background-image:url('images/icons/cherry.png'); background-position:top left; background-repeat:no-repeat;padding-left:20px}
+
+.heavy {font-family:"ProximaNova-Black", sans-serif;}
+.bold {font-family:"ProximaNova-Bold", sans-serif;}
+.light {font-family:"ProximaNova-Light", sans-serif; }
+
+
+.semitransp {background-color: rgba(0,0,0,0.5); color:white;}
+.semitransp-green {background-color: rgba(0,1,0,0.5); }
+.semitransp h2,.semitransp h3,.semitransp h4,.semitransp p,.semitransp li{color:white;}
+
+.white {color:white;}
+.blue {color:#337ab7;}
+.yellow {color:#f0ad4e;}
+.brown {color:#806024;}
+.green {color:#3c763d;}
+.red {color:#a94442;}
+.black {color:#444;}
+.grey,.gray {color:#93969D;}
+.orange {color:#f03317;}
+.lightorange {color:#fac0b7;}
+.bg-black {background-color:#222;}
+.bg-white {background-color:white;}
+.well_auth {background-color:#d9edf7;}
+.bg-blue {background-color:#337ab7;}
+
+.bg-green {background-color:#006600;}
+.bg-orange {background-color:#f03317;}
+.bg-yellow {background-color:#ffbf00;}
+.bg-lightorange {background-color:#fac0b7;}
+.bg-lightgrey {background-color:#e6e6e6;}
+.lightblue {color:#80b9f8;}
+.bg-lightblue {background-color:#80b9f8;}
+.bg-blue {background-color:#597da3;}
+.bg-black {background-color:#333;}
+.bg-grey {background-color:#93969D;}
+
+.font48 {font-size:48px;}
+.font42 {font-size:42px;}
+.font38 {font-size:38px;}
+.font36 {font-size:36px;}
+.font34 {font-size:34px;}
+.font32 {font-size:32px;}
+.font30 {font-size:30px;}
+.font28 {font-size:28px;}
+.font26 {font-size:26px;}
+.font24 {font-size:24px;}
+.font22 {font-size:22px;}
+.font20 {font-size:20px;}
+.font16 {font-size:16px;}
+.font14 {font-size:14px;}
+.font12 {font-size:12px;}
+.font10 {font-size:10px;}
+
+.auto {margin:0 auto;}
+.mar10 {margin-top:10px;}
+.mar20 {margin-top:20px;}
+.top10 {padding-top:10px;}
+.top20 {padding-top:20px;}
+.top30 {padding-top:30px;}
+.top40 {padding-top:40px;}
+.pad3 {padding:3px;}
+.pad5 {padding:5px;}
+.pad7 {padding:7px;}
+.pad10 {padding:10px;}
+.pad20 {padding:20px;}
+.pad30 {padding:30px;}
+.pad40 {padding:40px;}
+
+.width70 {width:70%;}
+
+.semitransp {background-color: rgba(0,0,0,0.5); color:white;}
+.semitransp h2,.semitransp h3,.semitransp h4,.semitransp p,.semitransp li{color:white;}
+.uppercase {text-transform:uppercase;}
+
+h2.big {font-size:42px;font-family:"ProximaNova-Black", sans-serif; color:#56b849;}
+
+
+.tbl-prices-l {text-align:left;}
+
+table.table-main {margin-top:20px;border-width:0;}
+
+div.item_img {margin-top:20px; padding-top:10px;  border-width:1px 0 0px 0;}
+div.item_text {border-width:0 0 1px 0; padding-bottom:10px;}
+
+div.bar {height:60px; margin-top:10px; border-width:1px 0 1px 0; padding-top:12px;}
+div.div-bottom {color:#666; font-size:9pt; margin:50px 0 0 0; padding-top:10px; border-width:1px 0 0 0; height:50px; background-color:#F7F7F7;}
+div.div-bottom p {background-color:#F7F7F7; color:#888;}
+div.items-bottom {color:#666; font-size:9pt; margin:20px 0 0 0; border-width:0px 0 0 0; height:50px; }
+
+.price {vertical-align:top;background-image:url('images/icons/tick-28x22.png'); background-position:left; background-repeat:no-repeat;  padding:5px 0px 5px 40px; margin-top:10px;}
+.action {vertical-align:top;background-image:url('images/icons/star.png'); background-position:left; background-repeat:no-repeat; padding:5px 0px 5px 40px; margin-top:10px;}
+#section_refs,#section_request {margin-top: 20px; border-width:1px 0 0px 0; padding-top:30px;}
+p.ref_vk {color:#0086b3; font-size:14px;}
+
+span.online {color:#23527C;}
+
+.bonus {background-color:#D9EDF7; padding:10px; font-size:9pt;}
+.slogan {background-color:#D9EDF7; padding:10px; font-size:14pt; text-align:center;}
+div.whatyouget {margin-left:40px;font-weight:bold;}
+
+.hashtag {margin-top:8px;}
+
+div.send_request {margin:20px 0 20px 0;}
+ul.ul-request li {background: url('images/icons/star.png'); background-position:left; background-repeat:no-repeat; padding:5px 0px 5px 40px; list-style-type: none;}
+button {margin:5px;}
+.vk_request {
+	width:48px; height:48px;
+	background: url('images/icons/vkontakte.png');
+	background-repeat: no-repeat;
+	border-width:0px;
+	float:left;
+	margin-right:10px;
+}

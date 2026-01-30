@@ -1,0 +1,21 @@
+Array
+(
+    [eventType] => payment.success
+    [product] => Array
+        (
+            [id] => 61d66414-e9b6-48e8-b242-68f20e57daec
+            [title] => Тестовая консультация
+        )
+
+    [contractId] => 54a486a4-c510-4ece-b8bc-44b64694a7c4
+    [buyer] => Array
+        (
+            [email] => va@winwinland.ru
+        )
+
+    [amount] => 50
+    [currency] => RUB
+    [timestamp] => 2025-07-21T12:45:32.806472Z
+    [status] => completed
+    [errorMessage] => 
+)

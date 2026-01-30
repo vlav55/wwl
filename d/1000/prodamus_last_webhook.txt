@@ -1,0 +1,33 @@
+Array
+(
+    [date] => 2023-11-29T09:44:12+03:00
+    [order_id] => 17312143
+    [order_num] => 376
+    [domain] => winwinland.payform.ru
+    [sum] => 29900.00
+    [currency] => rub
+    [customer_phone] => +79217994809
+    [customer_email] => dyagileva_liuba@mail.ru
+    [customer_extra] => 33
+    [payment_type] => Быстрый платёж, без ввода данных карты. Для карт РФ
+    [commission] => 3.5
+    [commission_sum] => 1046.50
+    [attempt] => 2
+    [vk_user_id] => -8018
+    [vk_user_name] => Любовь Дягилева 
+    [products] => Array
+        (
+            [0] => Array
+                (
+                    [name] => Подключение к платформе С ВНЕДРЕНИЕМ, 30 дн.
+                    [price] => 29900.00
+                    [quantity] => 1
+                    [sum] => 29900.00
+                )
+
+        )
+
+    [payment_status] => success
+    [payment_status_description] => Успешная оплата
+    [payment_init] => manual
+)

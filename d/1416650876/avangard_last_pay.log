@@ -1,0 +1,3722 @@
+13.11.2023 20:31:00--->8
+13.11.2023 20:31:00--->36UPDATE avangard SET res=1,amount1=4500 WHERE order_id='358'
+13.11.2023 20:31:00--->55
+13.11.2023 20:31:00--->99 sp_template=1a06eccc-0ebe-11ee-ae2e-223d66534473
+13.11.2023 20:31:00--->101 unisender_secret=6s1414bffqhg69c1ggzw79wrtgw6zstdbd4k161o
+13.11.2023 20:31:01--->120 email to user sent email=vlav@mail.ru sp_template=1a06eccc-0ebe-11ee-ae2e-223d66534473 
+Array
+(
+    [uid] => c667e4bf35df040b0e62b326948b100c
+    [passw] => 5AHyYHebnE
+    [client_name] => Владимир
+    [vkt_link] => NAN
+    [product] => Абонентская плата за подключение к платформе WINWINLAND, 30 дней
+    [sum] => 4500
+)
+
+Array
+(
+    [status] => success
+    [job_id] => 1r2am4-0002a2-FtCO
+    [emails] => Array
+        (
+            [0] => vlav@mail.ru
+        )
+
+    [tags] => Array
+        (
+        )
+
+)
+
+Array
+(
+    [message] => Array
+        (
+            [recipients] => Array
+                (
+                    [0] => Array
+                        (
+                            [email] => vlav@mail.ru
+                            [substitutions] => Array
+                                (
+                                    [uid] => c667e4bf35df040b0e62b326948b100c
+                                    [passw] => 5AHyYHebnE
+                                    [client_name] => Владимир
+                                    [vkt_link] => NAN
+                                    [product] => Абонентская плата за подключение к платформе WINWINLAND, 30 дней
+                                    [sum] => 4500
+                                )
+
+                        )
+
+                )
+
+            [skip_unsubscribe] => 0
+            [global_language] => ru
+            [template_engine] => simple
+            [template_id] => 1a06eccc-0ebe-11ee-ae2e-223d66534473
+            [track_links] => 0
+            [track_read] => 0
+            [bypass_global] => 1
+            [bypass_unavailable] => 1
+            [bypass_unsubscribed] => 0
+            [bypass_complained] => 0
+            [from_email] => office@winwinland.ru
+            [from_name] => WinWinLand
+        )
+
+)
+
+13.11.2023 20:31:04--->136 notified
+13.11.2023 20:31:04--->139 tag=1 added
+13.11.2023 20:31:04--->142 finished
+13.11.2023 20:35:05--->8
+13.11.2023 20:35:05--->36UPDATE avangard SET res=1,amount1=0 WHERE order_id='358'
+13.11.2023 20:35:05--->136 notified
+13.11.2023 20:35:05--->142 finished
+13.11.2023 20:35:05--->8
+13.11.2023 20:35:05--->36UPDATE avangard SET res=1,amount1=0 WHERE order_id='357'
+13.11.2023 20:35:05--->136 notified
+13.11.2023 20:35:05--->142 finished
+13.11.2023 20:45:36--->8
+13.11.2023 20:45:36--->36UPDATE avangard SET res=1,amount1=0 WHERE order_id='358'
+13.11.2023 20:45:36--->136 notified
+13.11.2023 20:45:36--->142 finished
+13.11.2023 20:45:36--->8
+13.11.2023 20:45:36--->36UPDATE avangard SET res=1,amount1=0 WHERE order_id='357'
+13.11.2023 20:45:36--->136 notified
+13.11.2023 20:45:36--->142 finished
+13.11.2023 20:55:26--->8
+13.11.2023 20:55:26--->36UPDATE avangard SET res=1,amount1=0 WHERE order_id='358'
+13.11.2023 20:55:26--->136 notified
+13.11.2023 20:55:26--->142 finished
+13.11.2023 20:55:26--->8
+13.11.2023 20:55:26--->36UPDATE avangard SET res=1,amount1=0 WHERE order_id='357'
+13.11.2023 20:55:27--->136 notified
+13.11.2023 20:55:27--->142 finished
+13.11.2023 21:05:02--->8
+13.11.2023 21:05:02--->36UPDATE avangard SET res=1,amount1=0 WHERE order_id='358'
+13.11.2023 21:05:02--->136 notified
+13.11.2023 21:05:02--->142 finished
+13.11.2023 21:05:02--->8
+13.11.2023 21:05:02--->36UPDATE avangard SET res=1,amount1=0 WHERE order_id='357'
+13.11.2023 21:05:02--->136 notified
+13.11.2023 21:05:02--->142 finished
+13.11.2023 21:15:08--->8
+13.11.2023 21:15:08--->36UPDATE avangard SET res=1,amount1=0 WHERE order_id='358'
+13.11.2023 21:15:08--->136 notified
+13.11.2023 21:15:08--->142 finished
+13.11.2023 21:15:13--->8
+13.11.2023 21:15:13--->36UPDATE avangard SET res=1,amount1=0 WHERE order_id='357'
+13.11.2023 21:15:14--->136 notified
+13.11.2023 21:15:14--->142 finished
+13.11.2023 21:46:09--->8
+13.11.2023 21:46:09--->36UPDATE avangard SET res=1,amount1=4500 WHERE order_id='357'
+13.11.2023 21:46:09--->55
+13.11.2023 21:46:09--->99 sp_template=1a06eccc-0ebe-11ee-ae2e-223d66534473
+13.11.2023 21:46:09--->101 unisender_secret=6s1414bffqhg69c1ggzw79wrtgw6zstdbd4k161o
+13.11.2023 21:46:10--->120 email to user sent email=vlav@mail.ru sp_template=1a06eccc-0ebe-11ee-ae2e-223d66534473 
+Array
+(
+    [uid] => c667e4bf35df040b0e62b326948b100c
+    [passw] => 5AHyYHebnE
+    [client_name] => Владимир
+    [vkt_link] => NAN
+    [product] => Абонентская плата за подключение к платформе WINWINLAND, 30 дней
+    [sum] => 4500
+)
+
+Array
+(
+    [status] => success
+    [job_id] => 1r2bwn-0002wA-9t1q
+    [emails] => Array
+        (
+            [0] => vlav@mail.ru
+        )
+
+    [tags] => Array
+        (
+        )
+
+)
+
+Array
+(
+    [message] => Array
+        (
+            [recipients] => Array
+                (
+                    [0] => Array
+                        (
+                            [email] => vlav@mail.ru
+                            [substitutions] => Array
+                                (
+                                    [uid] => c667e4bf35df040b0e62b326948b100c
+                                    [passw] => 5AHyYHebnE
+                                    [client_name] => Владимир
+                                    [vkt_link] => NAN
+                                    [product] => Абонентская плата за подключение к платформе WINWINLAND, 30 дней
+                                    [sum] => 4500
+                                )
+
+                        )
+
+                )
+
+            [skip_unsubscribe] => 0
+            [global_language] => ru
+            [template_engine] => simple
+            [template_id] => 1a06eccc-0ebe-11ee-ae2e-223d66534473
+            [track_links] => 0
+            [track_read] => 0
+            [bypass_global] => 1
+            [bypass_unavailable] => 1
+            [bypass_unsubscribed] => 0
+            [bypass_complained] => 0
+            [from_email] => office@winwinland.ru
+            [from_name] => WinWinLand
+        )
+
+)
+
+13.11.2023 21:46:13--->134 notified
+13.11.2023 21:46:13--->137 tag=1 added
+13.11.2023 21:46:13--->140 finished
+14.11.2023 19:19:36--->
+START
+14.11.2023 19:19:36--->24
+14.11.2023 19:19:36--->35HERE_2
+14.11.2023 19:19:36--->70 error
+15.11.2023 23:39:14--->
+START
+15.11.2023 23:39:14--->24
+15.11.2023 23:39:14--->35HERE_2
+15.11.2023 23:39:14--->70 error
+16.11.2023 20:23:07--->
+START
+16.11.2023 20:23:07--->24
+16.11.2023 20:23:07--->46
+16.11.2023 20:23:07--->8
+16.11.2023 20:23:07--->36UPDATE avangard SET res=1,amount1=22002 WHERE order_id='360'
+16.11.2023 20:23:07--->55
+16.11.2023 20:23:07--->99 sp_template=1a06eccc-0ebe-11ee-ae2e-223d66534473
+16.11.2023 20:23:07--->101 unisender_secret=6s1414bffqhg69c1ggzw79wrtgw6zstdbd4k161o
+16.11.2023 20:23:07--->120 email to user sent email=sherlokyanka@gmail.com sp_template=1a06eccc-0ebe-11ee-ae2e-223d66534473 
+Array
+(
+    [uid] => 57dea035e63b669db410a5f641817a31
+    [passw] => Wgn9X3rXQZ
+    [client_name] => Татьяна Аткина
+    [vkt_link] => NAN
+    [product] => Абонентская плата за подключение к платформе WINWINLAND, 365 дней
+    [sum] => 22800
+)
+
+Array
+(
+    [status] => success
+    [job_id] => 1r3g55-0004Y9-9qlr
+    [emails] => Array
+        (
+            [0] => sherlokyanka@gmail.com
+        )
+
+    [tags] => Array
+        (
+        )
+
+)
+
+Array
+(
+    [message] => Array
+        (
+            [recipients] => Array
+                (
+                    [0] => Array
+                        (
+                            [email] => sherlokyanka@gmail.com
+                            [substitutions] => Array
+                                (
+                                    [uid] => 57dea035e63b669db410a5f641817a31
+                                    [passw] => Wgn9X3rXQZ
+                                    [client_name] => Татьяна Аткина
+                                    [vkt_link] => NAN
+                                    [product] => Абонентская плата за подключение к платформе WINWINLAND, 365 дней
+                                    [sum] => 22800
+                                )
+
+                        )
+
+                )
+
+            [skip_unsubscribe] => 0
+            [global_language] => ru
+            [template_engine] => simple
+            [template_id] => 1a06eccc-0ebe-11ee-ae2e-223d66534473
+            [track_links] => 0
+            [track_read] => 0
+            [bypass_global] => 1
+            [bypass_unavailable] => 1
+            [bypass_unsubscribed] => 0
+            [bypass_complained] => 0
+            [from_email] => office@winwinland.ru
+            [from_name] => WinWinLand
+        )
+
+)
+
+16.11.2023 20:23:11--->134 notified
+16.11.2023 20:23:11--->137 tag=1 added
+16.11.2023 20:23:11--->140 finished
+22.11.2023 08:47:48--->8
+22.11.2023 08:47:48--->36UPDATE avangard SET res=1,amount1=0 WHERE order_id='TEST'
+22.11.2023 08:47:48--->134 notified
+22.11.2023 08:47:48--->140 finished
+22.11.2023 08:48:20--->8
+22.11.2023 08:48:20--->36UPDATE avangard SET res=1,amount1=0 WHERE order_id='testt'
+22.11.2023 08:48:20--->134 notified
+22.11.2023 08:48:20--->140 finished
+22.11.2023 16:52:33--->8
+22.11.2023 16:52:33--->36UPDATE avangard SET res=1,amount1=1100 WHERE order_id='363'
+22.11.2023 16:52:33--->99 sp_template=1a06eccc-0ebe-11ee-ae2e-223d66534473
+22.11.2023 16:52:33--->101 unisender_secret=6s1414bffqhg69c1ggzw79wrtgw6zstdbd4k161o
+22.11.2023 16:52:34--->120 email to user sent email=vlav@mail.ru sp_template=1a06eccc-0ebe-11ee-ae2e-223d66534473 
+Array
+(
+    [uid] => c667e4bf35df040b0e62b326948b100c
+    [passw] => 5AHyYHebnE
+    [client_name] => Владимир
+    [vkt_link] => NAN
+    [product] => Тестовый продукт
+    [sum] => 1100
+)
+
+Array
+(
+    [status] => success
+    [job_id] => 1r5neb-0006nO-9pxI
+    [emails] => Array
+        (
+            [0] => vlav@mail.ru
+        )
+
+    [tags] => Array
+        (
+        )
+
+)
+
+Array
+(
+    [message] => Array
+        (
+            [recipients] => Array
+                (
+                    [0] => Array
+                        (
+                            [email] => vlav@mail.ru
+                            [substitutions] => Array
+                                (
+                                    [uid] => c667e4bf35df040b0e62b326948b100c
+                                    [passw] => 5AHyYHebnE
+                                    [client_name] => Владимир
+                                    [vkt_link] => NAN
+                                    [product] => Тестовый продукт
+                                    [sum] => 1100
+                                )
+
+                        )
+
+                )
+
+            [skip_unsubscribe] => 0
+            [global_language] => ru
+            [template_engine] => simple
+            [template_id] => 1a06eccc-0ebe-11ee-ae2e-223d66534473
+            [track_links] => 0
+            [track_read] => 0
+            [bypass_global] => 1
+            [bypass_unavailable] => 1
+            [bypass_unsubscribed] => 0
+            [bypass_complained] => 0
+            [from_email] => office@winwinland.ru
+            [from_name] => WinWinLand
+        )
+
+)
+
+22.11.2023 16:52:38--->134 notified
+22.11.2023 16:52:38--->137 tag=1 added
+22.11.2023 16:52:38--->140 finished
+29.11.2023 09:23:20--->
+START
+29.11.2023 09:23:20--->24
+29.11.2023 09:23:20--->46
+29.11.2023 09:23:20--->8
+29.11.2023 09:23:20--->36UPDATE avangard SET res=1,amount1=28853.5 WHERE order_id='376'
+29.11.2023 09:23:20--->55
+29.11.2023 09:23:20--->60
+29.11.2023 09:23:29--->71 ctrl_id=97
+29.11.2023 09:23:29--->81 HsILgIWLlr
+29.11.2023 09:23:29--->87 new user
+29.11.2023 09:23:29--->90 tm_end updated for 1209600
+29.11.2023 09:23:29--->99 sp_template=f610aeb6-6160-11ee-ad25-baa67caa4fc7
+29.11.2023 09:23:29--->101 unisender_secret=6s1414bffqhg69c1ggzw79wrtgw6zstdbd4k161o
+29.11.2023 09:23:30--->120 email to user sent email=dyagileva_liuba@mail.ru sp_template=f610aeb6-6160-11ee-ad25-baa67caa4fc7 
+Array
+(
+    [uid] => 400cc52e29e4eea13b4b3077e4717727
+    [passw] => HsILgIWLlr
+    [client_name] => Любовь Дягилева 
+    [vkt_link] => https://for16.ru/d/4158667338/cp.php?view=yes&filter=new
+    [product] => Подключение к платформе С ВНЕДРЕНИЕМ, 30 дн.
+    [sum] => 29900
+)
+
+Array
+(
+    [status] => success
+    [job_id] => 1r8Dyr-0004f2-D1X1
+    [emails] => Array
+        (
+            [0] => dyagileva_liuba@mail.ru
+        )
+
+    [tags] => Array
+        (
+        )
+
+)
+
+Array
+(
+    [message] => Array
+        (
+            [recipients] => Array
+                (
+                    [0] => Array
+                        (
+                            [email] => dyagileva_liuba@mail.ru
+                            [substitutions] => Array
+                                (
+                                    [uid] => 400cc52e29e4eea13b4b3077e4717727
+                                    [passw] => HsILgIWLlr
+                                    [client_name] => Любовь Дягилева 
+                                    [vkt_link] => https://for16.ru/d/4158667338/cp.php?view=yes&filter=new
+                                    [product] => Подключение к платформе С ВНЕДРЕНИЕМ, 30 дн.
+                                    [sum] => 29900
+                                )
+
+                        )
+
+                )
+
+            [skip_unsubscribe] => 0
+            [global_language] => ru
+            [template_engine] => simple
+            [template_id] => f610aeb6-6160-11ee-ad25-baa67caa4fc7
+            [track_links] => 0
+            [track_read] => 0
+            [bypass_global] => 1
+            [bypass_unavailable] => 1
+            [bypass_unsubscribed] => 0
+            [bypass_complained] => 0
+            [from_email] => office@winwinland.ru
+            [from_name] => WinWinLand
+        )
+
+)
+
+29.11.2023 09:23:32--->134 notified
+29.11.2023 09:23:32--->137 tag=1 added
+29.11.2023 09:23:32--->140 finished
+29.11.2023 09:44:12--->
+START
+29.11.2023 09:44:12--->24
+29.11.2023 09:44:12--->46
+05.12.2023 10:34:04--->8
+05.12.2023 10:34:04--->36UPDATE avangard SET res=1,amount1=13200 WHERE order_id='378'
+05.12.2023 10:34:04--->99 sp_template=1a06eccc-0ebe-11ee-ae2e-223d66534473
+05.12.2023 10:34:04--->101 unisender_secret=6s1414bffqhg69c1ggzw79wrtgw6zstdbd4k161o
+05.12.2023 10:34:05--->120 email to user sent email=s.krilova@mail.ru sp_template=1a06eccc-0ebe-11ee-ae2e-223d66534473 
+Array
+(
+    [uid] => 083840c038b3f5c956f812641c7b7aed
+    [passw] => 5AHyYHebnE
+    [client_name] => Светлана
+    [vkt_link] => NAN
+    [product] => Абонентская плата за подключение к платформе WINWINLAND, 180 дней
+    [sum] => 13200
+)
+
+Array
+(
+    [status] => success
+    [job_id] => 1rAPwT-0004Ng-7b6U
+    [emails] => Array
+        (
+            [0] => s.krilova@mail.ru
+        )
+
+    [tags] => Array
+        (
+        )
+
+)
+
+Array
+(
+    [message] => Array
+        (
+            [recipients] => Array
+                (
+                    [0] => Array
+                        (
+                            [email] => s.krilova@mail.ru
+                            [substitutions] => Array
+                                (
+                                    [uid] => 083840c038b3f5c956f812641c7b7aed
+                                    [passw] => 5AHyYHebnE
+                                    [client_name] => Светлана
+                                    [vkt_link] => NAN
+                                    [product] => Абонентская плата за подключение к платформе WINWINLAND, 180 дней
+                                    [sum] => 13200
+                                )
+
+                        )
+
+                )
+
+            [skip_unsubscribe] => 0
+            [global_language] => ru
+            [template_engine] => simple
+            [template_id] => 1a06eccc-0ebe-11ee-ae2e-223d66534473
+            [track_links] => 0
+            [track_read] => 0
+            [bypass_global] => 1
+            [bypass_unavailable] => 1
+            [bypass_unsubscribed] => 0
+            [bypass_complained] => 0
+            [from_email] => office@winwinland.ru
+            [from_name] => WinWinLand
+        )
+
+)
+
+05.12.2023 10:34:08--->134 notified
+05.12.2023 10:34:08--->137 tag=1 added
+05.12.2023 10:34:08--->140 finished
+12.12.2023 22:48:00--->8
+12.12.2023 22:48:00--->36UPDATE avangard SET res=1,amount1=7500 WHERE order_id='382'
+12.12.2023 22:48:00--->55
+12.12.2023 22:48:00--->99 sp_template=1a06eccc-0ebe-11ee-ae2e-223d66534473
+12.12.2023 22:48:00--->101 unisender_secret=6s1414bffqhg69c1ggzw79wrtgw6zstdbd4k161o
+12.12.2023 22:48:00--->120 email to user sent email=Tuluz@inbox.ru sp_template=1a06eccc-0ebe-11ee-ae2e-223d66534473 
+Array
+(
+    [uid] => 7adefc11b1ea0b69bd91fc219aea3899
+    [passw] => JcKGZFMXF9
+    [client_name] => Марина Бушигина
+    [vkt_link] => NAN
+    [product] => Абонентская плата за подключение к платформе WINWINLAND, 90 дней
+    [sum] => 7500
+)
+
+Array
+(
+    [status] => success
+    [job_id] => 1rD8jY-0000od-5A6D
+    [emails] => Array
+        (
+            [0] => Tuluz@inbox.ru
+        )
+
+    [tags] => Array
+        (
+        )
+
+)
+
+Array
+(
+    [message] => Array
+        (
+            [recipients] => Array
+                (
+                    [0] => Array
+                        (
+                            [email] => Tuluz@inbox.ru
+                            [substitutions] => Array
+                                (
+                                    [uid] => 7adefc11b1ea0b69bd91fc219aea3899
+                                    [passw] => JcKGZFMXF9
+                                    [client_name] => Марина Бушигина
+                                    [vkt_link] => NAN
+                                    [product] => Абонентская плата за подключение к платформе WINWINLAND, 90 дней
+                                    [sum] => 7500
+                                )
+
+                        )
+
+                )
+
+            [skip_unsubscribe] => 0
+            [global_language] => ru
+            [template_engine] => simple
+            [template_id] => 1a06eccc-0ebe-11ee-ae2e-223d66534473
+            [track_links] => 0
+            [track_read] => 0
+            [bypass_global] => 1
+            [bypass_unavailable] => 1
+            [bypass_unsubscribed] => 0
+            [bypass_complained] => 0
+            [from_email] => office@winwinland.ru
+            [from_name] => WinWinLand
+        )
+
+)
+
+12.12.2023 22:48:03--->134 notified
+12.12.2023 22:48:03--->137 tag=1 added
+12.12.2023 22:48:03--->140 finished
+19.12.2023 15:02:17--->8
+19.12.2023 15:02:17--->36UPDATE avangard SET res=1,amount1=4500 WHERE order_id='383'
+19.12.2023 15:02:17--->55
+19.12.2023 15:02:17--->60
+19.12.2023 15:02:31--->71 ctrl_id=99
+19.12.2023 15:02:31--->81 ewV9QVTzm0
+19.12.2023 15:02:31--->87 new user
+19.12.2023 15:02:31--->90 tm_end updated for 1209600
+19.12.2023 15:02:31--->99 sp_template=1a06eccc-0ebe-11ee-ae2e-223d66534473
+19.12.2023 15:02:31--->101 unisender_secret=6s1414bffqhg69c1ggzw79wrtgw6zstdbd4k161o
+19.12.2023 15:02:31--->120 email to user sent email=salmonberrry@gmail.com sp_template=1a06eccc-0ebe-11ee-ae2e-223d66534473 
+Array
+(
+    [uid] => a50a976905ee00bfc7a9ea04938dc12f
+    [passw] => ewV9QVTzm0
+    [client_name] => СЕМЕНОВА ЕЛЕНА НИКОЛАЕВНА
+    [vkt_link] => https://for16.ru/d/274208589/cp.php?view=yes&filter=new
+    [product] => Абонентская плата за подключение к платформе WINWINLAND, 30 дней
+    [sum] => 4500
+)
+
+Array
+(
+    [status] => success
+    [job_id] => 1rFYnv-0005ED-63Y9
+    [emails] => Array
+        (
+            [0] => salmonberrry@gmail.com
+        )
+
+    [tags] => Array
+        (
+        )
+
+)
+
+Array
+(
+    [message] => Array
+        (
+            [recipients] => Array
+                (
+                    [0] => Array
+                        (
+                            [email] => salmonberrry@gmail.com
+                            [substitutions] => Array
+                                (
+                                    [uid] => a50a976905ee00bfc7a9ea04938dc12f
+                                    [passw] => ewV9QVTzm0
+                                    [client_name] => СЕМЕНОВА ЕЛЕНА НИКОЛАЕВНА
+                                    [vkt_link] => https://for16.ru/d/274208589/cp.php?view=yes&filter=new
+                                    [product] => Абонентская плата за подключение к платформе WINWINLAND, 30 дней
+                                    [sum] => 4500
+                                )
+
+                        )
+
+                )
+
+            [skip_unsubscribe] => 0
+            [global_language] => ru
+            [template_engine] => simple
+            [template_id] => 1a06eccc-0ebe-11ee-ae2e-223d66534473
+            [track_links] => 0
+            [track_read] => 0
+            [bypass_global] => 1
+            [bypass_unavailable] => 1
+            [bypass_unsubscribed] => 0
+            [bypass_complained] => 0
+            [from_email] => office@winwinland.ru
+            [from_name] => WinWinLand
+        )
+
+)
+
+19.12.2023 15:02:35--->134 notified
+19.12.2023 15:02:35--->137 tag=1 added
+19.12.2023 15:02:35--->140 finished
+09.04.2024 11:35:24--->
+START
+09.04.2024 11:35:24--->24
+09.04.2024 11:35:24--->46
+09.04.2024 11:35:24--->8
+09.04.2024 11:35:24--->38UPDATE avangard SET  tm='1712651724',res=1,amount1=48.55 WHERE order_id='7181'
+09.04.2024 11:35:25--->102 sp_template=34dfeabe-f647-11ee-8f21-7ee1ea5fccf0
+09.04.2024 11:35:25--->104 unisender_secret=6fgzs8pf98aso3dqa6wea69ncdpapjjqiy8mrxuo
+09.04.2024 11:35:26--->123 email to user sent email=vlav@mail.ru sp_template=34dfeabe-f647-11ee-8f21-7ee1ea5fccf0 
+Array
+(
+    [uid] => 90f8c88719c84ac521c4046b7819e0fe
+    [passw] => EGHu3WsW5u
+    [client_name] => Владимир
+    [vkt_link] => NAN
+    [product] => Доступ к пробным занятиям классической йогой для начинающих, 7 дн.
+    [sum] => 50
+)
+
+Array
+(
+    [status] => error
+    [code] => 903
+    [message] => Error ID:1CDA9BB2-F64C-11EE-A431-26F3CB54F75B. On the 'free_tier' tariff it is allowed to send letters only to the 'checked' domains. The request contains external domain(s) 'mail.ru'.
+)
+
+Array
+(
+    [message] => Array
+        (
+            [recipients] => Array
+                (
+                    [0] => Array
+                        (
+                            [email] => vlav@mail.ru
+                            [substitutions] => Array
+                                (
+                                    [uid] => 90f8c88719c84ac521c4046b7819e0fe
+                                    [passw] => EGHu3WsW5u
+                                    [client_name] => Владимир
+                                    [vkt_link] => NAN
+                                    [product] => Доступ к пробным занятиям классической йогой для начинающих, 7 дн.
+                                    [sum] => 50
+                                )
+
+                        )
+
+                )
+
+            [skip_unsubscribe] => 0
+            [global_language] => ru
+            [template_engine] => simple
+            [template_id] => 34dfeabe-f647-11ee-8f21-7ee1ea5fccf0
+            [track_links] => 0
+            [track_read] => 0
+            [bypass_global] => 1
+            [bypass_unavailable] => 1
+            [bypass_unsubscribed] => 0
+            [bypass_complained] => 0
+        )
+
+)
+
+09.04.2024 11:35:26--->135 tm_end saved as 1713301199
+09.04.2024 11:35:27--->140 notified
+09.04.2024 11:35:27--->143 tag=1 added
+09.04.2024 11:35:27--->145 finished
+11.04.2024 11:47:04--->
+START
+11.04.2024 11:47:04--->24
+11.04.2024 11:47:04--->46
+11.04.2024 11:47:04--->8
+11.04.2024 11:47:04--->38UPDATE avangard SET  tm='1712825224',res=1,amount1=485.5 WHERE order_id='7183'
+11.04.2024 11:47:05--->102 sp_template=34dfeabe-f647-11ee-8f21-7ee1ea5fccf0
+11.04.2024 11:47:05--->104 unisender_secret=6fgzs8pf98aso3dqa6wea69ncdpapjjqiy8mrxuo
+11.04.2024 11:47:05--->123 email to user sent email=larisa.makarova.2017@mail.ru sp_template=34dfeabe-f647-11ee-8f21-7ee1ea5fccf0 
+Array
+(
+    [uid] => c667e4bf35df040b0e62b326948b100c
+    [passw] => EGHu3WsW5u
+    [client_name] => Макарова Лариса Михайловна
+    [vkt_link] => NAN
+    [product] => Доступ к пробным занятиям классической йогой для начинающих, 7 дн.
+    [sum] => 500
+)
+
+Array
+(
+    [status] => error
+    [code] => 903
+    [message] => Error ID:12FB381E-F7E0-11EE-9DC3-F25195CF8426. On the 'free_tier' tariff it is allowed to send letters only to the 'checked' domains. The request contains external domain(s) 'mail.ru'.
+)
+
+Array
+(
+    [message] => Array
+        (
+            [recipients] => Array
+                (
+                    [0] => Array
+                        (
+                            [email] => larisa.makarova.2017@mail.ru
+                            [substitutions] => Array
+                                (
+                                    [uid] => c667e4bf35df040b0e62b326948b100c
+                                    [passw] => EGHu3WsW5u
+                                    [client_name] => Макарова Лариса Михайловна
+                                    [vkt_link] => NAN
+                                    [product] => Доступ к пробным занятиям классической йогой для начинающих, 7 дн.
+                                    [sum] => 500
+                                )
+
+                        )
+
+                )
+
+            [skip_unsubscribe] => 0
+            [global_language] => ru
+            [template_engine] => simple
+            [template_id] => 34dfeabe-f647-11ee-8f21-7ee1ea5fccf0
+            [track_links] => 0
+            [track_read] => 0
+            [bypass_global] => 1
+            [bypass_unavailable] => 1
+            [bypass_unsubscribed] => 0
+            [bypass_complained] => 0
+        )
+
+)
+
+11.04.2024 11:47:05--->135 tm_end saved as 1713473999
+11.04.2024 11:47:06--->140 notified
+11.04.2024 11:47:06--->143 tag=1 added
+11.04.2024 11:47:06--->145 finished
+15.04.2024 21:14:08--->
+START
+15.04.2024 21:14:08--->24
+15.04.2024 21:14:08--->46
+15.04.2024 21:14:08--->8
+15.04.2024 21:14:08--->38UPDATE avangard SET  tm='1713204848',res=1,amount1=-46.55 WHERE order_id='10-7187'
+15.04.2024 21:14:09--->102 sp_template=7e46363c-c52c-11ee-8d74-ae92815bb0a5
+15.04.2024 21:14:09--->104 unisender_secret=6fgzs8pf98aso3dqa6wea69ncdpapjjqiy8mrxuo
+15.04.2024 21:14:09--->123 email to user sent email=avakyann@avangard.ru sp_template=7e46363c-c52c-11ee-8d74-ae92815bb0a5 
+Array
+(
+    [uid] => 0
+    [passw] => EGHu3WsW5u
+    [client_name] => Авангард тест
+    [vkt_link] => NAN
+    [product] => Доступ к материалам курса йоги для начинающих, пакет Старт, 12 мес.
+    [sum] => 10
+)
+
+Array
+(
+    [status] => success
+    [job_id] => 1rwQqH-0003le-J5qp
+    [emails] => Array
+        (
+            [0] => avakyann@avangard.ru
+        )
+
+    [tags] => Array
+        (
+        )
+
+)
+
+Array
+(
+    [message] => Array
+        (
+            [recipients] => Array
+                (
+                    [0] => Array
+                        (
+                            [email] => avakyann@avangard.ru
+                            [substitutions] => Array
+                                (
+                                    [uid] => -
+                                    [passw] => EGHu3WsW5u
+                                    [client_name] => Авангард тест
+                                    [vkt_link] => NAN
+                                    [product] => Доступ к материалам курса йоги для начинающих, пакет Старт, 12 мес.
+                                    [sum] => 10
+                                )
+
+                        )
+
+                )
+
+            [skip_unsubscribe] => 0
+            [global_language] => ru
+            [template_engine] => simple
+            [template_id] => 7e46363c-c52c-11ee-8d74-ae92815bb0a5
+            [track_links] => 0
+            [track_read] => 0
+            [bypass_global] => 1
+            [bypass_unavailable] => 1
+            [bypass_unsubscribed] => 0
+            [bypass_complained] => 0
+        )
+
+)
+
+15.04.2024 21:14:09--->135 tm_end saved as 0
+15.04.2024 21:14:09--->140 notified
+15.04.2024 21:14:09--->145 finished
+08.05.2024 18:15:04--->
+START
+08.05.2024 18:15:04--->24
+08.05.2024 18:15:04--->46
+08.05.2024 18:15:04--->8
+08.05.2024 18:15:04--->38UPDATE avangard SET  tm='1715181304',res=1,amount1=1893.45 WHERE order_id='7193'
+08.05.2024 18:15:04--->102 sp_template=c4c50f8c-fbde-11ee-9af1-62bc95edcc04
+08.05.2024 18:15:04--->104 unisender_secret=6fgzs8pf98aso3dqa6wea69ncdpapjjqiy8mrxuo
+08.05.2024 18:15:04--->123 email to user sent email=tata29@mail.ru sp_template=c4c50f8c-fbde-11ee-9af1-62bc95edcc04 
+Array
+(
+    [uid] => 0a453b645acc992bf283a3b837dc286e
+    [passw] => EGHu3WsW5u
+    [client_name] => Татьяна
+    [vkt_link] => NAN
+    [product] => Продление участия в клубе YOGAHELPYOU, 30 дней
+    [sum] => 1950
+)
+
+Array
+(
+    [status] => success
+    [job_id] => 1s4j0a-0005Pc-Cugr
+    [emails] => Array
+        (
+            [0] => tata29@mail.ru
+        )
+
+    [tags] => Array
+        (
+        )
+
+)
+
+Array
+(
+    [message] => Array
+        (
+            [recipients] => Array
+                (
+                    [0] => Array
+                        (
+                            [email] => tata29@mail.ru
+                            [substitutions] => Array
+                                (
+                                    [uid] => 0a453b645acc992bf283a3b837dc286e
+                                    [passw] => EGHu3WsW5u
+                                    [client_name] => Татьяна
+                                    [vkt_link] => NAN
+                                    [product] => Продление участия в клубе YOGAHELPYOU, 30 дней
+                                    [sum] => 1950
+                                )
+
+                        )
+
+                )
+
+            [skip_unsubscribe] => 0
+            [global_language] => ru
+            [template_engine] => simple
+            [template_id] => c4c50f8c-fbde-11ee-9af1-62bc95edcc04
+            [track_links] => 0
+            [track_read] => 0
+            [bypass_global] => 1
+            [bypass_unavailable] => 1
+            [bypass_unsubscribed] => 0
+            [bypass_complained] => 0
+        )
+
+)
+
+08.05.2024 18:15:04--->135 tm_end saved as 1717793999
+08.05.2024 18:15:06--->153 notified
+08.05.2024 18:15:06--->156 tag=1 added
+08.05.2024 18:15:06--->158 finished
+09.05.2024 01:02:14--->
+START
+09.05.2024 01:02:14--->24
+09.05.2024 01:02:14--->46
+09.05.2024 01:02:14--->8
+09.05.2024 01:02:14--->39UPDATE avangard SET  tm='1715205734',res=1,amount1=48.55 WHERE order_id='7194'
+09.05.2024 01:02:14--->103 sp_template=c4c50f8c-fbde-11ee-9af1-62bc95edcc04
+09.05.2024 01:02:14--->105 unisender_secret=6fgzs8pf98aso3dqa6wea69ncdpapjjqiy8mrxuo
+09.05.2024 01:02:15--->124 email to user sent email=vlav@mail.ru sp_template=c4c50f8c-fbde-11ee-9af1-62bc95edcc04 
+Array
+(
+    [uid] => 90f8c88719c84ac521c4046b7819e0fe
+    [passw] => EGHu3WsW5u
+    [client_name] => Авштолис Владимир Игоревич
+    [vkt_link] => NAN
+    [product] => Продление участия в клубе YOGAHELPYOU, 30 дней
+    [sum] => 50
+)
+
+Array
+(
+    [status] => success
+    [job_id] => 1s4pMc-0007xv-EOkK
+    [emails] => Array
+        (
+            [0] => vlav@mail.ru
+        )
+
+    [tags] => Array
+        (
+        )
+
+)
+
+Array
+(
+    [message] => Array
+        (
+            [recipients] => Array
+                (
+                    [0] => Array
+                        (
+                            [email] => vlav@mail.ru
+                            [substitutions] => Array
+                                (
+                                    [uid] => 90f8c88719c84ac521c4046b7819e0fe
+                                    [passw] => EGHu3WsW5u
+                                    [client_name] => Авштолис Владимир Игоревич
+                                    [vkt_link] => NAN
+                                    [product] => Продление участия в клубе YOGAHELPYOU, 30 дней
+                                    [sum] => 50
+                                )
+
+                        )
+
+                )
+
+            [skip_unsubscribe] => 0
+            [global_language] => ru
+            [template_engine] => simple
+            [template_id] => c4c50f8c-fbde-11ee-9af1-62bc95edcc04
+            [track_links] => 0
+            [track_read] => 0
+            [bypass_global] => 1
+            [bypass_unavailable] => 1
+            [bypass_unsubscribed] => 0
+            [bypass_complained] => 0
+        )
+
+)
+
+09.05.2024 01:04:06--->
+START
+09.05.2024 01:04:06--->24
+09.05.2024 01:04:06--->46
+09.05.2024 01:26:02--->
+START
+09.05.2024 01:26:02--->24
+09.05.2024 01:26:02--->46
+09.05.2024 01:26:02--->8
+09.05.2024 01:26:02--->39UPDATE avangard SET  tm='1715207162',res=1,amount1=48.55 WHERE order_id='7195'
+09.05.2024 01:26:02--->103 sp_template=c4c50f8c-fbde-11ee-9af1-62bc95edcc04
+09.05.2024 01:26:02--->105 unisender_secret=6fgzs8pf98aso3dqa6wea69ncdpapjjqiy8mrxuo
+09.05.2024 01:26:02--->124 email to user sent email=vlav@mail.ru sp_template=c4c50f8c-fbde-11ee-9af1-62bc95edcc04 
+Array
+(
+    [uid] => 90f8c88719c84ac521c4046b7819e0fe
+    [passw] => EGHu3WsW5u
+    [client_name] => Авштолис Владимир Игоревич
+    [vkt_link] => NAN
+    [product] => Продление участия в клубе YOGAHELPYOU, 30 дней
+    [sum] => 50
+)
+
+Array
+(
+    [status] => success
+    [job_id] => 1s4pje-00080Z-HaqI
+    [emails] => Array
+        (
+            [0] => vlav@mail.ru
+        )
+
+    [tags] => Array
+        (
+        )
+
+)
+
+Array
+(
+    [message] => Array
+        (
+            [recipients] => Array
+                (
+                    [0] => Array
+                        (
+                            [email] => vlav@mail.ru
+                            [substitutions] => Array
+                                (
+                                    [uid] => 90f8c88719c84ac521c4046b7819e0fe
+                                    [passw] => EGHu3WsW5u
+                                    [client_name] => Авштолис Владимир Игоревич
+                                    [vkt_link] => NAN
+                                    [product] => Продление участия в клубе YOGAHELPYOU, 30 дней
+                                    [sum] => 50
+                                )
+
+                        )
+
+                )
+
+            [skip_unsubscribe] => 0
+            [global_language] => ru
+            [template_engine] => simple
+            [template_id] => c4c50f8c-fbde-11ee-9af1-62bc95edcc04
+            [track_links] => 0
+            [track_read] => 0
+            [bypass_global] => 1
+            [bypass_unavailable] => 1
+            [bypass_unsubscribed] => 0
+            [bypass_complained] => 0
+        )
+
+)
+
+09.05.2024 01:26:03--->136 tm_end saved as 1721077199
+09.05.2024 01:26:05--->156 notified
+09.05.2024 01:26:05--->159 tag=1 added
+09.05.2024 01:26:05--->161 finished
+09.05.2024 01:37:02--->
+START
+09.05.2024 01:37:02--->24
+09.05.2024 01:37:02--->46
+09.05.2024 01:37:02--->8
+09.05.2024 01:37:02--->39UPDATE avangard SET  tm='1715207822',res=1,amount1=48.55 WHERE order_id='7196'
+09.05.2024 01:37:02--->103 sp_template=c4c50f8c-fbde-11ee-9af1-62bc95edcc04
+09.05.2024 01:37:02--->105 unisender_secret=6fgzs8pf98aso3dqa6wea69ncdpapjjqiy8mrxuo
+09.05.2024 01:37:02--->124 email to user sent email=vlav@mail.ru sp_template=c4c50f8c-fbde-11ee-9af1-62bc95edcc04 
+Array
+(
+    [uid] => 90f8c88719c84ac521c4046b7819e0fe
+    [passw] => EGHu3WsW5u
+    [client_name] => Авштолис Владимир Игоревич
+    [vkt_link] => NAN
+    [product] => Продление участия в клубе YOGAHELPYOU, 30 дней
+    [sum] => 50
+)
+
+Array
+(
+    [status] => success
+    [job_id] => 1s4puI-0000c4-G96j
+    [emails] => Array
+        (
+            [0] => vlav@mail.ru
+        )
+
+    [tags] => Array
+        (
+        )
+
+)
+
+Array
+(
+    [message] => Array
+        (
+            [recipients] => Array
+                (
+                    [0] => Array
+                        (
+                            [email] => vlav@mail.ru
+                            [substitutions] => Array
+                                (
+                                    [uid] => 90f8c88719c84ac521c4046b7819e0fe
+                                    [passw] => EGHu3WsW5u
+                                    [client_name] => Авштолис Владимир Игоревич
+                                    [vkt_link] => NAN
+                                    [product] => Продление участия в клубе YOGAHELPYOU, 30 дней
+                                    [sum] => 50
+                                )
+
+                        )
+
+                )
+
+            [skip_unsubscribe] => 0
+            [global_language] => ru
+            [template_engine] => simple
+            [template_id] => c4c50f8c-fbde-11ee-9af1-62bc95edcc04
+            [track_links] => 0
+            [track_read] => 0
+            [bypass_global] => 1
+            [bypass_unavailable] => 1
+            [bypass_unsubscribed] => 0
+            [bypass_complained] => 0
+        )
+
+)
+
+09.05.2024 01:37:03--->136 tm_end saved as 1723669199
+09.05.2024 01:37:05--->156 notified
+09.05.2024 01:37:05--->159 tag=1 added
+09.05.2024 01:37:05--->161 finished
+11.05.2024 22:12:16--->
+START
+11.05.2024 22:12:16--->24
+11.05.2024 22:12:16--->46
+11.05.2024 22:12:16--->8
+11.05.2024 22:12:16--->39UPDATE avangard SET  tm='1715454736',res=1,amount1=482.5 WHERE order_id='7198'
+11.05.2024 22:12:16--->103 sp_template=34dfeabe-f647-11ee-8f21-7ee1ea5fccf0
+11.05.2024 22:12:16--->105 unisender_secret=6fgzs8pf98aso3dqa6wea69ncdpapjjqiy8mrxuo
+11.05.2024 22:12:16--->124 email to user sent email=osaulenko@glassdecor.ru sp_template=34dfeabe-f647-11ee-8f21-7ee1ea5fccf0 
+Array
+(
+    [uid] => 647a3d47d7e9a943397a22317aeb913b
+    [passw] => EGHu3WsW5u
+    [client_name] => Нина Осауленко
+    [vkt_link] => NAN
+    [product] => Доступ к пробным занятиям классической йогой для начинающих, 7 дн.
+    [sum] => 500
+)
+
+Array
+(
+    [status] => success
+    [job_id] => 1s5s8m-0005x4-4eBr
+    [emails] => Array
+        (
+            [0] => osaulenko@glassdecor.ru
+        )
+
+    [tags] => Array
+        (
+        )
+
+)
+
+Array
+(
+    [message] => Array
+        (
+            [recipients] => Array
+                (
+                    [0] => Array
+                        (
+                            [email] => osaulenko@glassdecor.ru
+                            [substitutions] => Array
+                                (
+                                    [uid] => 647a3d47d7e9a943397a22317aeb913b
+                                    [passw] => EGHu3WsW5u
+                                    [client_name] => Нина Осауленко
+                                    [vkt_link] => NAN
+                                    [product] => Доступ к пробным занятиям классической йогой для начинающих, 7 дн.
+                                    [sum] => 500
+                                )
+
+                        )
+
+                )
+
+            [skip_unsubscribe] => 0
+            [global_language] => ru
+            [template_engine] => simple
+            [template_id] => 34dfeabe-f647-11ee-8f21-7ee1ea5fccf0
+            [track_links] => 0
+            [track_read] => 0
+            [bypass_global] => 1
+            [bypass_unavailable] => 1
+            [bypass_unsubscribed] => 0
+            [bypass_complained] => 0
+        )
+
+)
+
+11.05.2024 22:12:16--->136 tm_end saved as 1716065999
+11.05.2024 22:12:18--->156 notified
+11.05.2024 22:12:18--->159 tag=1 added
+11.05.2024 22:12:18--->161 finished
+16.05.2024 12:11:19--->
+START
+16.05.2024 12:11:19--->24
+16.05.2024 12:11:19--->46
+16.05.2024 12:11:19--->8
+16.05.2024 12:11:19--->39UPDATE avangard SET  tm='1715850679',res=1,amount1=1881.75 WHERE order_id='7199'
+16.05.2024 12:11:19--->103 sp_template=c4c50f8c-fbde-11ee-9af1-62bc95edcc04
+16.05.2024 12:11:19--->105 unisender_secret=6fgzs8pf98aso3dqa6wea69ncdpapjjqiy8mrxuo
+16.05.2024 12:11:20--->124 email to user sent email=jatkevich@rambler.ru sp_template=c4c50f8c-fbde-11ee-9af1-62bc95edcc04 
+Array
+(
+    [uid] => c5b6eed118f8c708b471c530eb45ddf6
+    [passw] => EGHu3WsW5u
+    [client_name] => Светлана
+    [vkt_link] => NAN
+    [product] => Продление участия в клубе YOGAHELPYOU, 30 дней
+    [sum] => 1950
+)
+
+Array
+(
+    [status] => success
+    [job_id] => 1s7X8x-0006qo-KbBc
+    [emails] => Array
+        (
+            [0] => jatkevich@rambler.ru
+        )
+
+    [tags] => Array
+        (
+        )
+
+)
+
+Array
+(
+    [message] => Array
+        (
+            [recipients] => Array
+                (
+                    [0] => Array
+                        (
+                            [email] => jatkevich@rambler.ru
+                            [substitutions] => Array
+                                (
+                                    [uid] => c5b6eed118f8c708b471c530eb45ddf6
+                                    [passw] => EGHu3WsW5u
+                                    [client_name] => Светлана
+                                    [vkt_link] => NAN
+                                    [product] => Продление участия в клубе YOGAHELPYOU, 30 дней
+                                    [sum] => 1950
+                                )
+
+                        )
+
+                )
+
+            [skip_unsubscribe] => 0
+            [global_language] => ru
+            [template_engine] => simple
+            [template_id] => c4c50f8c-fbde-11ee-9af1-62bc95edcc04
+            [track_links] => 0
+            [track_read] => 0
+            [bypass_global] => 1
+            [bypass_unavailable] => 1
+            [bypass_unsubscribed] => 0
+            [bypass_complained] => 0
+        )
+
+)
+
+16.05.2024 12:11:21--->136 tm_end saved as 1718485199
+16.05.2024 12:11:23--->156 notified
+16.05.2024 12:11:23--->159 tag=1 added
+16.05.2024 12:11:23--->161 finished
+22.05.2024 23:06:09--->
+START
+22.05.2024 23:06:09--->24
+22.05.2024 23:06:09--->46
+22.05.2024 23:06:09--->8
+22.05.2024 23:06:09--->39UPDATE avangard SET  tm='1716408369',res=1,amount1=472.85 WHERE order_id='7200'
+22.05.2024 23:06:09--->103 sp_template=b1ec6c54-1153-11ef-a8b7-2a59bc94ab8f
+22.05.2024 23:06:09--->105 unisender_secret=6fgzs8pf98aso3dqa6wea69ncdpapjjqiy8mrxuo
+22.05.2024 23:06:10--->124 email to user sent email=3963009@mail.ru sp_template=b1ec6c54-1153-11ef-a8b7-2a59bc94ab8f 
+Array
+(
+    [uid] => 6a53b3d8145f3ac2cd6f7412cc259f5f
+    [passw] => EGHu3WsW5u
+    [client_name] => Наталья Галко
+    [vkt_link] => NAN
+    [product] => Практика релаксации &quot;Шавасана для сна&quot; <br>
+    [sum] => 490
+)
+
+Array
+(
+    [status] => success
+    [job_id] => 1s9sDx-0005Xv-2sdP
+    [emails] => Array
+        (
+            [0] => 3963009@mail.ru
+        )
+
+    [tags] => Array
+        (
+        )
+
+)
+
+Array
+(
+    [message] => Array
+        (
+            [recipients] => Array
+                (
+                    [0] => Array
+                        (
+                            [email] => 3963009@mail.ru
+                            [substitutions] => Array
+                                (
+                                    [uid] => 6a53b3d8145f3ac2cd6f7412cc259f5f
+                                    [passw] => EGHu3WsW5u
+                                    [client_name] => Наталья Галко
+                                    [vkt_link] => NAN
+                                    [product] => Практика релаксации &quot;Шавасана для сна&quot; <br>
+                                    [sum] => 490
+                                )
+
+                        )
+
+                )
+
+            [skip_unsubscribe] => 0
+            [global_language] => ru
+            [template_engine] => simple
+            [template_id] => b1ec6c54-1153-11ef-a8b7-2a59bc94ab8f
+            [track_links] => 0
+            [track_read] => 0
+            [bypass_global] => 1
+            [bypass_unavailable] => 1
+            [bypass_unsubscribed] => 0
+            [bypass_complained] => 0
+        )
+
+)
+
+22.05.2024 23:06:10--->136 tm_end saved as 1731963599
+22.05.2024 23:06:12--->156 notified
+22.05.2024 23:06:12--->159 tag=1 added
+22.05.2024 23:06:12--->161 finished
+27.05.2024 08:49:03--->
+START
+27.05.2024 08:49:03--->24
+27.05.2024 08:49:03--->46
+05.06.2024 12:02:20--->
+START
+05.06.2024 12:02:20--->24
+05.06.2024 12:02:20--->46
+05.06.2024 12:02:20--->8
+05.06.2024 12:02:20--->39UPDATE avangard SET  tm='1717578140',res=1,amount1=3398.5 WHERE order_id='7202'
+05.06.2024 12:02:20--->103 sp_template=7e46363c-c52c-11ee-8d74-ae92815bb0a5
+05.06.2024 12:02:20--->105 unisender_secret=6fgzs8pf98aso3dqa6wea69ncdpapjjqiy8mrxuo
+05.06.2024 12:02:20--->124 email to user sent email=3002015@gmail.com sp_template=7e46363c-c52c-11ee-8d74-ae92815bb0a5 
+Array
+(
+    [uid] => da9c79b22c7671bf9a8e814bc1c7693f
+    [passw] => EGHu3WsW5u
+    [client_name] => Наргис
+    [vkt_link] => NAN
+    [product] => Продление курса для начинающих на год
+    [sum] => 3500
+)
+
+Array
+(
+    [status] => success
+    [job_id] => 1sEmXE-0003rL-Jbe6
+    [emails] => Array
+        (
+            [0] => 3002015@gmail.com
+        )
+
+    [tags] => Array
+        (
+        )
+
+)
+
+Array
+(
+    [message] => Array
+        (
+            [recipients] => Array
+                (
+                    [0] => Array
+                        (
+                            [email] => 3002015@gmail.com
+                            [substitutions] => Array
+                                (
+                                    [uid] => da9c79b22c7671bf9a8e814bc1c7693f
+                                    [passw] => EGHu3WsW5u
+                                    [client_name] => Наргис
+                                    [vkt_link] => NAN
+                                    [product] => Продление курса для начинающих на год
+                                    [sum] => 3500
+                                )
+
+                        )
+
+                )
+
+            [skip_unsubscribe] => 0
+            [global_language] => ru
+            [template_engine] => simple
+            [template_id] => 7e46363c-c52c-11ee-8d74-ae92815bb0a5
+            [track_links] => 0
+            [track_read] => 0
+            [bypass_global] => 1
+            [bypass_unavailable] => 1
+            [bypass_unsubscribed] => 0
+            [bypass_complained] => 0
+        )
+
+)
+
+05.06.2024 12:02:20--->136 tm_end saved as 1749157199
+05.06.2024 12:02:21--->156 notified
+05.06.2024 12:02:21--->159 tag=1 added
+05.06.2024 12:02:21--->161 finished
+07.06.2024 11:56:03--->
+START
+07.06.2024 11:56:03--->24
+07.06.2024 11:56:03--->46
+07.06.2024 11:56:03--->8
+07.06.2024 11:56:03--->39UPDATE avangard SET  tm='1717750563',res=1,amount1=1893.45 WHERE order_id='7203'
+07.06.2024 11:56:03--->103 sp_template=c4c50f8c-fbde-11ee-9af1-62bc95edcc04
+07.06.2024 11:56:03--->105 unisender_secret=6fgzs8pf98aso3dqa6wea69ncdpapjjqiy8mrxuo
+07.06.2024 11:56:03--->124 email to user sent email=tata29@mail.ru sp_template=c4c50f8c-fbde-11ee-9af1-62bc95edcc04 
+Array
+(
+    [uid] => 0a453b645acc992bf283a3b837dc286e
+    [passw] => EGHu3WsW5u
+    [client_name] => Татьяна
+    [vkt_link] => NAN
+    [product] => Продление участия в клубе YOGAHELPYOU, 30 дней
+    [sum] => 1950
+)
+
+Array
+(
+    [status] => success
+    [job_id] => 1sFVOF-00043j-5TkG
+    [emails] => Array
+        (
+            [0] => tata29@mail.ru
+        )
+
+    [tags] => Array
+        (
+        )
+
+)
+
+Array
+(
+    [message] => Array
+        (
+            [recipients] => Array
+                (
+                    [0] => Array
+                        (
+                            [email] => tata29@mail.ru
+                            [substitutions] => Array
+                                (
+                                    [uid] => 0a453b645acc992bf283a3b837dc286e
+                                    [passw] => EGHu3WsW5u
+                                    [client_name] => Татьяна
+                                    [vkt_link] => NAN
+                                    [product] => Продление участия в клубе YOGAHELPYOU, 30 дней
+                                    [sum] => 1950
+                                )
+
+                        )
+
+                )
+
+            [skip_unsubscribe] => 0
+            [global_language] => ru
+            [template_engine] => simple
+            [template_id] => c4c50f8c-fbde-11ee-9af1-62bc95edcc04
+            [track_links] => 0
+            [track_read] => 0
+            [bypass_global] => 1
+            [bypass_unavailable] => 1
+            [bypass_unsubscribed] => 0
+            [bypass_complained] => 0
+        )
+
+)
+
+07.06.2024 11:56:05--->136 tm_end saved as 1720385999
+07.06.2024 11:56:06--->156 notified
+07.06.2024 11:56:06--->159 tag=1 added
+07.06.2024 11:56:06--->161 finished
+15.06.2024 11:08:03--->
+START
+15.06.2024 11:08:03--->24
+15.06.2024 11:08:03--->46
+15.06.2024 11:08:03--->8
+15.06.2024 11:08:03--->39UPDATE avangard SET  tm='1718438883',res=1,amount1=1893.45 WHERE order_id='7205'
+15.06.2024 11:08:03--->103 sp_template=c4c50f8c-fbde-11ee-9af1-62bc95edcc04
+15.06.2024 11:08:03--->105 unisender_secret=6fgzs8pf98aso3dqa6wea69ncdpapjjqiy8mrxuo
+15.06.2024 11:08:04--->124 email to user sent email=jatkevich@rambler.ru sp_template=c4c50f8c-fbde-11ee-9af1-62bc95edcc04 
+Array
+(
+    [uid] => c5b6eed118f8c708b471c530eb45ddf6
+    [passw] => EGHu3WsW5u
+    [client_name] => Светлана
+    [vkt_link] => NAN
+    [product] => Продление участия в клубе YOGAHELPYOU, 30 дней
+    [sum] => 1950
+)
+
+Array
+(
+    [status] => success
+    [job_id] => 1sIOSB-0005RS-K15I
+    [emails] => Array
+        (
+            [0] => jatkevich@rambler.ru
+        )
+
+    [tags] => Array
+        (
+        )
+
+)
+
+Array
+(
+    [message] => Array
+        (
+            [recipients] => Array
+                (
+                    [0] => Array
+                        (
+                            [email] => jatkevich@rambler.ru
+                            [substitutions] => Array
+                                (
+                                    [uid] => c5b6eed118f8c708b471c530eb45ddf6
+                                    [passw] => EGHu3WsW5u
+                                    [client_name] => Светлана
+                                    [vkt_link] => NAN
+                                    [product] => Продление участия в клубе YOGAHELPYOU, 30 дней
+                                    [sum] => 1950
+                                )
+
+                        )
+
+                )
+
+            [skip_unsubscribe] => 0
+            [global_language] => ru
+            [template_engine] => simple
+            [template_id] => c4c50f8c-fbde-11ee-9af1-62bc95edcc04
+            [track_links] => 0
+            [track_read] => 0
+            [bypass_global] => 1
+            [bypass_unavailable] => 1
+            [bypass_unsubscribed] => 0
+            [bypass_complained] => 0
+        )
+
+)
+
+15.06.2024 11:08:05--->136 tm_end saved as 1721077199
+15.06.2024 11:08:07--->156 notified
+15.06.2024 11:08:07--->159 tag=1 added
+15.06.2024 11:08:07--->161 finished
+04.07.2024 21:57:02--->
+START
+04.07.2024 21:57:02--->24
+04.07.2024 21:57:02--->46
+04.07.2024 21:57:02--->8
+04.07.2024 21:57:02--->39UPDATE avangard SET  tm='1720119422',res=1,amount1=3398.5 WHERE order_id='7206'
+04.07.2024 21:57:02--->103 sp_template=7e46363c-c52c-11ee-8d74-ae92815bb0a5
+04.07.2024 21:57:02--->105 unisender_secret=6fgzs8pf98aso3dqa6wea69ncdpapjjqiy8mrxuo
+04.07.2024 21:57:03--->124 email to user sent email=3963009@mail.ru sp_template=7e46363c-c52c-11ee-8d74-ae92815bb0a5 
+Array
+(
+    [uid] => 6a53b3d8145f3ac2cd6f7412cc259f5f
+    [passw] => EGHu3WsW5u
+    [client_name] => Наталья
+    [vkt_link] => NAN
+    [product] => Продление курса для начинающих на год
+    [sum] => 3500
+)
+
+Array
+(
+    [status] => success
+    [job_id] => 1sPRde-0000pu-ElsT
+    [emails] => Array
+        (
+            [0] => 3963009@mail.ru
+        )
+
+    [tags] => Array
+        (
+        )
+
+)
+
+Array
+(
+    [message] => Array
+        (
+            [recipients] => Array
+                (
+                    [0] => Array
+                        (
+                            [email] => 3963009@mail.ru
+                            [substitutions] => Array
+                                (
+                                    [uid] => 6a53b3d8145f3ac2cd6f7412cc259f5f
+                                    [passw] => EGHu3WsW5u
+                                    [client_name] => Наталья
+                                    [vkt_link] => NAN
+                                    [product] => Продление курса для начинающих на год
+                                    [sum] => 3500
+                                )
+
+                        )
+
+                )
+
+            [skip_unsubscribe] => 0
+            [global_language] => ru
+            [template_engine] => simple
+            [template_id] => 7e46363c-c52c-11ee-8d74-ae92815bb0a5
+            [track_links] => 0
+            [track_read] => 0
+            [bypass_global] => 1
+            [bypass_unavailable] => 1
+            [bypass_unsubscribed] => 0
+            [bypass_complained] => 0
+        )
+
+)
+
+04.07.2024 21:57:03--->136 tm_end saved as 1751662799
+04.07.2024 21:57:05--->156 notified
+04.07.2024 21:57:05--->159 tag=1 added
+04.07.2024 21:57:05--->161 finished
+08.07.2024 01:14:03--->
+START
+08.07.2024 01:14:03--->24
+08.07.2024 01:14:03--->46
+08.07.2024 01:14:03--->8
+08.07.2024 01:14:03--->39UPDATE avangard SET  tm='1720390443',res=1,amount1=1893.45 WHERE order_id='7207'
+08.07.2024 01:14:03--->103 sp_template=c4c50f8c-fbde-11ee-9af1-62bc95edcc04
+08.07.2024 01:14:03--->105 unisender_secret=6fgzs8pf98aso3dqa6wea69ncdpapjjqiy8mrxuo
+08.07.2024 01:14:03--->124 email to user sent email=tata29@mail.ru sp_template=c4c50f8c-fbde-11ee-9af1-62bc95edcc04 
+Array
+(
+    [uid] => 0a453b645acc992bf283a3b837dc286e
+    [passw] => EGHu3WsW5u
+    [client_name] => Татьяна
+    [vkt_link] => NAN
+    [product] => Продление участия в клубе YOGAHELPYOU, 30 дней
+    [sum] => 1950
+)
+
+Array
+(
+    [status] => success
+    [job_id] => 1sQa8x-0000AY-H3Fo
+    [emails] => Array
+        (
+            [0] => tata29@mail.ru
+        )
+
+    [tags] => Array
+        (
+        )
+
+)
+
+Array
+(
+    [message] => Array
+        (
+            [recipients] => Array
+                (
+                    [0] => Array
+                        (
+                            [email] => tata29@mail.ru
+                            [substitutions] => Array
+                                (
+                                    [uid] => 0a453b645acc992bf283a3b837dc286e
+                                    [passw] => EGHu3WsW5u
+                                    [client_name] => Татьяна
+                                    [vkt_link] => NAN
+                                    [product] => Продление участия в клубе YOGAHELPYOU, 30 дней
+                                    [sum] => 1950
+                                )
+
+                        )
+
+                )
+
+            [skip_unsubscribe] => 0
+            [global_language] => ru
+            [template_engine] => simple
+            [template_id] => c4c50f8c-fbde-11ee-9af1-62bc95edcc04
+            [track_links] => 0
+            [track_read] => 0
+            [bypass_global] => 1
+            [bypass_unavailable] => 1
+            [bypass_unsubscribed] => 0
+            [bypass_complained] => 0
+        )
+
+)
+
+08.07.2024 01:14:04--->136 tm_end saved as 1723064399
+08.07.2024 01:14:07--->156 notified
+08.07.2024 01:14:07--->159 tag=1 added
+08.07.2024 01:14:07--->161 finished
+16.07.2024 12:54:18--->
+START
+16.07.2024 12:54:18--->24
+16.07.2024 12:54:18--->46
+16.07.2024 12:54:18--->8
+16.07.2024 12:54:18--->39UPDATE avangard SET  tm='1721123658',res=1,amount1=1893.45 WHERE order_id='7208'
+16.07.2024 12:54:18--->103 sp_template=c4c50f8c-fbde-11ee-9af1-62bc95edcc04
+16.07.2024 12:54:18--->105 unisender_secret=6fgzs8pf98aso3dqa6wea69ncdpapjjqiy8mrxuo
+16.07.2024 12:54:19--->124 email to user sent email=jatkevich@rambler.ru sp_template=c4c50f8c-fbde-11ee-9af1-62bc95edcc04 
+Array
+(
+    [uid] => c5b6eed118f8c708b471c530eb45ddf6
+    [passw] => EGHu3WsW5u
+    [client_name] => Светлана
+    [vkt_link] => NAN
+    [product] => Продление участия в клубе YOGAHELPYOU, 30 дней
+    [sum] => 1950
+)
+
+Array
+(
+    [status] => success
+    [job_id] => 1sTet0-0000ID-8Kh1
+    [emails] => Array
+        (
+            [0] => jatkevich@rambler.ru
+        )
+
+    [tags] => Array
+        (
+        )
+
+)
+
+Array
+(
+    [message] => Array
+        (
+            [recipients] => Array
+                (
+                    [0] => Array
+                        (
+                            [email] => jatkevich@rambler.ru
+                            [substitutions] => Array
+                                (
+                                    [uid] => c5b6eed118f8c708b471c530eb45ddf6
+                                    [passw] => EGHu3WsW5u
+                                    [client_name] => Светлана
+                                    [vkt_link] => NAN
+                                    [product] => Продление участия в клубе YOGAHELPYOU, 30 дней
+                                    [sum] => 1950
+                                )
+
+                        )
+
+                )
+
+            [skip_unsubscribe] => 0
+            [global_language] => ru
+            [template_engine] => simple
+            [template_id] => c4c50f8c-fbde-11ee-9af1-62bc95edcc04
+            [track_links] => 0
+            [track_read] => 0
+            [bypass_global] => 1
+            [bypass_unavailable] => 1
+            [bypass_unsubscribed] => 0
+            [bypass_complained] => 0
+        )
+
+)
+
+16.07.2024 12:54:20--->136 tm_end saved as 1723755599
+16.07.2024 12:54:22--->156 notified
+16.07.2024 12:54:22--->159 tag=1 added
+16.07.2024 12:54:22--->161 finished
+07.08.2024 10:24:04--->
+START
+07.08.2024 10:24:04--->24
+07.08.2024 10:24:04--->46
+07.08.2024 10:24:04--->8
+07.08.2024 10:24:04--->39UPDATE avangard SET  tm='1723015444',res=1,amount1=1893.45 WHERE order_id='7209'
+07.08.2024 10:24:04--->103 sp_template=c4c50f8c-fbde-11ee-9af1-62bc95edcc04
+07.08.2024 10:24:04--->105 unisender_secret=6fgzs8pf98aso3dqa6wea69ncdpapjjqiy8mrxuo
+07.08.2024 10:24:04--->124 email to user sent email=tata29@mail.ru sp_template=c4c50f8c-fbde-11ee-9af1-62bc95edcc04 
+Array
+(
+    [uid] => 0a453b645acc992bf283a3b837dc286e
+    [passw] => EGHu3WsW5u
+    [client_name] => Татьяна
+    [vkt_link] => NAN
+    [product] => Продление участия в клубе YOGAHELPYOU, 30 дней
+    [sum] => 1950
+)
+
+Array
+(
+    [status] => success
+    [job_id] => 1sbb1g-000876-IsMK
+    [emails] => Array
+        (
+            [0] => tata29@mail.ru
+        )
+
+    [tags] => Array
+        (
+        )
+
+)
+
+Array
+(
+    [message] => Array
+        (
+            [recipients] => Array
+                (
+                    [0] => Array
+                        (
+                            [email] => tata29@mail.ru
+                            [substitutions] => Array
+                                (
+                                    [uid] => 0a453b645acc992bf283a3b837dc286e
+                                    [passw] => EGHu3WsW5u
+                                    [client_name] => Татьяна
+                                    [vkt_link] => NAN
+                                    [product] => Продление участия в клубе YOGAHELPYOU, 30 дней
+                                    [sum] => 1950
+                                )
+
+                        )
+
+                )
+
+            [skip_unsubscribe] => 0
+            [global_language] => ru
+            [template_engine] => simple
+            [template_id] => c4c50f8c-fbde-11ee-9af1-62bc95edcc04
+            [track_links] => 0
+            [track_read] => 0
+            [bypass_global] => 1
+            [bypass_unavailable] => 1
+            [bypass_unsubscribed] => 0
+            [bypass_complained] => 0
+        )
+
+)
+
+07.08.2024 10:24:05--->136 tm_end saved as 1725656399
+07.08.2024 10:24:08--->156 notified
+07.08.2024 10:24:08--->159 tag=1 added
+07.08.2024 10:24:08--->161 finished
+16.08.2024 09:26:07--->
+START
+16.08.2024 09:26:07--->24
+16.08.2024 09:26:07--->46
+16.08.2024 09:26:07--->8
+16.08.2024 09:26:07--->39UPDATE avangard SET  tm='1723789567',res=1,amount1=5189.77 WHERE order_id='7210'
+16.08.2024 09:26:07--->103 sp_template=c4c50f8c-fbde-11ee-9af1-62bc95edcc04
+16.08.2024 09:26:07--->105 unisender_secret=6fgzs8pf98aso3dqa6wea69ncdpapjjqiy8mrxuo
+16.08.2024 09:26:07--->124 email to user sent email=jatkevich@rambler.ru sp_template=c4c50f8c-fbde-11ee-9af1-62bc95edcc04 
+Array
+(
+    [uid] => c5b6eed118f8c708b471c530eb45ddf6
+    [passw] => EGHu3WsW5u
+    [client_name] => Светлана
+    [vkt_link] => NAN
+    [product] => Продление участия в клубе YOGAHELPYOU, 90 дней
+    [sum] => 5378
+)
+
+Array
+(
+    [status] => success
+    [job_id] => 1seqPX-0005kv-6s1J
+    [emails] => Array
+        (
+            [0] => jatkevich@rambler.ru
+        )
+
+    [tags] => Array
+        (
+        )
+
+)
+
+Array
+(
+    [message] => Array
+        (
+            [recipients] => Array
+                (
+                    [0] => Array
+                        (
+                            [email] => jatkevich@rambler.ru
+                            [substitutions] => Array
+                                (
+                                    [uid] => c5b6eed118f8c708b471c530eb45ddf6
+                                    [passw] => EGHu3WsW5u
+                                    [client_name] => Светлана
+                                    [vkt_link] => NAN
+                                    [product] => Продление участия в клубе YOGAHELPYOU, 90 дней
+                                    [sum] => 5378
+                                )
+
+                        )
+
+                )
+
+            [skip_unsubscribe] => 0
+            [global_language] => ru
+            [template_engine] => simple
+            [template_id] => c4c50f8c-fbde-11ee-9af1-62bc95edcc04
+            [track_links] => 0
+            [track_read] => 0
+            [bypass_global] => 1
+            [bypass_unavailable] => 1
+            [bypass_unsubscribed] => 0
+            [bypass_complained] => 0
+        )
+
+)
+
+16.08.2024 09:26:07--->136 tm_end saved as 1731617999
+16.08.2024 09:26:09--->156 notified
+16.08.2024 09:26:09--->159 tag=1 added
+16.08.2024 09:26:09--->161 finished
+18.08.2024 18:46:02--->
+START
+18.08.2024 18:46:02--->24
+18.08.2024 18:46:02--->46
+18.08.2024 18:46:02--->8
+18.08.2024 18:46:02--->39UPDATE avangard SET  tm='1723995962',res=1,amount1=16247.74 WHERE order_id='7211'
+18.08.2024 18:46:02--->103 sp_template=7e46363c-c52c-11ee-8d74-ae92815bb0a5
+18.08.2024 18:46:02--->105 unisender_secret=6fgzs8pf98aso3dqa6wea69ncdpapjjqiy8mrxuo
+18.08.2024 18:46:02--->124 email to user sent email=alinka.gataulova@yandex.ru sp_template=7e46363c-c52c-11ee-8d74-ae92815bb0a5 
+Array
+(
+    [uid] => b62141744cf22969ef316b8b1e13b132
+    [passw] => EGHu3WsW5u
+    [client_name] => Алина
+    [vkt_link] => NAN
+    [product] => Доступ к материалам курса йоги для начинающих, пакет Старт, 12 мес.
+    [sum] => 16733
+)
+
+Array
+(
+    [status] => success
+    [job_id] => 1sfi6U-0007Uh-9zWj
+    [emails] => Array
+        (
+            [0] => alinka.gataulova@yandex.ru
+        )
+
+    [tags] => Array
+        (
+        )
+
+)
+
+Array
+(
+    [message] => Array
+        (
+            [recipients] => Array
+                (
+                    [0] => Array
+                        (
+                            [email] => alinka.gataulova@yandex.ru
+                            [substitutions] => Array
+                                (
+                                    [uid] => b62141744cf22969ef316b8b1e13b132
+                                    [passw] => EGHu3WsW5u
+                                    [client_name] => Алина
+                                    [vkt_link] => NAN
+                                    [product] => Доступ к материалам курса йоги для начинающих, пакет Старт, 12 мес.
+                                    [sum] => 16733
+                                )
+
+                        )
+
+                )
+
+            [skip_unsubscribe] => 0
+            [global_language] => ru
+            [template_engine] => simple
+            [template_id] => 7e46363c-c52c-11ee-8d74-ae92815bb0a5
+            [track_links] => 0
+            [track_read] => 0
+            [bypass_global] => 1
+            [bypass_unavailable] => 1
+            [bypass_unsubscribed] => 0
+            [bypass_complained] => 0
+        )
+
+)
+
+18.08.2024 18:46:02--->136 tm_end saved as 1756587599
+18.08.2024 18:46:04--->156 notified
+18.08.2024 18:46:04--->159 tag=1 added
+18.08.2024 18:46:04--->161 finished
+04.09.2024 10:27:08--->
+START
+04.09.2024 10:27:08--->24
+04.09.2024 10:27:08--->46
+04.09.2024 10:27:08--->8
+04.09.2024 10:27:08--->39UPDATE avangard SET  tm='1725434828',res=1,amount1=1893.45 WHERE order_id='7213'
+04.09.2024 10:27:08--->103 sp_template=c4c50f8c-fbde-11ee-9af1-62bc95edcc04
+04.09.2024 10:27:08--->105 unisender_secret=6fgzs8pf98aso3dqa6wea69ncdpapjjqiy8mrxuo
+04.09.2024 10:27:09--->124 email to user sent email=tata29@mail.ru sp_template=c4c50f8c-fbde-11ee-9af1-62bc95edcc04 
+Array
+(
+    [uid] => 0a453b645acc992bf283a3b837dc286e
+    [passw] => EGHu3WsW5u
+    [client_name] => Татьяна
+    [vkt_link] => NAN
+    [product] => Продление участия в клубе YOGAHELPYOU, 30 дней
+    [sum] => 1950
+)
+
+Array
+(
+    [status] => success
+    [job_id] => 1slkQ0-00038s-IorQ
+    [emails] => Array
+        (
+            [0] => tata29@mail.ru
+        )
+
+    [tags] => Array
+        (
+        )
+
+)
+
+Array
+(
+    [message] => Array
+        (
+            [recipients] => Array
+                (
+                    [0] => Array
+                        (
+                            [email] => tata29@mail.ru
+                            [substitutions] => Array
+                                (
+                                    [uid] => 0a453b645acc992bf283a3b837dc286e
+                                    [passw] => EGHu3WsW5u
+                                    [client_name] => Татьяна
+                                    [vkt_link] => NAN
+                                    [product] => Продление участия в клубе YOGAHELPYOU, 30 дней
+                                    [sum] => 1950
+                                )
+
+                        )
+
+                )
+
+            [skip_unsubscribe] => 0
+            [global_language] => ru
+            [template_engine] => simple
+            [template_id] => c4c50f8c-fbde-11ee-9af1-62bc95edcc04
+            [track_links] => 0
+            [track_read] => 0
+            [bypass_global] => 1
+            [bypass_unavailable] => 1
+            [bypass_unsubscribed] => 0
+            [bypass_complained] => 0
+        )
+
+)
+
+04.09.2024 10:27:09--->136 tm_end saved as 1728248399
+04.09.2024 10:27:12--->156 notified
+04.09.2024 10:27:12--->159 tag=1 added
+04.09.2024 10:27:12--->161 finished
+18.09.2024 12:59:02--->
+START
+18.09.2024 12:59:02--->24
+18.09.2024 12:59:02--->46
+18.09.2024 12:59:02--->8
+18.09.2024 12:59:02--->39UPDATE avangard SET  tm='1726653542',res=1,amount1=19203.5 WHERE order_id='7214'
+18.09.2024 12:59:02--->103 sp_template=7e46363c-c52c-11ee-8d74-ae92815bb0a5
+18.09.2024 12:59:02--->105 unisender_secret=6fgzs8pf98aso3dqa6wea69ncdpapjjqiy8mrxuo
+18.09.2024 12:59:03--->124 email to user sent email=bukh_olga@mail.ru sp_template=7e46363c-c52c-11ee-8d74-ae92815bb0a5 
+Array
+(
+    [uid] => 8e1bbe4be1e473cd3a51189c6118339a
+    [passw] => EGHu3WsW5u
+    [client_name] => Бух Ольга 
+    [vkt_link] => NAN
+    [product] => Доступ к материалам курса йоги для начинающих, пакет Старт, 12 мес.
+    [sum] => 19900
+)
+
+Array
+(
+    [status] => success
+    [job_id] => 1sqrSg-0006g0-6b7L
+    [emails] => Array
+        (
+            [0] => bukh_olga@mail.ru
+        )
+
+    [tags] => Array
+        (
+        )
+
+)
+
+Array
+(
+    [message] => Array
+        (
+            [recipients] => Array
+                (
+                    [0] => Array
+                        (
+                            [email] => bukh_olga@mail.ru
+                            [substitutions] => Array
+                                (
+                                    [uid] => 8e1bbe4be1e473cd3a51189c6118339a
+                                    [passw] => EGHu3WsW5u
+                                    [client_name] => Бух Ольга 
+                                    [vkt_link] => NAN
+                                    [product] => Доступ к материалам курса йоги для начинающих, пакет Старт, 12 мес.
+                                    [sum] => 19900
+                                )
+
+                        )
+
+                )
+
+            [skip_unsubscribe] => 0
+            [global_language] => ru
+            [template_engine] => simple
+            [template_id] => 7e46363c-c52c-11ee-8d74-ae92815bb0a5
+            [track_links] => 0
+            [track_read] => 0
+            [bypass_global] => 1
+            [bypass_unavailable] => 1
+            [bypass_unsubscribed] => 0
+            [bypass_complained] => 0
+        )
+
+)
+
+18.09.2024 12:59:03--->136 tm_end saved as 1758229199
+18.09.2024 12:59:03--->156 notified
+18.09.2024 12:59:03--->159 tag=1 added
+18.09.2024 12:59:03--->161 finished
+06.10.2024 04:03:03--->
+START
+06.10.2024 04:03:03--->24
+06.10.2024 04:03:03--->46
+06.10.2024 04:03:03--->8
+06.10.2024 04:03:03--->39UPDATE avangard SET  tm='1728176583',res=1,amount1=1893.45 WHERE order_id='7215'
+06.10.2024 04:03:03--->103 sp_template=c4c50f8c-fbde-11ee-9af1-62bc95edcc04
+06.10.2024 04:03:03--->105 unisender_secret=6fgzs8pf98aso3dqa6wea69ncdpapjjqiy8mrxuo
+06.10.2024 04:03:03--->124 email to user sent email=tata29@mail.ru sp_template=c4c50f8c-fbde-11ee-9af1-62bc95edcc04 
+Array
+(
+    [uid] => 0a453b645acc992bf283a3b837dc286e
+    [passw] => EGHu3WsW5u
+    [client_name] => Татьяна
+    [vkt_link] => NAN
+    [product] => Продление участия в клубе YOGAHELPYOU, 30 дней
+    [sum] => 1950
+)
+
+Array
+(
+    [status] => success
+    [job_id] => 1sxFfr-0006Je-EIl4
+    [emails] => Array
+        (
+            [0] => tata29@mail.ru
+        )
+
+    [tags] => Array
+        (
+        )
+
+)
+
+Array
+(
+    [message] => Array
+        (
+            [recipients] => Array
+                (
+                    [0] => Array
+                        (
+                            [email] => tata29@mail.ru
+                            [substitutions] => Array
+                                (
+                                    [uid] => 0a453b645acc992bf283a3b837dc286e
+                                    [passw] => EGHu3WsW5u
+                                    [client_name] => Татьяна
+                                    [vkt_link] => NAN
+                                    [product] => Продление участия в клубе YOGAHELPYOU, 30 дней
+                                    [sum] => 1950
+                                )
+
+                        )
+
+                )
+
+            [skip_unsubscribe] => 0
+            [global_language] => ru
+            [template_engine] => simple
+            [template_id] => c4c50f8c-fbde-11ee-9af1-62bc95edcc04
+            [track_links] => 0
+            [track_read] => 0
+            [bypass_global] => 1
+            [bypass_unavailable] => 1
+            [bypass_unsubscribed] => 0
+            [bypass_complained] => 0
+        )
+
+)
+
+06.10.2024 04:03:04--->136 tm_end saved as 1730840399
+06.10.2024 04:03:05--->156 notified
+06.10.2024 04:03:05--->159 tag=1 added
+06.10.2024 04:03:05--->161 finished
+08.11.2024 02:36:03--->
+START
+08.11.2024 02:36:03--->24
+08.11.2024 02:36:03--->46
+08.11.2024 02:36:03--->8
+08.11.2024 02:36:03--->39UPDATE avangard SET  tm='1731022563',res=1,amount1=2417.79 WHERE order_id='7217'
+08.11.2024 02:36:03--->103 sp_template=c4c50f8c-fbde-11ee-9af1-62bc95edcc04
+08.11.2024 02:36:03--->105 unisender_secret=6fgzs8pf98aso3dqa6wea69ncdpapjjqiy8mrxuo
+08.11.2024 02:36:04--->124 email to user sent email=tata29@mail.ru sp_template=c4c50f8c-fbde-11ee-9af1-62bc95edcc04 
+Array
+(
+    [uid] => 0a453b645acc992bf283a3b837dc286e
+    [passw] => EGHu3WsW5u
+    [name] => Татьяна
+    [vkt_link] => NAN
+    [product] => Продление участия в клубе YOGAHELPYOU, 30 дней
+    [sum] => 2490
+)
+
+Array
+(
+    [status] => success
+    [job_id] => 1t9C2m-0002GT-APz1
+    [emails] => Array
+        (
+            [0] => tata29@mail.ru
+        )
+
+    [tags] => Array
+        (
+        )
+
+)
+
+Array
+(
+    [message] => Array
+        (
+            [recipients] => Array
+                (
+                    [0] => Array
+                        (
+                            [email] => tata29@mail.ru
+                            [substitutions] => Array
+                                (
+                                    [uid] => 0a453b645acc992bf283a3b837dc286e
+                                    [passw] => EGHu3WsW5u
+                                    [name] => Татьяна
+                                    [vkt_link] => NAN
+                                    [product] => Продление участия в клубе YOGAHELPYOU, 30 дней
+                                    [sum] => 2490
+                                )
+
+                        )
+
+                )
+
+            [skip_unsubscribe] => 0
+            [global_language] => ru
+            [template_engine] => simple
+            [template_id] => c4c50f8c-fbde-11ee-9af1-62bc95edcc04
+            [track_links] => 0
+            [track_read] => 0
+            [bypass_global] => 1
+            [bypass_unavailable] => 1
+            [bypass_unsubscribed] => 0
+            [bypass_complained] => 0
+        )
+
+)
+
+08.11.2024 02:36:04--->136 tm_end saved as 1733691599
+08.11.2024 02:36:06--->156 notified
+08.11.2024 02:36:06--->159 tag=1 added
+08.11.2024 02:36:06--->161 finished
+06.12.2024 23:53:08--->
+START
+06.12.2024 23:53:08--->24
+06.12.2024 23:53:08--->46
+06.12.2024 23:53:08--->8
+06.12.2024 23:53:08--->39UPDATE avangard SET  tm='1733518388',res=1,amount1=475.79 WHERE order_id='7218'
+06.12.2024 23:53:08--->103 sp_template=b1ec6c54-1153-11ef-a8b7-2a59bc94ab8f
+06.12.2024 23:53:08--->105 unisender_secret=6fgzs8pf98aso3dqa6wea69ncdpapjjqiy8mrxuo
+06.12.2024 23:53:09--->124 email to user sent email=3963009@mail.ru sp_template=b1ec6c54-1153-11ef-a8b7-2a59bc94ab8f 
+Array
+(
+    [uid] => 6a53b3d8145f3ac2cd6f7412cc259f5f
+    [passw] => EGHu3WsW5u
+    [name] => Галко Наталья Леонидовна
+    [vkt_link] => NAN
+    [product] => Практика релаксации &quot;Шавасана для сна&quot; <br>
+    [sum] => 490
+)
+
+Array
+(
+    [status] => success
+    [job_id] => 1tJfK0-0002P2-KDRM
+    [emails] => Array
+        (
+            [0] => 3963009@mail.ru
+        )
+
+    [tags] => Array
+        (
+        )
+
+)
+
+Array
+(
+    [message] => Array
+        (
+            [recipients] => Array
+                (
+                    [0] => Array
+                        (
+                            [email] => 3963009@mail.ru
+                            [substitutions] => Array
+                                (
+                                    [uid] => 6a53b3d8145f3ac2cd6f7412cc259f5f
+                                    [passw] => EGHu3WsW5u
+                                    [name] => Галко Наталья Леонидовна
+                                    [vkt_link] => NAN
+                                    [product] => Практика релаксации &quot;Шавасана для сна&quot; <br>
+                                    [sum] => 490
+                                )
+
+                        )
+
+                )
+
+            [skip_unsubscribe] => 0
+            [global_language] => ru
+            [template_engine] => simple
+            [template_id] => b1ec6c54-1153-11ef-a8b7-2a59bc94ab8f
+            [track_links] => 0
+            [track_read] => 0
+            [bypass_global] => 1
+            [bypass_unavailable] => 1
+            [bypass_unsubscribed] => 0
+            [bypass_complained] => 0
+        )
+
+)
+
+06.12.2024 23:53:09--->136 tm_end saved as 1749070799
+06.12.2024 23:53:11--->156 notified
+06.12.2024 23:53:11--->159 tag=1 added
+06.12.2024 23:53:11--->161 finished
+07.12.2024 04:22:04--->
+START
+07.12.2024 04:22:04--->24
+07.12.2024 04:22:04--->46
+07.12.2024 04:22:04--->8
+07.12.2024 04:22:04--->39UPDATE avangard SET  tm='1733534524',res=1,amount1=1893.45 WHERE order_id='7219'
+07.12.2024 04:22:04--->103 sp_template=c4c50f8c-fbde-11ee-9af1-62bc95edcc04
+07.12.2024 04:22:04--->105 unisender_secret=6fgzs8pf98aso3dqa6wea69ncdpapjjqiy8mrxuo
+07.12.2024 04:22:04--->124 email to user sent email=tata29@mail.ru sp_template=c4c50f8c-fbde-11ee-9af1-62bc95edcc04 
+Array
+(
+    [uid] => 0a453b645acc992bf283a3b837dc286e
+    [passw] => EGHu3WsW5u
+    [name] => Татьяна
+    [vkt_link] => NAN
+    [product] => Продление участия в клубе YOGAHELPYOU, 30 дней
+    [sum] => 1950
+)
+
+Array
+(
+    [status] => success
+    [job_id] => 1tJjWG-0003hX-7G5Z
+    [emails] => Array
+        (
+            [0] => tata29@mail.ru
+        )
+
+    [tags] => Array
+        (
+        )
+
+)
+
+Array
+(
+    [message] => Array
+        (
+            [recipients] => Array
+                (
+                    [0] => Array
+                        (
+                            [email] => tata29@mail.ru
+                            [substitutions] => Array
+                                (
+                                    [uid] => 0a453b645acc992bf283a3b837dc286e
+                                    [passw] => EGHu3WsW5u
+                                    [name] => Татьяна
+                                    [vkt_link] => NAN
+                                    [product] => Продление участия в клубе YOGAHELPYOU, 30 дней
+                                    [sum] => 1950
+                                )
+
+                        )
+
+                )
+
+            [skip_unsubscribe] => 0
+            [global_language] => ru
+            [template_engine] => simple
+            [template_id] => c4c50f8c-fbde-11ee-9af1-62bc95edcc04
+            [track_links] => 0
+            [track_read] => 0
+            [bypass_global] => 1
+            [bypass_unavailable] => 1
+            [bypass_unsubscribed] => 0
+            [bypass_complained] => 0
+        )
+
+)
+
+07.12.2024 04:22:05--->136 tm_end saved as 1736283599
+07.12.2024 04:22:06--->156 notified
+07.12.2024 04:22:06--->159 tag=1 added
+07.12.2024 04:22:06--->161 finished
+23.12.2024 23:30:13--->
+START
+23.12.2024 23:30:13--->24
+23.12.2024 23:30:13--->46
+23.12.2024 23:30:13--->8
+23.12.2024 23:30:13--->39UPDATE avangard SET  tm='1734985813',res=1,amount1=16405 WHERE order_id='7220'
+23.12.2024 23:30:13--->103 sp_template=7e46363c-c52c-11ee-8d74-ae92815bb0a5
+23.12.2024 23:30:13--->105 unisender_secret=6fgzs8pf98aso3dqa6wea69ncdpapjjqiy8mrxuo
+23.12.2024 23:30:14--->124 email to user sent email=nama-chintamani@mail.ru sp_template=7e46363c-c52c-11ee-8d74-ae92815bb0a5 
+Array
+(
+    [uid] => eb83ab24314bfe0f3ba4ebd4f44ea38c
+    [passw] => EGHu3WsW5u
+    [name] => Ольга Николаевна Козырева
+    [vkt_link] => NAN
+    [product] => Доступ к материалам курса йоги для начинающих, пакет Старт, 12 мес.
+    [sum] => 17000
+)
+
+Array
+(
+    [status] => success
+    [job_id] => 1tPp4A-0002EQ-GP25
+    [emails] => Array
+        (
+            [0] => nama-chintamani@mail.ru
+        )
+
+    [tags] => Array
+        (
+        )
+
+)
+
+Array
+(
+    [message] => Array
+        (
+            [recipients] => Array
+                (
+                    [0] => Array
+                        (
+                            [email] => nama-chintamani@mail.ru
+                            [substitutions] => Array
+                                (
+                                    [uid] => eb83ab24314bfe0f3ba4ebd4f44ea38c
+                                    [passw] => EGHu3WsW5u
+                                    [name] => Ольга Николаевна Козырева
+                                    [vkt_link] => NAN
+                                    [product] => Доступ к материалам курса йоги для начинающих, пакет Старт, 12 мес.
+                                    [sum] => 17000
+                                )
+
+                        )
+
+                )
+
+            [skip_unsubscribe] => 0
+            [global_language] => ru
+            [template_engine] => simple
+            [template_id] => 7e46363c-c52c-11ee-8d74-ae92815bb0a5
+            [track_links] => 0
+            [track_read] => 0
+            [bypass_global] => 1
+            [bypass_unavailable] => 1
+            [bypass_unsubscribed] => 0
+            [bypass_complained] => 0
+        )
+
+)
+
+23.12.2024 23:30:14--->136 tm_end saved as 1766523599
+23.12.2024 23:30:15--->156 notified
+23.12.2024 23:30:15--->159 tag=1 added
+23.12.2024 23:30:15--->161 finished
+04.01.2025 09:13:08--->
+START
+04.01.2025 09:13:08--->24
+04.01.2025 09:13:08--->46
+04.01.2025 09:13:08--->8
+04.01.2025 09:13:08--->39UPDATE avangard SET  tm='1735971188',res=1,amount1=544.73 WHERE order_id='7222'
+04.01.2025 09:13:08--->103 sp_template=d781eb44-1151-11ef-999a-2a59bc94ab8f
+04.01.2025 09:13:08--->105 unisender_secret=6fgzs8pf98aso3dqa6wea69ncdpapjjqiy8mrxuo
+04.01.2025 09:13:09--->124 email to user sent email=jatkevich@rambler.ru sp_template=d781eb44-1151-11ef-999a-2a59bc94ab8f 
+Array
+(
+    [uid] => c5b6eed118f8c708b471c530eb45ddf6
+    [passw] => EGHu3WsW5u
+    [name] => Светлана
+    [vkt_link] => NAN
+    [product] => Доступ к пробным занятиям классической йогой для начинающих + Медитация для сна, 7 дн.
+    [sum] => 561
+)
+
+Array
+(
+    [status] => success
+    [job_id] => 1tTxPJ-0001Kn-DD59
+    [emails] => Array
+        (
+            [0] => jatkevich@rambler.ru
+        )
+
+    [tags] => Array
+        (
+        )
+
+)
+
+Array
+(
+    [message] => Array
+        (
+            [recipients] => Array
+                (
+                    [0] => Array
+                        (
+                            [email] => jatkevich@rambler.ru
+                            [substitutions] => Array
+                                (
+                                    [uid] => c5b6eed118f8c708b471c530eb45ddf6
+                                    [passw] => EGHu3WsW5u
+                                    [name] => Светлана
+                                    [vkt_link] => NAN
+                                    [product] => Доступ к пробным занятиям классической йогой для начинающих + Медитация для сна, 7 дн.
+                                    [sum] => 561
+                                )
+
+                        )
+
+                )
+
+            [skip_unsubscribe] => 0
+            [global_language] => ru
+            [template_engine] => simple
+            [template_id] => d781eb44-1151-11ef-999a-2a59bc94ab8f
+            [track_links] => 0
+            [track_read] => 0
+            [bypass_global] => 1
+            [bypass_unavailable] => 1
+            [bypass_unsubscribed] => 0
+            [bypass_complained] => 0
+        )
+
+)
+
+04.01.2025 09:13:09--->136 tm_end saved as 1736629199
+04.01.2025 09:13:11--->156 notified
+04.01.2025 09:13:11--->159 tag=1 added
+04.01.2025 09:13:11--->161 finished
+05.01.2025 14:26:03--->
+START
+05.01.2025 14:26:03--->24
+05.01.2025 14:26:03--->46
+05.01.2025 14:26:03--->8
+05.01.2025 14:26:03--->39UPDATE avangard SET  tm='1736076363',res=1,amount1=1893.45 WHERE order_id='7224'
+05.01.2025 14:26:03--->103 sp_template=c4c50f8c-fbde-11ee-9af1-62bc95edcc04
+05.01.2025 14:26:03--->105 unisender_secret=6fgzs8pf98aso3dqa6wea69ncdpapjjqiy8mrxuo
+05.01.2025 14:26:03--->124 email to user sent email=tata29@mail.ru sp_template=c4c50f8c-fbde-11ee-9af1-62bc95edcc04 
+Array
+(
+    [uid] => 0a453b645acc992bf283a3b837dc286e
+    [passw] => EGHu3WsW5u
+    [name] => Татьяна
+    [vkt_link] => NAN
+    [product] => Продление участия в клубе YOGAHELPYOU, 30 дней
+    [sum] => 1950
+)
+
+Array
+(
+    [status] => success
+    [job_id] => 1tUOlf-0001pW-9aE5
+    [emails] => Array
+        (
+            [0] => tata29@mail.ru
+        )
+
+    [tags] => Array
+        (
+        )
+
+)
+
+Array
+(
+    [message] => Array
+        (
+            [recipients] => Array
+                (
+                    [0] => Array
+                        (
+                            [email] => tata29@mail.ru
+                            [substitutions] => Array
+                                (
+                                    [uid] => 0a453b645acc992bf283a3b837dc286e
+                                    [passw] => EGHu3WsW5u
+                                    [name] => Татьяна
+                                    [vkt_link] => NAN
+                                    [product] => Продление участия в клубе YOGAHELPYOU, 30 дней
+                                    [sum] => 1950
+                                )
+
+                        )
+
+                )
+
+            [skip_unsubscribe] => 0
+            [global_language] => ru
+            [template_engine] => simple
+            [template_id] => c4c50f8c-fbde-11ee-9af1-62bc95edcc04
+            [track_links] => 0
+            [track_read] => 0
+            [bypass_global] => 1
+            [bypass_unavailable] => 1
+            [bypass_unsubscribed] => 0
+            [bypass_complained] => 0
+        )
+
+)
+
+05.01.2025 14:26:04--->136 tm_end saved as 1738875599
+05.01.2025 14:26:05--->156 notified
+05.01.2025 14:26:05--->159 tag=1 added
+05.01.2025 14:26:05--->161 finished
+06.02.2025 00:13:19--->
+START
+06.02.2025 00:13:19--->24
+06.02.2025 00:13:19--->46
+06.02.2025 00:13:19--->8
+06.02.2025 00:13:19--->39UPDATE avangard SET  tm='1738789999',res=1,amount1=1893.45 WHERE order_id='7226'
+06.02.2025 00:13:19--->103 sp_template=c4c50f8c-fbde-11ee-9af1-62bc95edcc04
+06.02.2025 00:13:19--->105 unisender_secret=6fgzs8pf98aso3dqa6wea69ncdpapjjqiy8mrxuo
+06.02.2025 00:13:19--->124 email to user sent email=tata29@mail.ru sp_template=c4c50f8c-fbde-11ee-9af1-62bc95edcc04 
+Array
+(
+    [uid] => 0a453b645acc992bf283a3b837dc286e
+    [passw] => EGHu3WsW5u
+    [name] => Татьяна
+    [vkt_link] => NAN
+    [product] => Продление участия в клубе YOGAHELPYOU, 30 дней
+    [sum] => 1950
+)
+
+Array
+(
+    [status] => success
+    [job_id] => 1tfmhz-0002d4-3eTr
+    [emails] => Array
+        (
+            [0] => tata29@mail.ru
+        )
+
+    [tags] => Array
+        (
+        )
+
+)
+
+Array
+(
+    [message] => Array
+        (
+            [recipients] => Array
+                (
+                    [0] => Array
+                        (
+                            [email] => tata29@mail.ru
+                            [substitutions] => Array
+                                (
+                                    [uid] => 0a453b645acc992bf283a3b837dc286e
+                                    [passw] => EGHu3WsW5u
+                                    [name] => Татьяна
+                                    [vkt_link] => NAN
+                                    [product] => Продление участия в клубе YOGAHELPYOU, 30 дней
+                                    [sum] => 1950
+                                )
+
+                        )
+
+                )
+
+            [skip_unsubscribe] => 0
+            [global_language] => ru
+            [template_engine] => simple
+            [template_id] => c4c50f8c-fbde-11ee-9af1-62bc95edcc04
+            [track_links] => 0
+            [track_read] => 0
+            [bypass_global] => 1
+            [bypass_unavailable] => 1
+            [bypass_unsubscribed] => 0
+            [bypass_complained] => 0
+        )
+
+)
+
+06.02.2025 00:13:20--->136 tm_end saved as 1741467599
+06.02.2025 00:13:20--->156 notified
+06.02.2025 00:13:20--->159 tag=1 added
+06.02.2025 00:13:20--->161 finished
+06.03.2025 18:19:25--->
+START
+06.03.2025 18:19:25--->24
+06.03.2025 18:19:25--->46
+06.03.2025 18:19:25--->8
+06.03.2025 18:19:25--->39UPDATE avangard SET  tm='1741274365',res=1,amount1=1893.45 WHERE order_id='7227'
+06.03.2025 18:19:25--->103 sp_template=c4c50f8c-fbde-11ee-9af1-62bc95edcc04
+06.03.2025 18:19:25--->105 unisender_secret=6fgzs8pf98aso3dqa6wea69ncdpapjjqiy8mrxuo
+06.03.2025 18:19:25--->124 email to user sent email=tata29@mail.ru sp_template=c4c50f8c-fbde-11ee-9af1-62bc95edcc04 
+Array
+(
+    [uid] => 0a453b645acc992bf283a3b837dc286e
+    [passw] => EGHu3WsW5u
+    [name] => Татьяна
+    [vkt_link] => NAN
+    [product] => Продление участия в клубе YOGAHELPYOU, 30 дней
+    [sum] => 1950
+)
+
+Array
+(
+    [status] => success
+    [job_id] => 1tqD0P-0002Jt-DUp6
+    [emails] => Array
+        (
+            [0] => tata29@mail.ru
+        )
+
+    [tags] => Array
+        (
+        )
+
+)
+
+Array
+(
+    [message] => Array
+        (
+            [recipients] => Array
+                (
+                    [0] => Array
+                        (
+                            [email] => tata29@mail.ru
+                            [substitutions] => Array
+                                (
+                                    [uid] => 0a453b645acc992bf283a3b837dc286e
+                                    [passw] => EGHu3WsW5u
+                                    [name] => Татьяна
+                                    [vkt_link] => NAN
+                                    [product] => Продление участия в клубе YOGAHELPYOU, 30 дней
+                                    [sum] => 1950
+                                )
+
+                        )
+
+                )
+
+            [skip_unsubscribe] => 0
+            [global_language] => ru
+            [template_engine] => simple
+            [template_id] => c4c50f8c-fbde-11ee-9af1-62bc95edcc04
+            [track_links] => 0
+            [track_read] => 0
+            [bypass_global] => 1
+            [bypass_unavailable] => 1
+            [bypass_unsubscribed] => 0
+            [bypass_complained] => 0
+        )
+
+)
+
+06.03.2025 18:19:26--->136 tm_end saved as 1744059599
+06.03.2025 18:19:27--->156 notified
+06.03.2025 18:19:27--->159 tag=1 added
+06.03.2025 18:19:27--->161 finished
+06.04.2025 04:37:02--->
+START
+06.04.2025 04:37:02--->24
+06.04.2025 04:37:02--->46
+06.04.2025 04:37:02--->8
+06.04.2025 04:37:02--->39UPDATE avangard SET  tm='1743903422',res=1,amount1=1893.45 WHERE order_id='7229'
+06.04.2025 04:37:02--->103 sp_template=c4c50f8c-fbde-11ee-9af1-62bc95edcc04
+06.04.2025 04:37:02--->105 unisender_secret=6fgzs8pf98aso3dqa6wea69ncdpapjjqiy8mrxuo
+06.04.2025 04:37:02--->124 email to user sent email=tata29@mail.ru sp_template=c4c50f8c-fbde-11ee-9af1-62bc95edcc04 
+Array
+(
+    [uid] => 0a453b645acc992bf283a3b837dc286e
+    [passw] => EGHu3WsW5u
+    [name] => Татьяна
+    [vkt_link] => NAN
+    [product] => Продление участия в клубе YOGAHELPYOU, 30 дней
+    [sum] => 1950
+)
+
+Array
+(
+    [status] => success
+    [job_id] => 1u1EwY-0005w1-DPMN
+    [emails] => Array
+        (
+            [0] => tata29@mail.ru
+        )
+
+    [tags] => Array
+        (
+        )
+
+)
+
+Array
+(
+    [message] => Array
+        (
+            [recipients] => Array
+                (
+                    [0] => Array
+                        (
+                            [email] => tata29@mail.ru
+                            [substitutions] => Array
+                                (
+                                    [uid] => 0a453b645acc992bf283a3b837dc286e
+                                    [passw] => EGHu3WsW5u
+                                    [name] => Татьяна
+                                    [vkt_link] => NAN
+                                    [product] => Продление участия в клубе YOGAHELPYOU, 30 дней
+                                    [sum] => 1950
+                                )
+
+                        )
+
+                )
+
+            [skip_unsubscribe] => 0
+            [global_language] => ru
+            [template_engine] => simple
+            [template_id] => c4c50f8c-fbde-11ee-9af1-62bc95edcc04
+            [track_links] => 0
+            [track_read] => 0
+            [bypass_global] => 1
+            [bypass_unavailable] => 1
+            [bypass_unsubscribed] => 0
+            [bypass_complained] => 0
+        )
+
+)
+
+06.04.2025 04:37:02--->136 tm_end saved as 1746651599
+06.04.2025 04:37:04--->156 notified
+06.04.2025 04:37:04--->159 tag=1 added
+06.04.2025 04:37:04--->161 finished
+06.05.2025 09:06:04--->
+START
+06.05.2025 09:06:04--->24
+06.05.2025 09:06:04--->46
+06.05.2025 09:06:04--->8
+06.05.2025 09:06:04--->39UPDATE avangard SET  tm='1746511564',res=1,amount1=1893.45 WHERE order_id='7230'
+06.05.2025 09:06:04--->103 sp_template=c4c50f8c-fbde-11ee-9af1-62bc95edcc04
+06.05.2025 09:06:04--->105 unisender_secret=6fgzs8pf98aso3dqa6wea69ncdpapjjqiy8mrxuo
+06.05.2025 09:06:05--->124 email to user sent email=tata29@mail.ru sp_template=c4c50f8c-fbde-11ee-9af1-62bc95edcc04 
+Array
+(
+    [uid] => 0a453b645acc992bf283a3b837dc286e
+    [passw] => EGHu3WsW5u
+    [name] => Татьяна
+    [vkt_link] => NAN
+    [product] => Продление участия в клубе YOGAHELPYOU, 30 дней
+    [sum] => 1950
+)
+
+Array
+(
+    [status] => success
+    [job_id] => 1uCBRM-0004JA-5Hsd
+    [emails] => Array
+        (
+            [0] => tata29@mail.ru
+        )
+
+    [tags] => Array
+        (
+        )
+
+)
+
+Array
+(
+    [message] => Array
+        (
+            [recipients] => Array
+                (
+                    [0] => Array
+                        (
+                            [email] => tata29@mail.ru
+                            [substitutions] => Array
+                                (
+                                    [uid] => 0a453b645acc992bf283a3b837dc286e
+                                    [passw] => EGHu3WsW5u
+                                    [name] => Татьяна
+                                    [vkt_link] => NAN
+                                    [product] => Продление участия в клубе YOGAHELPYOU, 30 дней
+                                    [sum] => 1950
+                                )
+
+                        )
+
+                )
+
+            [skip_unsubscribe] => 0
+            [global_language] => ru
+            [template_engine] => simple
+            [template_id] => c4c50f8c-fbde-11ee-9af1-62bc95edcc04
+            [track_links] => 0
+            [track_read] => 0
+            [bypass_global] => 1
+            [bypass_unavailable] => 1
+            [bypass_unsubscribed] => 0
+            [bypass_complained] => 0
+        )
+
+)
+
+06.05.2025 09:06:05--->136 tm_end saved as 1749243599
+06.05.2025 09:06:07--->156 notified
+06.05.2025 09:06:07--->159 tag=1 added
+06.05.2025 09:06:07--->161 finished
+15.05.2025 14:50:13--->
+START
+15.05.2025 14:50:13--->24
+15.05.2025 14:50:13--->46
+15.05.2025 14:50:13--->8
+15.05.2025 14:50:13--->39UPDATE avangard SET  tm='1747309813',res=1,amount1=1456.5 WHERE order_id='7232'
+15.05.2025 14:50:13--->103 sp_template=b1ec6c54-1153-11ef-a8b7-2a59bc94ab8f
+15.05.2025 14:50:13--->105 unisender_secret=6fgzs8pf98aso3dqa6wea69ncdpapjjqiy8mrxuo
+15.05.2025 14:50:13--->124 email to user sent email=pk4000@mail.ru sp_template=b1ec6c54-1153-11ef-a8b7-2a59bc94ab8f 
+Array
+(
+    [uid] => eacab4f9ddff53032af42de605625fa5
+    [passw] => EGHu3WsW5u
+    [name] => Авштолис константин
+    [vkt_link] => NAN
+    [product] => Комплекс для начинающих: Неделя 3 (включено в Старт и VIP)
+    [sum] => 1500
+)
+
+Array
+(
+    [status] => success
+    [job_id] => 1uFX6L-000Eb2-FgTH
+    [emails] => Array
+        (
+            [0] => pk4000@mail.ru
+        )
+
+    [tags] => Array
+        (
+        )
+
+)
+
+Array
+(
+    [message] => Array
+        (
+            [recipients] => Array
+                (
+                    [0] => Array
+                        (
+                            [email] => pk4000@mail.ru
+                            [substitutions] => Array
+                                (
+                                    [uid] => eacab4f9ddff53032af42de605625fa5
+                                    [passw] => EGHu3WsW5u
+                                    [name] => Авштолис константин
+                                    [vkt_link] => NAN
+                                    [product] => Комплекс для начинающих: Неделя 3 (включено в Старт и VIP)
+                                    [sum] => 1500
+                                )
+
+                        )
+
+                )
+
+            [skip_unsubscribe] => 0
+            [global_language] => ru
+            [template_engine] => simple
+            [template_id] => b1ec6c54-1153-11ef-a8b7-2a59bc94ab8f
+            [track_links] => 0
+            [track_read] => 0
+            [bypass_global] => 1
+            [bypass_unavailable] => 1
+            [bypass_unsubscribed] => 0
+            [bypass_complained] => 0
+        )
+
+)
+
+15.05.2025 14:50:13--->136 tm_end saved as 1778878799
+15.05.2025 14:50:14--->156 notified
+15.05.2025 14:50:14--->159 tag=1 added
+15.05.2025 14:50:14--->161 finished
+29.07.2025 19:05:28--->
+START
+29.07.2025 19:05:28--->24
+29.07.2025 19:05:28--->46
+29.07.2025 19:05:28--->8
+29.07.2025 19:05:28--->40UPDATE avangard SET  tm='1753805128',res=1,amount1=363.15 WHERE order_id='7236'
+29.07.2025 19:05:28--->112 sp_template=34dfeabe-f647-11ee-8f21-7ee1ea5fccf0
+29.07.2025 19:05:28--->114 unisender_secret=6fgzs8pf98aso3dqa6wea69ncdpapjjqiy8mrxuo
+29.07.2025 19:05:29--->133 email to user sent email=olia070165@gmail.com sp_template=34dfeabe-f647-11ee-8f21-7ee1ea5fccf0 
+Array
+(
+    [uid] => 8f60a3428b4d69ee988e69b5ae180a15
+    [passw] => EGHu3WsW5u
+    [name] => Ольга
+    [vkt_link] => NAN
+    [product] => Доступ к пробным занятиям классической йогой для начинающих, 7 дн.
+    [sum] => 374
+)
+
+Array
+(
+    [status] => error
+    [code] => 903
+    [message] => Error ID:D87A9AD2-6C95-11F0-A70A-5EBAE0C267C3. On the 'free_tier' tariff it is allowed to send letters only to the 'checked' domains or 'checked' emails. The request contains external domain(s) 'gmail.com'.
+)
+
+Array
+(
+    [message] => Array
+        (
+            [recipients] => Array
+                (
+                    [0] => Array
+                        (
+                            [email] => olia070165@gmail.com
+                            [substitutions] => Array
+                                (
+                                    [uid] => 8f60a3428b4d69ee988e69b5ae180a15
+                                    [passw] => EGHu3WsW5u
+                                    [name] => Ольга
+                                    [vkt_link] => NAN
+                                    [product] => Доступ к пробным занятиям классической йогой для начинающих, 7 дн.
+                                    [sum] => 374
+                                )
+
+                        )
+
+                )
+
+            [skip_unsubscribe] => 0
+            [global_language] => ru
+            [template_engine] => simple
+            [template_id] => 34dfeabe-f647-11ee-8f21-7ee1ea5fccf0
+            [track_links] => 0
+            [track_read] => 0
+            [bypass_global] => 1
+            [bypass_unavailable] => 1
+            [bypass_unsubscribed] => 0
+            [bypass_complained] => 0
+        )
+
+)
+
+29.07.2025 19:05:29--->145 tm_end saved as 1754427599
+29.07.2025 19:05:31--->165 notified
+29.07.2025 19:05:31--->168 tag=1 added
+29.07.2025 19:05:31--->170 finished
+07.08.2025 10:59:31--->
+START
+07.08.2025 10:59:31--->24
+07.08.2025 10:59:31--->46
+07.08.2025 10:59:31--->8
+07.08.2025 10:59:31--->40UPDATE avangard SET  tm='1754553571',res=1,amount1=485.5 WHERE order_id='7238'
+07.08.2025 10:59:31--->112 sp_template=34dfeabe-f647-11ee-8f21-7ee1ea5fccf0
+07.08.2025 10:59:31--->114 unisender_secret=6fgzs8pf98aso3dqa6wea69ncdpapjjqiy8mrxuo
+07.08.2025 10:59:32--->133 email to user sent email=oduvanzikelena@mail.ru sp_template=34dfeabe-f647-11ee-8f21-7ee1ea5fccf0 
+Array
+(
+    [uid] => 0bd5093fd5380c39221d19d5db6ddc58
+    [passw] => EGHu3WsW5u
+    [name] => Иванова Елена
+    [vkt_link] => NAN
+    [product] => Доступ к пробным занятиям классической йогой для начинающих, 7 дн.
+    [sum] => 500
+)
+
+Array
+(
+    [status] => success
+    [job_id] => 1ujvX9-000hu3-3evV
+    [emails] => Array
+        (
+            [0] => oduvanzikelena@mail.ru
+        )
+
+    [tags] => Array
+        (
+        )
+
+)
+
+Array
+(
+    [message] => Array
+        (
+            [recipients] => Array
+                (
+                    [0] => Array
+                        (
+                            [email] => oduvanzikelena@mail.ru
+                            [substitutions] => Array
+                                (
+                                    [uid] => 0bd5093fd5380c39221d19d5db6ddc58
+                                    [passw] => EGHu3WsW5u
+                                    [name] => Иванова Елена
+                                    [vkt_link] => NAN
+                                    [product] => Доступ к пробным занятиям классической йогой для начинающих, 7 дн.
+                                    [sum] => 500
+                                )
+
+                        )
+
+                )
+
+            [skip_unsubscribe] => 0
+            [global_language] => ru
+            [template_engine] => simple
+            [template_id] => 34dfeabe-f647-11ee-8f21-7ee1ea5fccf0
+            [track_links] => 0
+            [track_read] => 0
+            [bypass_global] => 1
+            [bypass_unavailable] => 1
+            [bypass_unsubscribed] => 0
+            [bypass_complained] => 0
+            [from_email] => info@yogahelpyou.ru
+            [from_name] => YOGAHELPYOU
+        )
+
+)
+
+07.08.2025 10:59:32--->145 tm_end saved as 1755205199
+07.08.2025 10:59:34--->165 notified
+07.08.2025 10:59:34--->168 tag=1 added
+07.08.2025 10:59:34--->170 finished
+07.08.2025 11:30:27--->
+START
+07.08.2025 11:30:27--->24
+07.08.2025 11:30:27--->46
+07.08.2025 11:30:27--->8
+07.08.2025 11:30:27--->40UPDATE avangard SET  tm='1754555427',res=1,amount1=388.4 WHERE order_id='7245'
+07.08.2025 11:30:27--->112 sp_template=d781eb44-1151-11ef-999a-2a59bc94ab8f
+07.08.2025 11:30:27--->114 unisender_secret=6fgzs8pf98aso3dqa6wea69ncdpapjjqiy8mrxuo
+07.08.2025 11:30:27--->133 email to user sent email=oduvanzikelena@mail.ru sp_template=d781eb44-1151-11ef-999a-2a59bc94ab8f 
+Array
+(
+    [uid] => 0bd5093fd5380c39221d19d5db6ddc58
+    [passw] => EGHu3WsW5u
+    [name] => Елена
+    [vkt_link] => NAN
+    [product] => Доступ к пробным занятиям классической йогой для начинающих + Медитация для сна, 7 дн.
+    [sum] => 400
+)
+
+Array
+(
+    [status] => success
+    [job_id] => 1ujw15-000i9a-6cvy
+    [emails] => Array
+        (
+            [0] => oduvanzikelena@mail.ru
+        )
+
+    [tags] => Array
+        (
+        )
+
+)
+
+Array
+(
+    [message] => Array
+        (
+            [recipients] => Array
+                (
+                    [0] => Array
+                        (
+                            [email] => oduvanzikelena@mail.ru
+                            [substitutions] => Array
+                                (
+                                    [uid] => 0bd5093fd5380c39221d19d5db6ddc58
+                                    [passw] => EGHu3WsW5u
+                                    [name] => Елена
+                                    [vkt_link] => NAN
+                                    [product] => Доступ к пробным занятиям классической йогой для начинающих + Медитация для сна, 7 дн.
+                                    [sum] => 400
+                                )
+
+                        )
+
+                )
+
+            [skip_unsubscribe] => 0
+            [global_language] => ru
+            [template_engine] => simple
+            [template_id] => d781eb44-1151-11ef-999a-2a59bc94ab8f
+            [track_links] => 0
+            [track_read] => 0
+            [bypass_global] => 1
+            [bypass_unavailable] => 1
+            [bypass_unsubscribed] => 0
+            [bypass_complained] => 0
+            [from_email] => info@yogahelpyou.ru
+            [from_name] => YOGAHELPYOU
+        )
+
+)
+
+07.08.2025 11:30:27--->145 tm_end saved as 1755205199
+07.08.2025 11:30:29--->165 notified
+07.08.2025 11:30:29--->168 tag=1 added
+07.08.2025 11:30:29--->170 finished
+10.08.2025 23:49:02--->
+START
+10.08.2025 23:49:02--->24
+10.08.2025 23:49:02--->46
+10.08.2025 23:49:02--->8
+10.08.2025 23:49:02--->40UPDATE avangard SET  tm='1754858942',res=1,amount1=504.9 WHERE order_id='7246'
+10.08.2025 23:49:02--->112 sp_template=d781eb44-1151-11ef-999a-2a59bc94ab8f
+10.08.2025 23:49:02--->114 unisender_secret=6fgzs8pf98aso3dqa6wea69ncdpapjjqiy8mrxuo
+10.08.2025 23:49:03--->133 email to user sent email=yugay_nata@mail.ru sp_template=d781eb44-1151-11ef-999a-2a59bc94ab8f 
+Array
+(
+    [uid] => a2ad413508052bc5d9c996ace5c21bff
+    [passw] => EGHu3WsW5u
+    [name] => Natalya Yugay
+    [vkt_link] => NAN
+    [product] => Доступ к пробным занятиям классической йогой для начинающих + Медитация для сна, 7 дн.
+    [sum] => 561
+)
+
+Array
+(
+    [status] => success
+    [job_id] => 1ulCyV-0016iq-2ztS
+    [emails] => Array
+        (
+            [0] => yugay_nata@mail.ru
+        )
+
+    [tags] => Array
+        (
+        )
+
+)
+
+Array
+(
+    [message] => Array
+        (
+            [recipients] => Array
+                (
+                    [0] => Array
+                        (
+                            [email] => yugay_nata@mail.ru
+                            [substitutions] => Array
+                                (
+                                    [uid] => a2ad413508052bc5d9c996ace5c21bff
+                                    [passw] => EGHu3WsW5u
+                                    [name] => Natalya Yugay
+                                    [vkt_link] => NAN
+                                    [product] => Доступ к пробным занятиям классической йогой для начинающих + Медитация для сна, 7 дн.
+                                    [sum] => 561
+                                )
+
+                        )
+
+                )
+
+            [skip_unsubscribe] => 0
+            [global_language] => ru
+            [template_engine] => simple
+            [template_id] => d781eb44-1151-11ef-999a-2a59bc94ab8f
+            [track_links] => 0
+            [track_read] => 0
+            [bypass_global] => 1
+            [bypass_unavailable] => 1
+            [bypass_unsubscribed] => 0
+            [bypass_complained] => 0
+            [from_email] => info@yogahelpyou.ru
+            [from_name] => YOGAHELPYOU
+        )
+
+)
+
+10.08.2025 23:49:03--->145 tm_end saved as 1755464399
+10.08.2025 23:49:05--->165 notified
+10.08.2025 23:49:05--->168 tag=1 added
+10.08.2025 23:49:05--->170 finished
+30.08.2025 13:15:19--->
+START
+30.08.2025 13:15:19--->24
+30.08.2025 13:15:19--->46
+30.08.2025 13:15:19--->8
+30.08.2025 13:15:19--->40UPDATE avangard SET  tm='1756548919',res=1,amount1=4369.5 WHERE order_id='7247'
+30.08.2025 13:15:19--->112 sp_template=7e46363c-c52c-11ee-8d74-ae92815bb0a5
+30.08.2025 13:15:19--->114 unisender_secret=6fgzs8pf98aso3dqa6wea69ncdpapjjqiy8mrxuo
+30.08.2025 13:15:19--->133 email to user sent email=alinka.gataulova@yandex.ru sp_template=7e46363c-c52c-11ee-8d74-ae92815bb0a5 
+Array
+(
+    [uid] => b62141744cf22969ef316b8b1e13b132
+    [passw] => EGHu3WsW5u
+    [name] => Алина
+    [vkt_link] => NAN
+    [product] => Продление курса для начинающих на год
+    [sum] => 4500
+)
+
+Array
+(
+    [status] => success
+    [job_id] => 1usIcB-0004R8-J4pU
+    [emails] => Array
+        (
+            [0] => alinka.gataulova@yandex.ru
+        )
+
+    [tags] => Array
+        (
+        )
+
+)
+
+Array
+(
+    [message] => Array
+        (
+            [recipients] => Array
+                (
+                    [0] => Array
+                        (
+                            [email] => alinka.gataulova@yandex.ru
+                            [substitutions] => Array
+                                (
+                                    [uid] => b62141744cf22969ef316b8b1e13b132
+                                    [passw] => EGHu3WsW5u
+                                    [name] => Алина
+                                    [vkt_link] => NAN
+                                    [product] => Продление курса для начинающих на год
+                                    [sum] => 4500
+                                )
+
+                        )
+
+                )
+
+            [skip_unsubscribe] => 0
+            [global_language] => ru
+            [template_engine] => simple
+            [template_id] => 7e46363c-c52c-11ee-8d74-ae92815bb0a5
+            [track_links] => 0
+            [track_read] => 0
+            [bypass_global] => 1
+            [bypass_unavailable] => 1
+            [bypass_unsubscribed] => 0
+            [bypass_complained] => 0
+            [from_email] => info@yogahelpyou.ru
+            [from_name] => YOGAHELPYOU
+        )
+
+)
+
+30.08.2025 13:15:19--->145 tm_end saved as 1788123599
+30.08.2025 13:15:22--->165 notified
+30.08.2025 13:15:22--->168 tag=1 added
+30.08.2025 13:15:22--->170 finished
+14.09.2025 22:27:26--->
+START
+14.09.2025 22:27:26--->24
+14.09.2025 22:27:26--->46
+14.09.2025 22:27:26--->8
+14.09.2025 22:27:26--->40UPDATE avangard SET  tm_pay='1757878046',res=1,amount1='4369.5' WHERE order_id='7248'
+14.09.2025 22:27:26--->112 sp_template=7e46363c-c52c-11ee-8d74-ae92815bb0a5
+14.09.2025 22:27:26--->114 unisender_secret=6fgzs8pf98aso3dqa6wea69ncdpapjjqiy8mrxuo
+14.09.2025 22:27:27--->133 email to user sent email=3963009@mail.ru sp_template=7e46363c-c52c-11ee-8d74-ae92815bb0a5 
+Array
+(
+    [uid] => 6a53b3d8145f3ac2cd6f7412cc259f5f
+    [passw] => EGHu3WsW5u
+    [name] => Наталья Галко
+    [vkt_link] => NAN
+    [product] => Продление курса для начинающих на год
+    [sum] => 4500
+)
+
+Array
+(
+    [status] => success
+    [job_id] => 1uxsNi-000LkV-F47s
+    [emails] => Array
+        (
+            [0] => 3963009@mail.ru
+        )
+
+    [tags] => Array
+        (
+        )
+
+)
+
+Array
+(
+    [message] => Array
+        (
+            [recipients] => Array
+                (
+                    [0] => Array
+                        (
+                            [email] => 3963009@mail.ru
+                            [substitutions] => Array
+                                (
+                                    [uid] => 6a53b3d8145f3ac2cd6f7412cc259f5f
+                                    [passw] => EGHu3WsW5u
+                                    [name] => Наталья Галко
+                                    [vkt_link] => NAN
+                                    [product] => Продление курса для начинающих на год
+                                    [sum] => 4500
+                                )
+
+                        )
+
+                )
+
+            [skip_unsubscribe] => 0
+            [global_language] => ru
+            [template_engine] => simple
+            [template_id] => 7e46363c-c52c-11ee-8d74-ae92815bb0a5
+            [track_links] => 0
+            [track_read] => 0
+            [bypass_global] => 1
+            [bypass_unavailable] => 1
+            [bypass_unsubscribed] => 0
+            [bypass_complained] => 0
+            [from_email] => info@yogahelpyou.ru
+            [from_name] => YOGAHELPYOU
+        )
+
+)
+
+14.09.2025 22:27:27--->145 tm_end saved as 1789419599
+14.09.2025 22:27:29--->170 notified
+14.09.2025 22:27:29--->173 tag=1 added
+14.09.2025 22:27:29--->175 finished
+23.09.2025 22:11:05--->
+START
+23.09.2025 22:11:05--->24
+23.09.2025 22:11:05--->46
+23.09.2025 22:11:05--->8
+23.09.2025 22:11:05--->40UPDATE avangard SET  tm_pay='1758654665',res=1,amount1='873.9' WHERE order_id='7249'
+23.09.2025 22:11:05--->112 sp_template=b1ec6c54-1153-11ef-a8b7-2a59bc94ab8f
+23.09.2025 22:11:05--->114 unisender_secret=6fgzs8pf98aso3dqa6wea69ncdpapjjqiy8mrxuo
+23.09.2025 22:11:05--->133 email to user sent email=3963009@mail.ru sp_template=b1ec6c54-1153-11ef-a8b7-2a59bc94ab8f 
+Array
+(
+    [uid] => 6a53b3d8145f3ac2cd6f7412cc259f5f
+    [passw] => EGHu3WsW5u
+    [name] => Галко Наталья
+    [vkt_link] => NAN
+    [product] => Доступ к продукту: Практика релаксации Шавасана для сна, 30 дней
+    [sum] => 900
+)
+
+Array
+(
+    [status] => success
+    [job_id] => 1v18Pp-000jJH-9LTJ
+    [emails] => Array
+        (
+            [0] => 3963009@mail.ru
+        )
+
+    [tags] => Array
+        (
+        )
+
+)
+
+Array
+(
+    [message] => Array
+        (
+            [recipients] => Array
+                (
+                    [0] => Array
+                        (
+                            [email] => 3963009@mail.ru
+                            [substitutions] => Array
+                                (
+                                    [uid] => 6a53b3d8145f3ac2cd6f7412cc259f5f
+                                    [passw] => EGHu3WsW5u
+                                    [name] => Галко Наталья
+                                    [vkt_link] => NAN
+                                    [product] => Доступ к продукту: Практика релаксации Шавасана для сна, 30 дней
+                                    [sum] => 900
+                                )
+
+                        )
+
+                )
+
+            [skip_unsubscribe] => 0
+            [global_language] => ru
+            [template_engine] => simple
+            [template_id] => b1ec6c54-1153-11ef-a8b7-2a59bc94ab8f
+            [track_links] => 0
+            [track_read] => 0
+            [bypass_global] => 1
+            [bypass_unavailable] => 1
+            [bypass_unsubscribed] => 0
+            [bypass_complained] => 0
+            [from_email] => info@yogahelpyou.ru
+            [from_name] => YOGAHELPYOU
+        )
+
+)
+
+23.09.2025 22:11:05--->145 tm_end saved as 1761253199
+23.09.2025 22:11:08--->170 notified
+23.09.2025 22:11:08--->173 tag=1 added
+23.09.2025 22:11:08--->175 finished
+22.01.2026 02:22:11--->
+START
+22.01.2026 02:22:11--->24
+22.01.2026 02:22:11--->46
+22.01.2026 02:22:11--->8
+22.01.2026 02:22:11--->41UPDATE avangard SET  tm_pay='1769037731',res=1,amount1='872.1' WHERE order_id='7251'
+22.01.2026 02:22:11--->141 sp_template=b1ec6c54-1153-11ef-a8b7-2a59bc94ab8f
+22.01.2026 02:22:11--->143 unisender_secret=6fgzs8pf98aso3dqa6wea69ncdpapjjqiy8mrxuo
+22.01.2026 02:22:12--->162 email to user sent email=yatan2012@yandex.ru sp_template=b1ec6c54-1153-11ef-a8b7-2a59bc94ab8f 
+Array
+(
+    [uid] => ad81ecfd9a9f7ab5415479c20d284f65
+    [passw] => EGHu3WsW5u
+    [name] => Татьяна Яблонских
+    [vkt_link] => 
+    [product] => Доступ к продукту: Практика релаксации Шавасана для сна, 30 дней
+    [sum] => 900
+)
+
+Array
+(
+    [status] => error
+    [code] => 903
+    [message] => Error ID:037CD654-F720-11F0-A504-9A80D4526A26. On the 'free_tier' tariff it is allowed to send letters only to the 'checked' domains or 'checked' emails. The request contains external domain(s) 'yandex.ru'.
+)
+
+Array
+(
+    [message] => Array
+        (
+            [recipients] => Array
+                (
+                    [0] => Array
+                        (
+                            [email] => yatan2012@yandex.ru
+                            [substitutions] => Array
+                                (
+                                    [uid] => ad81ecfd9a9f7ab5415479c20d284f65
+                                    [passw] => EGHu3WsW5u
+                                    [name] => Татьяна Яблонских
+                                    [vkt_link] => -
+                                    [product] => Доступ к продукту: Практика релаксации Шавасана для сна, 30 дней
+                                    [sum] => 900
+                                )
+
+                        )
+
+                )
+
+            [skip_unsubscribe] => 0
+            [global_language] => ru
+            [template_engine] => simple
+            [template_id] => b1ec6c54-1153-11ef-a8b7-2a59bc94ab8f
+            [track_links] => 0
+            [track_read] => 0
+            [bypass_global] => 1
+            [bypass_unavailable] => 1
+            [bypass_unsubscribed] => 0
+            [bypass_complained] => 0
+            [from_email] => info@yogahelpyou.ru
+            [from_name] => YOGAHELPYOU
+        )
+
+)
+
+22.01.2026 02:22:12--->174 tm_end saved as 1771707599
+22.01.2026 02:22:14--->199 notified
+22.01.2026 02:22:14--->202 tag=1 added
+22.01.2026 02:22:14--->204 finished

@@ -1,0 +1,21 @@
+Array
+(
+    [eventType] => payment.failed
+    [product] => Array
+        (
+            [id] => 61d66414-e9b6-48e8-b242-68f20e57daec
+            [title] => Тестовая консультация
+        )
+
+    [contractId] => e540ef38-766d-402e-9ff0-9de4abcdc6ce
+    [buyer] => Array
+        (
+            [email] => va@winwinland.ru
+        )
+
+    [amount] => 50
+    [currency] => RUB
+    [timestamp] => 2025-07-21T10:00:08.424358Z
+    [status] => failed
+    [errorMessage] => Payment window is opened but not completed
+)
