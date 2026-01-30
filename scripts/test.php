@@ -27,9 +27,13 @@ chdir("../d/1000/");
 include "init.inc.php";
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 print "MAIN";
 =======
 print "TEST DEV";
+=======
+print "TEST DEV 123";
+>>>>>>> dev
 
 >>>>>>> dev
 exit;
