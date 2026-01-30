@@ -26,7 +26,7 @@ chdir("../d/1000/");
 //chdir("../d/1923582808"); //- Vegannova -
 include "init.inc.php";
 
-print "TEST DEV";
+print "TEST DEV 123";
 
 exit;
 
