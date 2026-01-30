@@ -26,6 +26,10 @@ chdir("../d/1000/");
 //chdir("../d/1923582808"); //- Vegannova -
 include "init.inc.php";
 
+print "TEST DEV";
+
+exit;
+
 $db=new db('vkt1_251');
 
 $db->query("UPdate lands SET land_num=1 WHERE  id=1");

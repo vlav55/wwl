@@ -28,20 +28,19 @@ long_line_behaviour=1
 long_line_column=72
 
 [files]
-current_page=7
-FILE_NAME_0=385;PHP;0;EUTF-8;1;1;0;%2Fhome%2Fvlav%2Fwww%2Fhtml%2Fwwl%2Fwinwinland%2Ftube%2Fland_top.inc.php;0;4
-FILE_NAME_1=71;PHP;0;EUTF-8;1;1;0;%2Fhome%2Fvlav%2Fwww%2Fhtml%2Fwwl%2Fd%2F1000%2Fbilling_pay.php;0;4
-FILE_NAME_2=0;PHP;0;EUTF-8;1;1;0;%2Fhome%2Fvlav%2Fwww%2Fhtml%2Fwwl%2Fd%2F1000%2Fimap.php;0;4
-FILE_NAME_3=165;PHP;0;EUTF-8;1;1;0;%2Fhome%2Fvlav%2Fwww%2Fhtml%2Fwwl%2Fd%2F1000%2Flk%2Fcabinet.php;0;4
-FILE_NAME_4=377;Sh;0;EUTF-8;1;1;0;%2Fhome%2Fvlav%2Fwww%2Fhtml%2Fwwl%2Frsync-php-only.sh;0;4
-FILE_NAME_5=163;Sh;0;EUTF-8;1;1;0;%2Fhome%2Fvlav%2Fwww%2Fhtml%2Fwwl%2Frsync-all.sh;0;4
-FILE_NAME_6=0;Sh;0;EUTF-8;1;1;0;%2Fhome%2Fvlav%2Fwww%2Fhtml%2Fwwl%2Frsync-yoga.sh;0;4
-FILE_NAME_7=151;Sh;0;EUTF-8;1;1;0;%2Fhome%2Fvlav%2Fwww%2Fhtml%2Fwwl%2Frsync-wget-all.sh;0;4
-FILE_NAME_8=145;PHP;0;EUTF-8;1;1;0;%2Fhome%2Fvlav%2Fwww%2Fhtml%2Finc%2Flk_cabinet.1.inc.php;0;4
+current_page=4
+FILE_NAME_0=71;PHP;0;EUTF-8;1;1;0;%2Fhome%2Fvlav%2Fwww%2Fhtml%2Fwwl%2Fd%2F1000%2Fbilling_pay.php;0;4
+FILE_NAME_1=0;PHP;0;EUTF-8;1;1;0;%2Fhome%2Fvlav%2Fwww%2Fhtml%2Fwwl%2Fd%2F1000%2Fimap.php;0;4
+FILE_NAME_2=165;PHP;0;EUTF-8;1;1;0;%2Fhome%2Fvlav%2Fwww%2Fhtml%2Fwwl%2Fd%2F1000%2Flk%2Fcabinet.php;0;4
+FILE_NAME_3=53;Sh;0;EUTF-8;1;1;0;%2Fhome%2Fvlav%2Fwww%2Fhtml%2Fwwl%2Frsync-php-only.sh;0;4
+FILE_NAME_4=1205;PHP;0;EUTF-8;1;1;0;%2Fhome%2Fvlav%2Fwww%2Fhtml%2Fwwl%2Fscripts%2Ftest.php;0;4
+FILE_NAME_5=4593;PHP;0;EUTF-8;1;1;0;%2Fhome%2Fvlav%2Fwww%2Fhtml%2Fwwl%2Finc%2Finit.1.inc.php;0;4
+FILE_NAME_6=163;Sh;0;EUTF-8;1;1;0;%2Fhome%2Fvlav%2Fwww%2Fhtml%2Fwwl%2Frsync-all.sh;0;4
+FILE_NAME_7=0;Sh;0;EUTF-8;1;1;0;%2Fhome%2Fvlav%2Fwww%2Fhtml%2Fwwl%2Frsync-yoga.sh;0;4
+FILE_NAME_8=698;Sh;0;EUTF-8;1;1;0;%2Fhome%2Fvlav%2Fwww%2Fhtml%2Fwwl%2Frsync-wget-all.sh;0;4
 FILE_NAME_9=66;PHP;0;EUTF-8;1;1;0;%2Fhome%2Fvlav%2Fwww%2Fhtml%2Fwwl%2Finc%2Flk_cabinet.1.inc.php;0;4
 FILE_NAME_10=8297;PHP;0;EUTF-8;1;1;0;%2Fhome%2Fvlav%2Fwww%2Fhtml%2Fwwl%2Finc%2Fcp.class.php;0;4
 FILE_NAME_11=44;PHP;0;EUTF-8;1;1;0;%2Fhome%2Fvlav%2Fwww%2Fhtml%2Fwwl%2Finc%2Fservice.class.php;0;4
-FILE_NAME_12=303;None;0;EUTF-8;1;1;0;%2Fhome%2Fvlav%2Fwww%2Fhtml%2Fwwl%2Fscripts%2Fsync_1000%2Fsync_1000.txt;0;4
 
 [VTE]
 last_dir=/home/vlav/www/html/wwl
