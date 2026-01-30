@@ -26,7 +26,12 @@ chdir("../d/1000/");
 //chdir("../d/1923582808"); //- Vegannova -
 include "init.inc.php";
 
+<<<<<<< HEAD
 print "MAIN";
+=======
+print "TEST DEV";
+
+>>>>>>> dev
 exit;
 
 $db=new db('vkt1_251');
